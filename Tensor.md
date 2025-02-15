@@ -4,63 +4,20 @@ theme: default
 paginate: true
 size: 16:9
 style: |
-  /* Base styles with background layers */
   section {
+    /* Basic text and spacing */
     color: #333;
     padding: 40px;
     font-size: 1.6rem;
+    
+    /* Layout control */
     display: flex;
     flex-direction: column;
+    
+    /* Background with dots - notebook style */
     background-color: white;
-    /* Multiple backgrounds layered from top to bottom */
-    background-image: 
-      /* Layer 1: Dot pattern */
-      radial-gradient(#4a90e2 1px, transparent 1px),
-      /* Layer 2: Hexagonal pattern */
-      url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g><path d="M99.7 14.5L74.9 28.7L50.2 14.5L74.9 0.2z" fill="%234a90e2" opacity="0.9"/><path d="M74.9 57.3L50.2 43L50.2 14.5L74.9 28.7z" fill="%234a90e2" opacity="0.5"/><path d="M99.7 14.5L99.7 43L74.9 57.3L74.9 28.7z" fill="%234a90e2" opacity="0.1"/></g></svg>');
-    /* Set size for each background layer */
-    background-size: 20px 20px, 150px 150px;
-  }
-  
-  /* Layer 1: Base white background */
-  section {
-    color: #333;
-    padding: 40px;
-    font-size: 1.6rem;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    position: relative;
-  }
-
-  /* Layer 2: Dot grid pattern using radial gradient
-     We'll use a light blue (#4a90e2) at very low opacity */
-  section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: radial-gradient(#4a90e2 1px, transparent 1px);
-    background-size: 20px 20px;
-    opacity: 0.3;
-    pointer-events: none;
-  }
-
-  /* Layer 3: Hexagonal pattern
-     We'll create this using the SVG from the original, but with blue tones */
-  section::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g><path d="M99.7 14.5L74.9 28.7L50.2 14.5L74.9 0.2z" fill="%234a90e2" opacity="0.9"/><path d="M74.9 57.3L50.2 43L50.2 14.5L74.9 28.7z" fill="%234a90e2" opacity="0.5"/><path d="M99.7 14.5L99.7 43L74.9 57.3L74.9 28.7z" fill="%234a90e2" opacity="0.1"/></g></svg>');
-    background-size: 150px 150px;
-    opacity: 0.07;
-    pointer-events: none;
+    background-image: radial-gradient(rgba(74, 144, 226, 0.5) 1.5px, transparent 1.5px);
+    background-size: 16px 16px;
   }
 
   .title-content {
@@ -82,7 +39,7 @@ style: |
     z-index: 1;
   }
 
-  /* Rest of the original styles remain unchanged */
+  /* Typography */
   h1 {
     font-size: 2.2em;
     color: #000;
@@ -101,20 +58,7 @@ style: |
     margin: 0.3em 0;
   }
 
-  ul li {
-    margin: 0.8em 0;
-    position: relative;
-    padding-left: 1.5em;
-  }
-
-  ul li::before {
-    content: "•";
-    color: #4a90e2;
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-  }
-  
+  /* Layout components */
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -139,6 +83,7 @@ style: |
     border: 1px solid #ddd;
   }
   
+  /* Image handling */
   img {
     width: 200px;
     height: 200px;
@@ -149,11 +94,11 @@ style: |
   
   .image-grid {
     display: grid;
-    grid-template-columns: repeat(2, 250px);
-    gap: 60px;
+    grid-template-columns: repeat(2, 200px);
+    gap: 40px;
     align-items: center;
     justify-content: center;
-    margin: 40px 0;
+    margin-bottom: 20px;
   }
 ---
 
