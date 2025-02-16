@@ -20,40 +20,27 @@ style: |
     background-size: 16px 16px;
   }
 
-  .title-content {
-    text-align: center;
-    margin: auto;
-  }
-
   /* Title page specific styles */
   .split {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 100%;
   }
 
-  .split .left {
-    text-align: center;
-    padding: 20px;
-  }
-
-  .split .right {
-    text-align: center;
-  }
-
-  .title-content h1 {
+  .split h1 {
     font-size: 3.5em;
     background: linear-gradient(45deg, #4a90e2, #357abd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 0.3em;
+    text-align: center;
   }
 
-  /* Making sure content stays above the background layers */
-  section > * {
-    position: relative;
-    z-index: 1;
+  .split h2,
+  .split h3 {
+    text-align: center;
   }
 
   /* Typography */
@@ -100,8 +87,8 @@ style: |
     border: 1px solid #ddd;
   }
   
-  /* Image handling for non-split layout images */
-  section:not(.split) img:not(.split .left img) {
+  /* Image handling */
+  img {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -117,23 +104,22 @@ style: |
     justify-content: center;
     margin-bottom: 20px;
   }
+
+  /* Making sure content stays above the background layers */
+  section > * {
+    position: relative;
+    z-index: 1;
+  }
 ---
 
-<div class="split">
-<div class="left">
+<!-- _class: split -->
 
-![logo w:800px](./images/promptbook_logo_no_background.png)
-
-</div>
-<div class="right">
+![bg left:33%](./images/promptbook_logo_no_background.png)
 
 # Main Presentation Title
 ## Subtitle Goes Here
 ### Author Name
 ### Date
-
-</div>
-</div>
 
 ---
 
