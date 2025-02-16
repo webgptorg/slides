@@ -25,6 +25,23 @@ style: |
     margin: auto;
   }
 
+  /* Title page specific styles */
+  .split {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .split .left {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .split .right {
+    text-align: center;
+  }
+
   .title-content h1 {
     font-size: 3.5em;
     background: linear-gradient(45deg, #4a90e2, #357abd);
@@ -83,8 +100,8 @@ style: |
     border: 1px solid #ddd;
   }
   
-  /* Image handling */
-  img {
+  /* Image handling for non-split layout images */
+  section:not(.split) img:not(.split .left img) {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -102,9 +119,13 @@ style: |
   }
 ---
 
-![logo w:120px](path_to_promptbook_logo.png)
+<div class="split">
+<div class="left">
 
-<div class="title-content">
+![logo w:800px](./images/promptbook_logo_no_background.png)
+
+</div>
+<div class="right">
 
 # Main Presentation Title
 ## Subtitle Goes Here
@@ -112,11 +133,6 @@ style: |
 ### Date
 
 </div>
-
-<div class="image-container">
-
-![main-image](path_to_main_image.png)
-
 </div>
 
 ---
