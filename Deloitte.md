@@ -133,7 +133,7 @@ style: |
 **What do we do?**
 <!-- You do want to have your C3PO -->
 - We develop a new language for AI.
-- You do not need ML Department to create your own personal AI app, agent, assistant that knows you (think Batman's Alfred)
+- You no longer need ML Department to create your own personal AI apps
 - You just write simple markdown the gets executed:
 ````
 # ✨ Example
@@ -149,19 +149,53 @@ Hello
 `-> {greetingResponse}`
 ````
 
+---
+# The Benefits for you
 
+- Faster, cost-effective solution ✅
+- Scalable and maintainable (due to separation of concerns) ✅
+- Easy debugging (due to sophisticated logging and error monitoring capabilities) ✅
+- All team members develop against unambiguous specification ✅
+- Enables non-technical consultants to create LLM-powered applications ✅
 ---
 
 <!-- Slide 2: Specific Example -->
-# Real World Example
+# Routine Task Automation
+- 📄 Automation of document generation, reports, and data entry
+- ⚡ Streamlining approval workflows and notifications
 
-<!-- Specific, detailed example showing your solution in action -->
+---
 
-- **Who:** A global, Big Four professional services firm
-- **Problem:** Had thousands survey responses that would take weeks to analyze manually
-- **Solution:** Used the Promptbook ecosystem to process responses automatically
-- **Result:** Delivered complete analysis in 2 days, significantly reducing need for developer nor labor costs
+# Knowledge & Insights
+- 🧠 Creating dynamic knowledge bases for internal teams and clients
+- 📊 Automating industry insights collection and distribution
+- 🤖 Implementing AI-based decision support tools for clients
+- 📈 Automating data analysis for trend identification and forecasting
 
+---
+
+# Client Solutions
+- 🚀 Rapid MVP creation to validate business ideas
+- ⚙️ Designing AI-powered solutions tailored to specific client requirements
+- 💬 Building chatbots, virtual assistants, and other customer interaction tools
+- 🎯 Personalizing customer journeys in marketing and support
+
+---
+
+# Internal Operations
+- 📋 Automating internal project management and resource allocation workflows
+- 📝 Streamlining RFP creation and responses
+
+---
+
+# Risk & Compliance
+- ✅ Automated compliance monitoring and reporting
+- 📜 Real-time regulatory update analysis and implementation
+- 🔍 AI-driven risk analysis for client portfolios
+- 📊 Automated due diligence processes
+- 🎯 AI-assisted audit planning and execution
+- 💰 Automated tax calculation and optimization
+- 🌍 ESG compliance monitoring and reporting
 ---
 
 <!-- Slide 3: Team (Only if it's a strength) -->
@@ -180,30 +214,6 @@ Hello
   - Ph.D. in Mathematics, former researcher at IT4I National Supercomputing Centre
   - Significant technical expertise mixed with strong soft skills
 
-<!-- --- -->
-
-<!-- Slide 4: Traction (Only if strong) -->
-<!-- # Traction
-
-<div class="grid">
-<div>
-
-## Key Metrics
-- [Specific metric] in [timeframe]
-- [Growth rate] over [period]
-- [Key milestone] achieved in [time]
-
-</div>
-<div>
-
-## Timeline
-- [Month Year]: Started development
-- [Month Year]: [Important milestone]
-- [Month Year]: [Current achievement]
-
-</div>
-</div> -->
-
 ---
 
 <!-- Slide 5: Unique Insights -->
@@ -220,40 +230,6 @@ Hello
 3. **Models are commodity, we make the best assistants**
    - Models are like Intel processors in Apple
    - You can replace Intel with Arm, but you cannot replace Apple
-
----
-
-<!-- Slide 6: Market Size -->
-# Market Size
-
-## Bottom-up Calculation
-- [Number of potential users] × [Price per user] = [Total addressable market]
-- In 2025: 1000 users × $50 per month × 12 months = $600,000 annual revenue potential
-- In 2026: Potential growth to 5000 users = $3M/year
-- In 2027: Potential growth to 15,000 users = $9M/year
-- These are quite conservative estimates
-
-## Market Positioning
-- **Our Solution:** $99 per user/month
-- **Competitors:** $200-500 per user/month for more narrow solutions
-
----
-
-<!-- Slide 7: The Ask -->
-# Investment Opportunity
-- **Raising:** $500,000
-- **Timeline:** 18-24 months to reach key milestones
-
-**Key Milestones:**
-- Reach 1,000 active users ($600K ARR) by end of 2025
-- Launch enhanced UI to attract more users
-- Expand team with key hires in sales and development
-- Begin scaling to 5,000 users for 2026 ($3M ARR)<>
-
-**Use of Funds:**
-- Product development and AI capabilities
-- Go-to-market strategy execution
-- Key strategic hires
 
 ---
 
