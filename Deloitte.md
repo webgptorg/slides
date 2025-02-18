@@ -135,19 +135,20 @@ style: |
 - We develop a new language for AI.
 - You do not need ML Department to create your own personal AI app, agent, assistant that knows you (think Batman's Alfred)
 - You just write simple markdown the gets executed:
-```markdown
+````
 # ✨ Example
 
 Example to test whether the providers are working correctly.
 
 ## 💬 Prompt
 
-\`\`\`text
+```text
 Hello
-\`\`\`
-
-\`-> {greetingResponse}\`
 ```
+
+`-> {greetingResponse}`
+````
+
 
 ---
 
