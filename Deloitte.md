@@ -123,8 +123,9 @@ style: |
 
 # Build AI that really works
 ## How Promptbook helps the transition from typewriters to personal computers 
-### Pavol Hejný & Jiří Jahn (@ptbk.io)
-### 2025-02-18
+### [Pavol Hejný](https://www.linkedin.com/in/hejny/) & [Jiří Jahn](https://www.linkedin.com/in/jirkajahn/)
+### 2025-02-18, Deloitte
+<!-- <- TODO: Make the date dynamic -->
 
 ---
 
