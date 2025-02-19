@@ -117,6 +117,7 @@ style: |
 ---
 
 <!-- _class: split -->
+<!-- backgroundColor: white -->
 
 ![bg left:33% fit](https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png)
 
@@ -129,6 +130,7 @@ style: |
 
 <!-- Slide 1: What We Do (Clear, concise, 2 sentences) -->
 # Promptbook
+
 
 **What do we do?**
 <!-- You do want to have your C3PO -->
@@ -160,6 +162,9 @@ Hello
 ---
 
 <!-- Slide 2: Specific Example -->
+<!-- backgroundColor: black -->
+<!-- color: white -->
+
 # Routine Task Automation
 - 📄 Automation of document generation, reports, and data entry
 - ⚡ Streamlining approval workflows and notifications
@@ -199,6 +204,9 @@ Hello
 ---
 
 <!-- Slide 3: Team (Only if it's a strength) -->
+<!-- backgroundColor: white -->
+<!-- color: black -->
+
 # Our Team
 
 <div class="image-grid">
@@ -234,7 +242,9 @@ Hello
 ---
 
 <!-- Slide 8: Contact -->
-# Let's Connect
+
+
+# ✨ Let's Connect
 
 **Jiří Jahn**
 jiri@ptbk.io
