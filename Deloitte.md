@@ -130,27 +130,29 @@ style: |
 ---
 
 <!-- Slide 1: What We Do (Clear, concise, 2 sentences) -->
-# Promptbook
+# The Book
 
 
-**What do we do?**
 <!-- You do want to have your C3PO -->
-- We develop a new language for AI.
+- **We make the Book, next-generation language for AI**
 - You no longer need ML Department to create your own personal AI apps
-- You just write simple markdown the gets executed:
-````
-# ✨ Example
 
-Example to test whether the providers are working correctly.
+```markdown
+# ✨ Email to customer
 
-## 💬 Prompt
+- PERSONA George, experienced AI consultant
+- KNOWLEDGE https://deloitte.com/
+- KNOWLEDGE https://ptbk.io/
 
-```text
-Hello
+## Write the email
+
+> Write an email to {customerName} about opportunities in
+> AI consulting and new trends in the industry.
+> Include a link to the Deloitte website and also mention
+> the Promtbook platform.
+
+-> {email}
 ```
-
-`-> {greetingResponse}`
-````
 
 ---
 # The Benefits for you
