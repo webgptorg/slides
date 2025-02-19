@@ -158,7 +158,7 @@ style: |
 # The Benefits for you
 
 - Faster, cost-effective solution ✅
-- Scalable and maintainable (due to separation of concerns) ✅
+- Highly scalable and maintainable (due to separation of concerns) ✅
 - Easy debugging (due to sophisticated logging and error monitoring capabilities) ✅
 - All team members develop against unambiguous specification ✅
 - Enables non-technical consultants to create LLM-powered applications ✅
@@ -204,6 +204,7 @@ style: |
 - 🎯 AI-assisted audit planning and execution
 - 💰 Automated tax calculation and optimization
 - 🌍 ESG compliance monitoring and reporting
+- 🕵️‍♀️ Built-in encryption out of the box
 ---
 
 <!-- Slide 3: Team (Only if it's a strength) -->
@@ -219,7 +220,7 @@ style: |
 
 - **Pavol Hejný, CTO & Co-founder**
   - Top open source contributor in CZE
-  - Programmer
+  - Developer with 15+ years of experience
 
 - **Jiří Jahn, CEO & Co-founder**
   - Ph.D. in Mathematics, former researcher at IT4I National Supercomputing Centre
@@ -234,7 +235,7 @@ style: |
    - For **devs** these platforms lack control
    - For **non/devs** they are still programming with a crutch
 
-2. **Anticipating Problems**
+2. **Anticipating futute trends**
    - Mixing prompts with code will lead to technical debt
    - We are separating things that should be separated
 
