@@ -118,7 +118,7 @@ style: |
 
 <!-- _class: split -->
 
-![bg left:33%](./images/promptbook_logo_no_background.png)
+![bg left:33% fit](https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png)
 
 # Build AI that really works
 ## How Promptbook helps the transition from typewriters to personal computers 
