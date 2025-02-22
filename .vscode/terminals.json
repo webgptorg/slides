@@ -1,0 +1,19 @@
+{
+    "autokill": true,
+    "terminals": [
+        {
+            "name": "👨‍💻 Watch source of presentations",
+            "command": "TODO",
+            "execute": false,
+            "onlySingle": false,
+            "focus": false
+        },
+   
+        {
+            "name": "🏭 Convert presentations",
+            "command": "npm version patch",
+            "onlySingle": true,
+            "focus": true
+        }
+    ]
+}
