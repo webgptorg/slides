@@ -100,14 +100,6 @@ style: |
     border-radius: 4px;
   }
   
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 200px);
-    gap: 40px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
 
   /* Making sure content stays above the background layers */
   section > * {
@@ -213,18 +205,69 @@ style: |
 
 # Our Team
 
-<div class="image-grid">
-<img src="./images/Pavol_fotka.jpg" alt="Pavol Hejný, Founder">
-<img src="./images/Jirka_fotka.jpg" alt="Jiří Jahn, Co-Founder">
+<style>
+  /* Note: Following style is relevant only for this slide */
+
+  .founders {
+    /*/
+    outline: 1px dotted #F50C0C;
+    /**/
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: top;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .founders > div {
+    /*/
+    outline: 1px dotted #08FA15;
+    /**/
+
+    text-align: center;
+  }
+
+  .founders img {
+    /*/
+    outline: 1px dotted #085DFA;
+    /**/
+
+    height: 280px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .pavol-hejny img {
+      transform: translateX(9%);
+  }
+</style>
+
+<div class="founders">
+<div class="pavol-hejny">
+<img src="https://github.com/webgptorg/promptbook/blob/main/design/people/pavol-hejny-transparent.png?raw=true" alt="Pavol Hejný, Founder of Promptbook">
+
+**Pavol Hejný**
+**CTO & Co-founder**
+- Top open-source contributor in CZE
+- Developer with 15+ years of experience
+
+</div>
+<div class="jiri-jahn">
+<img src="https://github.com/webgptorg/promptbook/blob/main/design/people/jiri-jahn-hejny-transparent.png?raw=true" alt="Jiří Jahn, Founder of Promptbook">
+
+**Jiří Jahn**
+**CEO & Co-founder**
+- Ph.D. in Mathematics, former researcher at IT4I National Supercomputing Centre
+- Significant technical expertise mixed with strong soft skills
+
+</div>
 </div>
 
-- **Pavol Hejný, CTO & Co-founder**
-  - Top open source contributor in CZE
-  - Developer with 15+ years of experience
 
-- **Jiří Jahn, CEO & Co-founder**
-  - Ph.D. in Mathematics, former researcher at IT4I National Supercomputing Centre
-  - Significant technical expertise mixed with strong soft skills
+
 
 ---
 
