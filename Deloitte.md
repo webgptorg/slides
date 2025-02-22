@@ -251,7 +251,7 @@ style: |
 
 **Pavol Hejný**
 **CTO & Co-founder**
-- Top open-source contributor in CZE
+- [Top](https://committers.top/czech_republic) [open-source contributor](https://github.com/hejny) in CZE
 - Developer with 15+ years of experience
 
 </div>
@@ -260,7 +260,7 @@ style: |
 
 **Jiří Jahn**
 **CEO & Co-founder**
-- Ph.D. in Mathematics, former researcher at IT4I National Supercomputing Centre
+- Ph.D. in Mathematics, former researcher at [IT4I National Supercomputing Centre](https://www.it4i.cz/en)
 - Significant technical expertise mixed with strong soft skills
 
 </div>
@@ -295,8 +295,8 @@ style: |
 
 **Jiří Jahn**
 jiri@ptbk.io
-+420 777 090 067
+[+420 777 090 067](tel:+420777090067)
 
 **Pavol Hejný**
 pavol@ptbk.io
-+420 777 759 767
+[+420 777 759 767](tel:+420777759767)
