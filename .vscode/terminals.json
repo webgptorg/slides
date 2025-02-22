@@ -11,7 +11,10 @@
    
         {
             "name": "🏭 Convert presentations",
-            "command": "npm version patch",
+            "commands": [
+                "npx marp ./Deloitte.md --pdf  --image-scale 1",
+                "npx marp ./Deloitte.md --pptx-editable"
+            ],
             "onlySingle": true,
             "focus": true
         }
