@@ -241,8 +241,7 @@ style: |
   }
 
   .pavol-hejny img {
-    transform: translateX(5%) scale(1.05);
-    transform-origin: 50% 100%;
+    transform: translateX(5%);
   }
 
   .jiri-jahn img {
