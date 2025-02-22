@@ -235,13 +235,18 @@ style: |
     outline: 1px dotted #085DFA;
     /**/
 
-    height: 280px;
+    height: 330px;
     width: auto;
     object-fit: contain;
   }
 
   .pavol-hejny img {
-      transform: translateX(9%);
+    transform: translateX(5%) scale(1.05);
+    transform-origin: 50% 100%;
+  }
+
+  .jiri-jahn img {
+    /* No corrections */
   }
 </style>
 
@@ -249,8 +254,7 @@ style: |
 <div class="pavol-hejny">
 <img src="https://github.com/webgptorg/promptbook/blob/main/design/people/pavol-hejny-transparent.png?raw=true" alt="Pavol Hejný, Founder of Promptbook">
 
-**Pavol Hejný**
-**CTO & Co-founder**
+**Pavol Hejný | CTO**
 - [Top](https://committers.top/czech_republic) [open-source contributor](https://github.com/hejny) in CZE
 - Developer with 15+ years of experience
 
@@ -258,8 +262,7 @@ style: |
 <div class="jiri-jahn">
 <img src="https://github.com/webgptorg/promptbook/blob/main/design/people/jiri-jahn-hejny-transparent.png?raw=true" alt="Jiří Jahn, Founder of Promptbook">
 
-**Jiří Jahn**
-**CEO & Co-founder**
+**Jiří Jahn | CEO**
 - Ph.D. in Mathematics, former researcher at [IT4I National Supercomputing Centre](https://www.it4i.cz/en)
 - Significant technical expertise mixed with strong soft skills
 
