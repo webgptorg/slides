@@ -1,0 +1,52 @@
+{
+  "name": "Book Theme",
+  "tokenColors": [
+    {
+      "scope": "keyword.command.section.book, keyword.command.expect.book, keyword.command.format.book, keyword.command.joker.book, keyword.command.model.book, keyword.command.parameter.book, keyword.command.postprocess.book, keyword.command.book_version.book, keyword.command.formfactor.book, keyword.command.url.book, keyword.command.knowledge.book, keyword.command.action.book, keyword.command.instrument.book, keyword.command.persona.book, keyword.command.foreach.book, keyword.command.boilerplate.book, keyword.command.example.book",
+      "settings": {
+        "foreground": "#569CD6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable.parameter.book",
+      "settings": {
+        "foreground": "#9CDCFE",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "markup.bold.book",
+      "settings": {
+        "foreground": "#D4D4D4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic.book",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "heading.1.book, heading.2.book",
+      "settings": {
+        "foreground": "#4EC9B0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.inline.raw.string.book",
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "scope": "markup.underline.link.book",
+      "settings": {
+        "foreground": "#569CD6",
+        "fontStyle": "underline"
+      }
+    }
+  ]
+}

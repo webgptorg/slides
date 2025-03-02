@@ -106,7 +106,11 @@ style: |
     position: relative;
     z-index: 1;
   }
+
+  /* Book syntax highlighting */
+  @import url('book-highlight.css');
 ---
+
 
 <!-- _class: split -->
 <!-- backgroundColor: white -->
@@ -129,7 +133,7 @@ style: |
 - **We make the Book, next-generation language for AI**
 - You no longer need ML Department to create your own personal AI apps
 
-```markdown
+```book
 # ✨ Email to customer
 
 - PERSONA George, experienced AI consultant
@@ -147,6 +151,7 @@ style: |
 ```
 
 ---
+
 # The Benefits for you
 
 - Faster, cost-effective solution ✅
