@@ -1,0 +1,73 @@
+/* Book Language Syntax Highlighting for Marp */
+
+.hljs-keyword {
+  color: #9932cc;
+  font-weight: bold;
+}
+
+.hljs-variable {
+  color: #d63384;
+  font-weight: bold;
+}
+
+.hljs-section {
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-code {
+  color: #CE9178;
+}
+
+.hljs-link {
+  color: #569CD6;
+  text-decoration: underline;
+}
+
+.hljs-bullet, .hljs-number {
+  color: #DCDCAA;
+}
+
+.hljs-quote {
+  color: #608B4E;
+  font-style: italic;
+}
+
+.hljs-arrow {
+  color: #D7BA7D;
+  font-weight: bold;
+}
+
+.hljs-comment {
+  color: #888;
+  font-style: italic;
+}
+
+.hljs-string {
+  color: #008000;
+}
+
+.hljs-built_in {
+  color: #0066cc;
+}
+
+.hljs-meta {
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+/* Style the code block container for 'book' language */
+pre code.language-book {
+  background-color: #f8f9fa;
+  border-left: 4px solid #4a90e2;
+  border-radius: 3px;
+  padding: 1em;
+}
