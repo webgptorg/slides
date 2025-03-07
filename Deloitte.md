@@ -143,7 +143,7 @@ style: |
 > Write an email to {customerName} about opportunities in
 > AI consulting and new trends in the industry.
 > Include a link to the Deloitte website and also mention
-> the Promtbook platform.
+> the Promptbook platform.
 
 -> {email}
 ```
