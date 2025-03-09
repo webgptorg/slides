@@ -3,7 +3,6 @@ marp: true
 theme: default
 paginate: true
 size: 16:9
-html: true
 style: |
   section {
     /* Basic text and spacing */
@@ -114,35 +113,23 @@ style: |
 
 ![bg left:33% fit](https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png)
 
-# Human-first AI Transformation made Easy
-## We help build companies where Humans Lead and AI Accelerates: Delivering Superior Results at a Fraction of the Cost 
-<!-- <- TODO: Needs review, it seems to be too much info,
-Maybe "Human-first AI" is enough for the title and
-"Build companies where Humans Lead and AI Accelerates" is the subtitle with "Deliver Superior Results at a Fraction of the Cost" moved to the next slide
--->
+# Build AI that really works
+## How Promptbook helps the transition from typewriters to personal computers 
+<!-- <- TODO: Kajetán: More business, less technical-->
 
 ### [Pavol Hejný](https://www.linkedin.com/in/hejny/) & [Jiří Jahn](https://www.linkedin.com/in/jirkajahn/)
-### 2025-03-06, Deloitte
-<!-- <- TODO: Make the date dynamic adds substantial overhead in MARP, sorry -->
+### 2025-02-18, Deloitte
+<!-- <- TODO: Make the date dynamic -->
 
 ---
 
-<!-- Slide 1: What We Do (Clear, concise, 2 sentences)
-This messaging tries to create FOMO by:
-
-1. Positioning LLMs as the inevitable new computing paradigm (not just a trend)
-2. Establishing our technology as the first true enterprise solution in this new world
-3. Creating a clear contrast between those who adopt (winners) and those who don't (competitors who "struggle")
-4. Adding time-sensitivity with the "days, not months" comparison
-Implying Deloitte has a limited window to secure competitive advantage
-The language directly addresses Deloitte as a potential beneficiary, making the opportunity feel exclusive and timely.
-
--->
+<!-- Slide 1: What We Do (Clear, concise, 2 sentences) -->
 # The Book
 
+
 <!-- You do want to have your C3PO -->
-- **LLMs are the new computing paradigm, and we're building its first enterprise-ready programming language**
-- While companies struggle with AI Transformation, we can make the transition as smooth as possible leveraging our language:
+- **We make the Book, next-generation language for AI**
+- You no longer need ML Department to create your own personal AI apps
 
 ```markdown
 # ✨ Email to customer
@@ -156,21 +143,19 @@ The language directly addresses Deloitte as a potential beneficiary, making the 
 > Write an email to {customerName} about opportunities in
 > AI consulting and new trends in the industry.
 > Include a link to the Deloitte website and also mention
-> the Promptbook platform.
+> the Promtbook platform.
 
 -> {email}
 ```
 
 ---
-# Seize The Competitive Edge
+# The Benefits for you
 
-With the help of Promptbook, you can:
-
-- **Take First-Mover Advantage:** Deliver sustainable AI solutions ahead of competitors through architectural foresight
-- **Mitigate Risk:** Built-in compliance, auditability, and security
-- **Scale Globally:** AI solutions without expanding your ML department 
-- **Multiply Capacity:** One consultant delivers work of many
-- **Leverage Organic Compounding:** Template blueprints across industries, multiplying AI impact from within
+- Faster, cost-effective solution ✅
+- Highly scalable and maintainable *(due to separation of concerns)* ✅
+- Easy debugging (due to sophisticated logging and error monitoring capabilities) ✅
+- All team members develop against unambiguous specification ✅
+- Enables non-technical consultants to create LLM-powered applications ✅
 
 <!--
 TODO: Be prepared to explain that we are not competition but cooperator and oportunity
