@@ -115,6 +115,8 @@ style: |
 
 # Build AI that really works
 ## How Promptbook helps the transition from typewriters to personal computers 
+<!-- <- TODO: Kajetán: More business, less technical-->
+
 ### [Pavol Hejný](https://www.linkedin.com/in/hejny/) & [Jiří Jahn](https://www.linkedin.com/in/jirkajahn/)
 ### 2025-02-18, Deloitte
 <!-- <- TODO: Make the date dynamic -->
@@ -141,7 +143,7 @@ style: |
 > Write an email to {customerName} about opportunities in
 > AI consulting and new trends in the industry.
 > Include a link to the Deloitte website and also mention
-> the Promtbook platform.
+> the Promptbook platform.
 
 -> {email}
 ```
@@ -150,10 +152,25 @@ style: |
 # The Benefits for you
 
 - Faster, cost-effective solution ✅
-- Highly scalable and maintainable (due to separation of concerns) ✅
+- Highly scalable and maintainable *(due to separation of concerns)* ✅
 - Easy debugging (due to sophisticated logging and error monitoring capabilities) ✅
 - All team members develop against unambiguous specification ✅
 - Enables non-technical consultants to create LLM-powered applications ✅
+
+<!--
+TODO: Be prepared to explain that we are not competition but cooperator and oportunity
+-->
+
+<!--
+TODO: Kajetán: Be prepared to answer:
+
+1) What we have?
+2) Why we want it?
+3) Why is Promptbook wanted by others?
+4) Why is Promptbook wanted by Deloitte?
+
+-->
+
 ---
 
 <!-- Slide 2: Specific Example -->
@@ -171,6 +188,12 @@ style: |
 - 📊 Automating industry insights collection and distribution
 - 🤖 Implementing AI-based decision support tools for clients
 - 📈 Automating data analysis for trend identification and forecasting
+
+<!--
+<- TODO: Kajetán:
+- Security
+- Controlled environment for testing
+-->
 
 ---
 
