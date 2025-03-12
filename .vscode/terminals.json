@@ -2,6 +2,13 @@
     "autokill": true,
     "terminals": [
         {
+            "name": "🏭💉 Import markdowns",
+            "commands": ["./scripts/import-markdown/import-markdown.ts"],
+            "execute": true,
+            "onlySingle": true,
+            "focus": true
+        },
+        {
             "name": "👨‍💻 Watch source of presentations",
             "command": "TODO",
             "execute": false,
