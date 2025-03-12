@@ -114,15 +114,15 @@ style: |
 
 ![bg left:33% fit](https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png)
 
-# Human-first AI Transformation made Easy
-## We help build companies where Humans Lead and AI Accelerates: Delivering Superior Results at a Fraction of the Cost 
+# Human-first AI Transformation
+## When AI helps Humans Deliver Superior Results at a Fraction of the Cost 
 <!-- <- TODO: Needs review, it seems to be too much info,
 Maybe "Human-first AI" is enough for the title and
 "Build companies where Humans Lead and AI Accelerates" is the subtitle with "Deliver Superior Results at a Fraction of the Cost" moved to the next slide
 -->
 
 ### [Pavol Hejný](https://www.linkedin.com/in/hejny/) & [Jiří Jahn](https://www.linkedin.com/in/jirkajahn/)
-### 2025-03-06, Deloitte
+### 2025-03-12, Deloitte
 <!-- <- TODO: Make the date dynamic adds substantial overhead in MARP, sorry -->
 
 ---
@@ -192,17 +192,24 @@ TODO: Kajetán: Be prepared to answer:
 <!-- backgroundColor: black -->
 <!-- color: white -->
 
-# Routine Task Automation
-- 📄 Automation of document generation, reports, and data entry
-- ⚡ Streamlining approval workflows and notifications
+# **Deloitte 2.0: The Self-Building Enterprise**
+
+*A journey through AI transformation with Promptbook*
+
+<!-- This opening slide introduces the narrative framework -->
 
 ---
 
-# Knowledge & Insights
-- 🧠 Creating dynamic knowledge bases for internal teams and clients
-- 📊 Automating industry insights collection and distribution
-- 🤖 Implementing AI-based decision support tools for clients
-- 📈 Automating data analysis for trend identification and forecasting
+# **The Challenge**
+
+Meet Deloitte 2.0 - a forward-thinking professional services firm struggling with:
+
+- Partners spending 40% of time on repetitive client reports
+- Knowledge siloed in departments, recreating solutions already built elsewhere
+- AI experiments that never scale beyond pilots
+- Compliance risks increasing with each AI implementation
+
+<!-- This slide establishes the relatable pain points -->
 
 <!--
 <- TODO: Kajetán:
@@ -212,29 +219,62 @@ TODO: Kajetán: Be prepared to answer:
 
 ---
 
-# Client Solutions
-- 🚀 Rapid MVP creation to validate business ideas
-- ⚙️ Designing AI-powered solutions tailored to specific client requirements
-- 💬 Building chatbots, virtual assistants, and other customer interaction tools
-- 🎯 Personalizing customer journeys in marketing and support
+# **Phase 1: Blueprint Creation**
+
+- Finance partners draft a `book` blueprint for automated audit report generation
+- Without coding, they define exactly what domain expertise needs capturing
+- Blueprint tested with select clients, refined based on feedback
+- Zero infrastructure, zero ML expertise required
+
+```markdown
+# ✨ Audit Report Generator
+
+- PERSONA Experienced audit professional
+- KNOWLEDGE {client_regulatory_requirements.pdf}
+- KNOWLEDGE {deloitte_audit_methodology.pdf}
+
+## Generate Executive Summary
+> Create a concise executive summary for {client_name}'s 
+> audit based on {financial_data} and {compliance_findings}.
+-> {executive_summary}
+```
+
+<!-- The code example makes it concrete without being too technical -->
 
 ---
 
-# Internal Operations
-- 📋 Automating internal project management and resource allocation workflows
-- 📝 Streamlining RFP creation and responses
+# **Phase 2: Scaling Across Functions**
+
+- Tax division adapts the audit blueprint for tax advisory reports
+- Consulting modifies it for industry research briefings
+- HR customizes it for talent assessment
+
+**The compounding effect**: Each adaptation is 80% faster than building from scratch
+
+<!-- This slide illustrates the cross-function application -->
 
 ---
 
-# Risk & Compliance
-- ✅ Automated compliance monitoring and reporting
-- 📜 Real-time regulatory update analysis and implementation
-- 🔍 AI-driven risk analysis for client portfolios
-- 📊 Automated due diligence processes
-- 🎯 AI-assisted audit planning and execution
-- 💰 Automated tax calculation and optimization
-- 🌍 ESG compliance monitoring and reporting
-- 🕵️‍♀️ Built-in encryption out of the box
+# **Phase 3: Enterprise Integration**
+
+- Specialized AI engineers turn successful blueprints into production systems
+- Blueprints become institutional knowledge, not individual expertise
+- Compliance and security baked in at the blueprint level
+- Firm becomes self-improving as teams use `book` to continuously automate their own workflows
+
+<!-- This slide shows how the solution scales across the enterprise -->
+---
+# **The Self-Building Enterprise: Results**
+
+A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would approach AI transformation:
+
+- **Business experts** create blueprints without coding
+- **Knowledge compounds** across departments without silos
+- **Compliance is standardized** at the blueprint level
+- **AI transformation accelerates** with each new implementation
+- **Results multiplier:** 5x more AI solutions with the same resources
+
+<!-- This final slide shows the transformative impact -->
 ---
 
 <!-- Slide 3: Team (Only if it's a strength) -->
@@ -322,10 +362,62 @@ TODO: Kajetán: Be prepared to answer:
    - Mixing prompts with code will lead to technical debt
    - We are separating things that should be separated
 
-3. **Models are commodity, we make the best assistants**
+3. **Models are commodity, we make the personalized applications**
    - Models are like Intel processors in Apple
    - You can replace Intel with Arm, but you cannot replace Apple
 
+---
+# Frequently Asked Questions (1/3)
+
+**Is Promptbook secured against data leakage?**
+- End-to-end encryption for all data in transit and at rest
+- On-premises deployment option for sensitive environments
+- Granular access controls and audit logging of all system interactions
+- No data storage by default - process and forget architecture
+
+**How does Promptbook add controllability and reliability?**
+- Transparent AI decision paths through sophisticated logging
+- Built-in versioning of all blueprints for governance
+- Controlled testing environment with simulation capabilities
+- Clear separation between business logic and AI execution
+---
+
+# Frequently Asked Questions (2/3)
+
+**Why use Promptbook instead of established no-code tools?**
+- True flexibility beyond drag-and-drop constraints
+- Seamless transition path from prototype to production
+- No technical debt - solutions remain maintainable as they scale
+- Designed for enterprise complexity, not just simple automations
+
+**How quickly can we implement and see results?**
+- First blueprint creation: 1-2 days
+- Initial production implementation: 2-4 weeks
+- Full enterprise integration: Phased approach over 3-6 months
+- ROI typically visible within first month of deployment
+
+---
+# Frequently Asked Questions (3/3)
+
+**How does Promptbook integrate with our existing systems?**
+- Platform-agnostic, API-first architecture connects to any modern system
+- Pre-built connectors for enterprise platforms
+- Custom connectors can be developed for legacy systems
+- Gradual integration approach - no "rip and replace"
+
+<!--
+
+Additional themes we might consider adding:
+
+1. Team expertise required: Address who in the organization needs what skills to use Promptbook effectively
+2. Pricing model: Enterprise customers always want to understand the cost structure
+3. Support and training: What ongoing assistance is available
+4. Compliance certifications: Specific standards Promptbook meets (ISO, SOC2, etc.)
+5. Customization limits: What can and cannot be modified for specific enterprise needs
+
+Other suggestions?
+
+-->
 ---
 
 <!-- Slide 8: Contact -->
