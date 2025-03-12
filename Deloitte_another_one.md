@@ -183,11 +183,17 @@ TODO: Kajetán: Be prepared to answer:
 
 ---
 
+<!--Import ./slides/knowledge-and-insights.md-->
+<!--⚠️ WARNING: This section was imported, make changes in source; any manual changes here will be overwritten-->
+
 # Knowledge & Insights
 - 🧠 Creating dynamic knowledge bases for internal teams and clients
 - 📊 Automating industry insights collection and distribution
 - 🤖 Implementing AI-based decision support tools for clients
 - 📈 Automating data analysis for trend identification and forecasting
+
+<!--/Import ./slides/knowledge-and-insights.md-->
+
 
 <!--
 <- TODO: Kajetán:
