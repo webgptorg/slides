@@ -288,7 +288,7 @@ TODO: Kajetán: Be prepared to answer:
 
 </div>
 <div class="jiri-jahn">
-<img src="https://github.com/webgptorg/promptbook/blob/main/design/people/jiri-jahn-hejny-transparent.png?raw=true" alt="Jiří Jahn, Founder of Promptbook">
+<img src="https://github.com/webgptorg/promptbook/blob/main/design/people/jiri-jahn-transparent.png?raw=true" alt="Jiří Jahn, Founder of Promptbook">
 
 **Jiří Jahn | CEO**
 - Ph.D. in Mathematics, former researcher at [IT4I National Supercomputing Centre](https://www.it4i.cz/en)

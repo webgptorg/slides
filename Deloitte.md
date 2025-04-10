@@ -338,7 +338,7 @@ A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would 
 
 </div>
 <div class="jiri-jahn">
-<img src="https://github.com/webgptorg/promptbook/blob/main/design/people/jiri-jahn-hejny-transparent.png?raw=true" alt="Jiří Jahn, Founder of Promptbook">
+<img src="https://github.com/webgptorg/promptbook/blob/main/design/people/jiri-jahn-transparent.png?raw=true" alt="Jiří Jahn, Founder of Promptbook">
 
 **Jiří Jahn | CEO**
 - Ph.D. in Mathematics, former researcher at [IT4I National Supercomputing Centre](https://www.it4i.cz/en)
