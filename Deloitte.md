@@ -368,7 +368,7 @@ A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would 
    - You can replace Intel with Arm, but you cannot replace Apple
 
 ---
-# Frequently Asked Questions (1/3)
+# Frequently Asked Questions
 
 **Is Promptbook secured against data leakage?**
 - End-to-end encryption for all data in transit and at rest
@@ -383,7 +383,7 @@ A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would 
 - Clear separation between business logic and AI execution
 ---
 
-# Frequently Asked Questions (2/3)
+# Frequently Asked Questions
 
 **Why use Promptbook instead of established no-code tools?**
 - True flexibility beyond drag-and-drop constraints
@@ -398,7 +398,7 @@ A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would 
 - ROI typically visible within first month of deployment
 
 ---
-# Frequently Asked Questions (3/3)
+# Frequently Asked Questions
 
 **How does Promptbook integrate with our existing systems?**
 - Platform-agnostic, API-first architecture connects to any modern system
