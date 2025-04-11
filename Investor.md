@@ -17,6 +17,13 @@ style: |
   
   }
 
+  img.miniapp-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(80%);
+  }
+
   .highlight-box {
     border: 2px solid #4a90e2;
     background-color: rgba(74, 144, 226, 0.1);
@@ -161,6 +168,18 @@ The language directly addresses Deloitte as a potential beneficiary, making the 
 
 -> {email}
 ```
+
+
+
+---
+
+
+<a
+href="https://promptbook.studio/?book=miniapps-collection/chatbot.book.md"
+><img
+src="https://browser.s5.ptbk.io/screenshot?url=https%3A%2F%2Fpromptbook.studio%2Fembed%2Fpreview-miniapp%3FintegrationId%3D1239a0ee-02bd-4aa8-98d2-0dc7a2eb2612%26book%3Dminiapps-collection%252Fchatbot.book.md%26editor%3DMONACO%26theme%3DDARK%26nonce%3D%25E2%259C%25A8&theme=DARK&width=800&height=600"
+class="miniapp-preview"
+/></a>
 
 ---
 # Seize The Competitive Edge
