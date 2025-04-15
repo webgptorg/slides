@@ -171,12 +171,78 @@ The language directly addresses Deloitte as a potential beneficiary, making the 
 ---
 
 
-<a
-href="https://promptbook.studio/?book=miniapps-collection/chatbot.book.md"
-><img
-src="https://browser.s5.ptbk.io/screenshot?url=https%3A%2F%2Fpromptbook.studio%2Fembed%2Fpreview-miniapp%3FintegrationId%3D1239a0ee-02bd-4aa8-98d2-0dc7a2eb2612%26book%3Dminiapps-collection%252Fchatbot.book.md%26editor%3DMONACO%26theme%3DDARK%26nonce%3D%25E2%259C%25A8&theme=DARK&width=800&height=600"
-class="miniapp-preview"
-/></a>
+<style>
+  /* Note: Following style is relevant only for miniapp slides */
+
+  .miniapp-split-slide{
+
+    /**/
+    outline: 1px dotted #F50C0C;
+    /**/
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      
+  }
+
+  .miniapp-split-slide > div:nth-child(1) {
+       /*/
+      outline: 1px dotted #14F50C;
+      /**/
+
+      padding: 50px;
+  }
+
+   .miniapp-split-slide > div:nth-child(1) img {
+      width: 100%;
+      height: 100%;
+
+      border-radius: 20px;
+
+      border: 3px solid #0202025D;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .miniapp-split-slide > div:nth-child(2) {
+       /*/
+      outline: 1px dotted #0CABF5;
+      /**/
+
+        padding: 50px;
+  }
+</style>
+
+<
+
+<!-- Slide: Miniapp Preview Split -->
+<div class="miniapp-split-slide">
+  <div>
+    <a
+      href="https://promptbook.studio/?book=miniapps-collection/chatbot.book.md"
+      style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;"
+    >
+      <img
+        src="https://browser.s5.ptbk.io/screenshot?url=https%3A%2F%2Fpromptbook.studio%2Fembed%2Fpreview-miniapp%3FintegrationId%3D1239a0ee-02bd-4aa8-98d2-0dc7a2eb2612%26book%3Dminiapps-collection%252Fchatbot.book.md%26editor%3DMONACO%26theme%3DLIGHT%26nonce%3D%25E2%259C%25A8&theme=LIGHT&width=850&height=980"
+      />
+    </a>
+  </div>
+  <div>
+    <h2>The Chatbot App</h2>
+    <p>
+      TODO: !!! Experience how Promptbook enables rapid AI application prototyping.<br>
+      The live preview on the left demonstrates a real miniapp built with our Book language.<br>
+      <a href="https://promptbook.studio/?book=miniapps-collection/chatbot.book.md" target="_blank">Open in Promptbook Studio</a>
+    </p>
+  </div>
+</div>
 
 ---
 # Seize The Competitive Edge
