@@ -127,10 +127,10 @@ style: |
 ![bg left:33% fit](https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png)
 
 # Promptbook
-## The easiest scalable way to build your AI
+## Ship Reliable AI in No Time, Build Your Company From Within
 
 ### [Pavol Hejný](https://www.linkedin.com/in/hejny/) & [Jiří Jahn](https://www.linkedin.com/in/jirkajahn/)
-### 2025-04-10
+### 2025-04-17
 <!-- <- TODO: Make the date dynamic adds substantial overhead in MARP, sorry -->
 
 ---
@@ -139,7 +139,8 @@ style: |
 # Why the Book?
 
 - **Promptbook eliminates AI complexity completely**—no choosing models, implementing RAG, or technical decisions and low level details. Simply write what you need in plain language, and we'll deliver enterprise-ready AI applications that scale with your business, reducing development time from months to minutes.
-- We turn your business expertise into working applications with **'Business as Code'** paradigm in mind – write in plain language, execute like software, and transform your enterprise with everything you need to succeed.
+- We turn your business expertise into working applications with **'Business as Code'** paradigm in mind – write in plain language, execute like software, and transform your enterprise from within.
+- People—whether they’re end‑users or even ML engineers—are **overwhelmed** by the flood of new technologies. We’ll spare them the stress and **decision paralysis** and deliver an AI application that simply works.
 
 ---
 
