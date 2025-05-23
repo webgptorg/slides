@@ -10,6 +10,12 @@ style: |
     }
 ---
 
+!!! transcript 
+
+table of customers 
+
+---
+
 > Dear Ms Smith,
 >
 > We would like to inform you that your call for papers "How to use large language models to generate (almost) everything" has been upvoted and selected for our Webcool conference in London on 4 May 2025.
