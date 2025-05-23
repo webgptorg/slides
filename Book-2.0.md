@@ -20,6 +20,40 @@ style: |
 > Yours sincerely,
 > The Organisers
 
+
+---
+
+simple way
+write it as rules into the prompt 
+
+---
+
+python code
+
+---
+
+ChatGPT
+GitHub Copilot 
+Cursor AI Editor 
+
+---
+
+
+Same problem on different level 
+
+
+---
+
+
+but there should be some way how to pass commitments to ai Agents
+
+commitments like what range and format shout the output have, which knowledgeto uses which company values to reflect and what should be the language and tone of voice 
+
+---
+
+Prompt with these commitments is called book and our engine Promptbook can execute theese Agents and ai apps constrainted by theese ai commitments 
+
+
 ---
 
 # ✨ Let's Connect
