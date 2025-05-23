@@ -5,35 +5,22 @@ paginate: true
 size: 16:9
 html: true
 style: |
-  section {
-    /* Basic text and spacing */
-    color: #333;
-    padding: 40px 100px;
-    font-size: 1.6rem;
-    
-    /* Layout control */
-    display: flex;
-    flex-direction: column;
-  
-
-
+    pre {
+      font-size: 5em;
+    }
 ---
 
-```text
-Dear Ms Smith,
-
-We would like to inform you that your call for papers "How to use large language models to generate (almost) everything" has been upvoted and selected for our Webcool conference in London on 4 May 2025.
-
-Travel and accommodation will be provided.
-Please confirm your participation as soon as possible.
-
-Yours sincerely,
-The Organisers
-
-```
+> Dear Ms Smith,
+>
+> We would like to inform you that your call for papers "How to use large language models to generate (almost) everything" has been upvoted and selected for our Webcool conference in London on 4 May 2025.
+>
+> Travel and accommodation will be provided.
+> Please confirm your participation as soon as possible.
+>
+> Yours sincerely,
+> The Organisers
 
 ---
-
 
 # ✨ Let's Connect
 

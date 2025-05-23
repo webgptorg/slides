@@ -5,120 +5,120 @@ paginate: true
 size: 16:9
 html: true
 style: |
-  section {
-    /* Basic text and spacing */
-    color: #333;
-    padding: 40px 100px;
-    font-size: 1.6rem;
-    
-    /* Layout control */
-    display: flex;
-    flex-direction: column;
-  
-  }
+    section {
+      /* Basic text and spacing */
+      color: #333;
+      padding: 40px 100px;
+      font-size: 1.6rem;
+      
+      /* Layout control */
+      display: flex;
+      flex-direction: column;
 
-  img.miniapp-preview {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    transform: scale(80%);
-  }
+    }
 
-  .highlight-box {
-    border: 2px solid #4a90e2;
-    background-color: rgba(74, 144, 226, 0.1);
-    padding: 15px;
-    border-radius: 8px;
-    margin: 20px 0;
-    text-align: center;
-  }
+    img.miniapp-preview {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transform: scale(80%);
+    }
 
-  section.split {
-    --bg-position: 50%;  /* Centers the background image horizontally in its area */
-  }
+    .highlight-box {
+      border: 2px solid #4a90e2;
+      background-color: rgba(74, 144, 226, 0.1);
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+      text-align: center;
+    }
 
-  /* Title page specific styles */
-  .split {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 50%;
-  }
+    section.split {
+      --bg-position: 50%;  /* Centers the background image horizontally in its area */
+    }
 
-  .split h1 {
-    font-size: 3.5em;
-    background: linear-gradient(45deg, #4a90e2, #357abd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 0.3em;
-    text-align: center;
-  }
+    /* Title page specific styles */
+    .split {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-left: 50%;
+    }
 
-  .split h2,
-  .split h3 {
-    text-align: center;
-  }
+    .split h1 {
+      font-size: 3.5em;
+      background: linear-gradient(45deg, #4a90e2, #357abd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.3em;
+      text-align: center;
+    }
 
-  /* Typography */
-  h1 {
-    font-size: 2.2em;
-    color: #000;
-    margin-bottom: 0.5em;
-  }
-  
-  h2 {
-    font-size: 1.6em;
-    color: #333;
-    margin-bottom: 0.4em;
-  }
-  
-  p, li {
-    font-size: 1em;
-    line-height: 1.4;
-    margin: 0.3em 0;
-  }
+    .split h2,
+    .split h3 {
+      text-align: center;
+    }
 
-  /* Layout components */
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    width: 100%;
-    align-items: start;
-  }
-  
-  ul, ol {
-    padding-left: 1.2em;
-    margin: 0.5em 0;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9em;
-  }
-  
-  td, th {
-    padding: 8px;
-    border: 1px solid #ddd;
-  }
-  
-  /* Image handling */
-  img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: center 30%;
-    border-radius: 4px;
-  }
-  
+    /* Typography */
+    h1 {
+      font-size: 2.2em;
+      color: #000;
+      margin-bottom: 0.5em;
+    }
 
-  /* Making sure content stays above the background layers */
-  section > * {
-    position: relative;
-    z-index: 1;
-  }
+    h2 {
+      font-size: 1.6em;
+      color: #333;
+      margin-bottom: 0.4em;
+    }
+
+    p, li {
+      font-size: 1em;
+      line-height: 1.4;
+      margin: 0.3em 0;
+    }
+
+    /* Layout components */
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      width: 100%;
+      align-items: start;
+    }
+
+    ul, ol {
+      padding-left: 1.2em;
+      margin: 0.5em 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9em;
+    }
+
+    td, th {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+
+    /* Image handling */
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      object-position: center 30%;
+      border-radius: 4px;
+    }
+
+
+    /* Making sure content stays above the background layers */
+    section > * {
+      position: relative;
+      z-index: 1;
+    }
 ---
 
 <!-- _class: split -->
@@ -127,20 +127,24 @@ style: |
 ![bg left:33% fit](https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png)
 
 # Promptbook
+
 ## Ship Reliable AI in No Time, Build Your Company From Within
 
 ### [Pavol Hejný](https://www.linkedin.com/in/hejny/) & [Jiří Jahn](https://www.linkedin.com/in/jirkajahn/)
+
 ### 2025-04-17
+
 <!-- <- TODO: Make the date dynamic adds substantial overhead in MARP, sorry -->
 
 ---
 
 <!-- Slide 0: Unique Selling proposition -->
+
 # Why the Book?
 
-- **Promptbook eliminates AI complexity completely**—no choosing models, implementing RAG, or technical decisions and low level details. Simply write what you need in plain language, and we'll deliver enterprise-ready AI applications that scale with your business, reducing development time from months to minutes.
-- We turn your business expertise into working applications with **'Business as Code'** paradigm in mind – write in plain language, execute like software, and transform your enterprise from within.
-- People—whether they’re end‑users or even ML engineers—are **overwhelmed** by the flood of new technologies. We’ll spare them the stress and **decision paralysis** and deliver an AI application that simply works.
+-   **Promptbook eliminates AI complexity completely**—no choosing models, implementing RAG, or technical decisions and low level details. Simply write what you need in plain language, and we'll deliver enterprise-ready AI applications that scale with your business, reducing development time from months to minutes.
+-   We turn your business expertise into working applications with **'Business as Code'** paradigm in mind – write in plain language, execute like software, and transform your enterprise from within.
+-   People—whether they’re end‑users or even ML engineers—are **overwhelmed** by the flood of new technologies. We’ll spare them the stress and **decision paralysis** and deliver an AI application that simply works.
 
 ---
 
@@ -155,18 +159,20 @@ Implying Deloitte has a limited window to secure competitive advantage
 The language directly addresses Deloitte as a potential beneficiary, making the opportunity feel exclusive and timely.
 
 -->
+
 # What the Book?
 
 <!-- You do want to have your C3PO -->
 <!-- - **LLMs are the new computing paradigm, and we're building its first enterprise-ready programming language, Book, together with its runtime, Promptbook.** -->
-- **Book transforms your business expertise into executable instructions** - while other companies struggle to implement AI, Book lets anyone create powerful business automation without technical knowledge:
+
+-   **Book transforms your business expertise into executable instructions** - while other companies struggle to implement AI, Book lets anyone create powerful business automation without technical knowledge:
 
 ```markdown
 # ✨ Email to customer
 
-- PERSONA George, experienced AI consultant
-- KNOWLEDGE https://yourcompany.com/
-- KNOWLEDGE https://ptbk.io/
+-   PERSONA George, experienced AI consultant
+-   KNOWLEDGE https://yourcompany.com/
+-   KNOWLEDGE https://ptbk.io/
 
 ## Write the email
 
@@ -177,8 +183,8 @@ The language directly addresses Deloitte as a potential beneficiary, making the 
 
 -> {email}
 ```
----
 
+---
 
 <style>
   /* Note: Following style is relevant only for miniapp slides */
@@ -253,7 +259,6 @@ The language directly addresses Deloitte as a potential beneficiary, making the 
   </div>
 </div>
 
-
 <!-- ---
 # Seize The Competitive Edge
 
@@ -268,9 +273,9 @@ Imagine a company where everything is centered around executable documentation w
 ---
 Take it one step further. With Promptbook, companies can:
 
-- **Take First-Mover Advantage:** Deliver sustainable AI solutions ahead of competitors through architectural foresight - our Book programming language naturally separates concerns between programmers, ML engineers, and business people, creating a clean division of responsibilities that prevents technical debt and enables faster scaling 
+- **Take First-Mover Advantage:** Deliver sustainable AI solutions ahead of competitors through architectural foresight - our Book programming language naturally separates concerns between programmers, ML engineers, and business people, creating a clean division of responsibilities that prevents technical debt and enables faster scaling
 - **Mitigate Risk:** Built-in compliance, auditability, and security
-- **Scale Globally:** AI solutions without expanding your ML department 
+- **Scale Globally:** AI solutions without expanding your ML department
 - **Multiply Capacity:** One consultant delivers work of many
 - **Leverage Organic Compounding:** Template blueprints across industries, multiplying AI impact from within
 
@@ -296,7 +301,7 @@ TODO: Kajetán: Be prepared to answer:
 
 # **OneBrain, LLC: The Self-Building Enterprise (case study)**
 
-*A journey through AI transformation with Promptbook*
+_A journey through AI transformation with Promptbook_
 
 <!-- This opening slide introduces the narrative framework -->
 
@@ -306,13 +311,12 @@ TODO: Kajetán: Be prepared to answer:
 
 Meet OneBrain, LLC - a forward-thinking professional services firm struggling with:
 
-- Partners spending 40% of time on repetitive client reports
-- Knowledge siloed in departments, recreating solutions already built elsewhere
-- AI experiments that never scale beyond pilots
-- Compliance risks increasing with each AI implementation
+-   Partners spending 40% of time on repetitive client reports
+-   Knowledge siloed in departments, recreating solutions already built elsewhere
+-   AI experiments that never scale beyond pilots
+-   Compliance risks increasing with each AI implementation
 
 <!-- This slide establishes the relatable pain points -->
-
 
 <!--
 <- TODO: Kajetán:
@@ -324,22 +328,23 @@ Meet OneBrain, LLC - a forward-thinking professional services firm struggling wi
 
 # **Phase 1: Blueprint Creation**
 
-- Finance partners draft a `book` executable blueprint for automated audit report generation
-- Without coding, they define exactly what domain expertise needs capturing
-- Blueprint tested with select clients, refined based on feedback
-- Zero infrastructure, zero ML expertise required
+-   Finance partners draft a `book` executable blueprint for automated audit report generation
+-   Without coding, they define exactly what domain expertise needs capturing
+-   Blueprint tested with select clients, refined based on feedback
+-   Zero infrastructure, zero ML expertise required
 
 ```markdown
 # ✨ Audit Report Generator
 
-- PERSONA Experienced audit professional
-- KNOWLEDGE {client_regulatory_requirements.pdf}
-- KNOWLEDGE {deloitte_audit_methodology.pdf}
+-   PERSONA Experienced audit professional
+-   KNOWLEDGE {client_regulatory_requirements.pdf}
+-   KNOWLEDGE {deloitte_audit_methodology.pdf}
 
 ## Generate Executive Summary
-> Create a concise executive summary for {client_name}'s 
+
+> Create a concise executive summary for {client_name}'s
 > audit based on {financial_data} and {compliance_findings}.
--> {executive_summary}
+> -> {executive_summary}
 ```
 
 <!-- The code example makes it concrete without being too technical -->
@@ -348,9 +353,9 @@ Meet OneBrain, LLC - a forward-thinking professional services firm struggling wi
 
 # **Phase 2: Scaling Across Functions**
 
-- Tax division adapts the audit blueprint for tax advisory reports
-- Consulting modifies it for industry research briefings
-- HR customizes it for talent assessment
+-   Tax division adapts the audit blueprint for tax advisory reports
+-   Consulting modifies it for industry research briefings
+-   HR customizes it for talent assessment
 
 **The compounding effect**: Each adaptation is 80% faster than building from scratch
 
@@ -360,25 +365,24 @@ Meet OneBrain, LLC - a forward-thinking professional services firm struggling wi
 
 # **Phase 3: Enterprise Integration**
 
-- Specialized AI engineers turn successful blueprints into production systems
-- Blueprints become institutional knowledge, not individual expertise
-- Compliance and security baked in at the blueprint level
-- Firm becomes self-improving as teams use `book` to continuously automate their own workflows
+-   Specialized AI engineers turn successful blueprints into production systems
+-   Blueprints become institutional knowledge, not individual expertise
+-   Compliance and security baked in at the blueprint level
+-   Firm becomes self-improving as teams use `book` to continuously automate their own workflows
 
-<!-- This slide shows how the solution scales across the enterprise -->
----
+## <!-- This slide shows how the solution scales across the enterprise -->
+
 # **The Self-Building Enterprise: Results**
 
 A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would approach AI transformation:
 
-- **Business experts** create blueprints without coding
-- **Knowledge compounds** across departments without silos
-- **Compliance is standardized** at the blueprint level
-- **AI transformation accelerates** with each new implementation
-- **Results multiplier:** 5x more AI solutions with the same resources
+-   **Business experts** create blueprints without coding
+-   **Knowledge compounds** across departments without silos
+-   **Compliance is standardized** at the blueprint level
+-   **AI transformation accelerates** with each new implementation
+-   **Results multiplier:** 5x more AI solutions with the same resources
 
-<!-- This final slide shows the transformative impact -->
----
+## <!-- This final slide shows the transformative impact -->
 
 <!-- Slide 3: Team (Only if it's a strength) -->
 <!-- backgroundColor: white -->
@@ -435,78 +439,88 @@ A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would 
 <img src="https://github.com/webgptorg/promptbook/blob/main/design/people/pavol-hejny-transparent.png?raw=true" alt="Pavol Hejný, Founder of Promptbook">
 
 **Pavol Hejný | CTO**
-- [Top](https://committers.top/czech_republic) [open-source contributor](https://github.com/hejny) in CZE
-- Developer with 15+ years of experience
+
+-   [Top](https://committers.top/czech_republic) [open-source contributor](https://github.com/hejny) in CZE
+-   Developer with 15+ years of experience
 
 </div>
 <div class="jiri-jahn">
 <img src="https://github.com/webgptorg/promptbook/blob/main/design/people/jiri-jahn-transparent.png?raw=true" alt="Jiří Jahn, Founder of Promptbook">
 
 **Jiří Jahn | CEO**
-- Ph.D. in Mathematics, former researcher at [IT4I National Supercomputing Centre](https://www.it4i.cz/en)
-- Significant technical expertise mixed with strong soft skills
+
+-   Ph.D. in Mathematics, former researcher at [IT4I National Supercomputing Centre](https://www.it4i.cz/en)
+-   Significant technical expertise mixed with strong soft skills
 
 </div>
 </div>
-
-
-
 
 ---
 
 <!-- Slide 5: Unique Insights -->
+
 # Our Unique Insights
 
 1. **We are not NO CODE platform**
-   - For **devs** these platforms lack control
-   - For **non/devs** they are still programming with a crutch
+
+    - For **devs** these platforms lack control
+    - For **non/devs** they are still programming with a crutch
 
 2. **Anticipating futute trends**
-   - Mixing prompts with code will lead to technical debt
-   - We are separating things that should be separated
+
+    - Mixing prompts with code will lead to technical debt
+    - We are separating things that should be separated
 
 3. **Models are commodity, we make the personalized applications**
-   - Models are like Intel processors in Apple
-   - You can replace Intel with Arm, but you cannot replace Apple
+    - Models are like Intel processors in Apple
+    - You can replace Intel with Arm, but you cannot replace Apple
 
 ---
+
 # Frequently Asked Questions
 
 **Is Promptbook secured against data leakage?**
-- End-to-end encryption for all data in transit and at rest
-- On-premises deployment option for sensitive environments
-- Granular access controls and audit logging of all system interactions
-- No data storage by default - process and forget architecture
+
+-   End-to-end encryption for all data in transit and at rest
+-   On-premises deployment option for sensitive environments
+-   Granular access controls and audit logging of all system interactions
+-   No data storage by default - process and forget architecture
 
 **How does Promptbook add controllability and reliability?**
-- Transparent AI decision paths through sophisticated logging
-- Built-in versioning of all blueprints for governance
-- Controlled testing environment with simulation capabilities
-- Clear separation between business logic and AI execution
+
+-   Transparent AI decision paths through sophisticated logging
+-   Built-in versioning of all blueprints for governance
+-   Controlled testing environment with simulation capabilities
+-   Clear separation between business logic and AI execution
+
 ---
 
 # Frequently Asked Questions
 
 **Why use Promptbook instead of established no-code tools?**
-- True flexibility beyond drag-and-drop constraints
-- Seamless transition path from prototype to production
-- No technical debt - solutions remain maintainable as they scale
-- Designed for enterprise complexity, not just simple automations
+
+-   True flexibility beyond drag-and-drop constraints
+-   Seamless transition path from prototype to production
+-   No technical debt - solutions remain maintainable as they scale
+-   Designed for enterprise complexity, not just simple automations
 
 **How quickly can we implement and see results?**
-- First blueprint creation: 1-2 days
-- Initial production implementation: 2-4 weeks
-- Full enterprise integration: Phased approach over 3-6 months
-- ROI typically visible within first month of deployment
+
+-   First blueprint creation: 1-2 days
+-   Initial production implementation: 2-4 weeks
+-   Full enterprise integration: Phased approach over 3-6 months
+-   ROI typically visible within first month of deployment
 
 ---
+
 # Frequently Asked Questions
 
 **How does Promptbook integrate with our existing systems?**
-- Platform-agnostic, API-first architecture connects to any modern system
-- Pre-built connectors for enterprise platforms
-- Custom connectors can be developed for legacy systems
-- Gradual integration approach - no "rip and replace"
+
+-   Platform-agnostic, API-first architecture connects to any modern system
+-   Pre-built connectors for enterprise platforms
+-   Custom connectors can be developed for legacy systems
+-   Gradual integration approach - no "rip and replace"
 
 <!--
 
@@ -521,10 +535,10 @@ Additional themes we might consider adding:
 Other suggestions?
 
 -->
+
 ---
 
 <!-- Slide 8: Contact -->
-
 
 # ✨ Let's Connect
 
