@@ -127,11 +127,20 @@ style: |
 ![bg left:33% fit](https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png)
 
 # Promptbook
-## The easiest way to build your AI personal assistants 
+## Ship Reliable AI in No Time, Build Your Company From Within
 
 ### [Pavol Hejný](https://www.linkedin.com/in/hejny/) & [Jiří Jahn](https://www.linkedin.com/in/jirkajahn/)
-### 2025-04-10
+### 2025-04-17
 <!-- <- TODO: Make the date dynamic adds substantial overhead in MARP, sorry -->
+
+---
+
+<!-- Slide 0: Unique Selling proposition -->
+# Why the Book?
+
+- **Promptbook eliminates AI complexity completely**—no choosing models, implementing RAG, or technical decisions and low level details. Simply write what you need in plain language, and we'll deliver enterprise-ready AI applications that scale with your business, reducing development time from months to minutes.
+- We turn your business expertise into working applications with **'Business as Code'** paradigm in mind – write in plain language, execute like software, and transform your enterprise from within.
+- People—whether they’re end‑users or even ML engineers—are **overwhelmed** by the flood of new technologies. We’ll spare them the stress and **decision paralysis** and deliver an AI application that simply works.
 
 ---
 
@@ -146,24 +155,24 @@ Implying Deloitte has a limited window to secure competitive advantage
 The language directly addresses Deloitte as a potential beneficiary, making the opportunity feel exclusive and timely.
 
 -->
-# The Book
+# What the Book?
 
 <!-- You do want to have your C3PO -->
-- **LLMs are the new computing paradigm, and we're building its first enterprise-ready programming language, Book, together with its runtime, Promptbook.**
-- While companies struggle with AI Transformation, we can make the transition as smooth as possible leveraging the Book:
+<!-- - **LLMs are the new computing paradigm, and we're building its first enterprise-ready programming language, Book, together with its runtime, Promptbook.** -->
+- **Book transforms your business expertise into executable instructions** - while other companies struggle to implement AI, Book lets anyone create powerful business automation without technical knowledge:
 
 ```markdown
 # ✨ Email to customer
 
 - PERSONA George, experienced AI consultant
-- KNOWLEDGE https://deloitte.com/
+- KNOWLEDGE https://yourcompany.com/
 - KNOWLEDGE https://ptbk.io/
 
 ## Write the email
 
 > Write an email to {customerName} about opportunities in
 > AI consulting and new trends in the industry.
-> Include a link to the Deloitte website and also mention
+> Include a link to the {company} website and also mention
 > the Promptbook platform.
 
 -> {email}
@@ -235,16 +244,17 @@ The language directly addresses Deloitte as a potential beneficiary, making the 
     </a>
   </div>
   <div>
-    <h2>The Chatbot App</h2>
+    <h2>Example: the Chatbot App</h2>
     <p>
-      TODO: !!! Experience how Promptbook enables rapid AI application prototyping.<br>
+      With minimal effort, you can <b> experience right now </b> how Promptbook enables rapid AI application prototyping.<br>
       The live preview on the left demonstrates a real miniapp built with our Book language.<br>
       <a href="https://promptbook.studio/?book=miniapps-collection/chatbot.book.md" target="_blank">Open in Promptbook Studio</a>
     </p>
   </div>
 </div>
 
----
+
+<!-- ---
 # Seize The Competitive Edge
 
 ## The Idea Behind Promptbook:
@@ -276,7 +286,7 @@ TODO: Kajetán: Be prepared to answer:
 3) Why is Promptbook wanted by others?
 4) Why is Promptbook wanted by Deloitte?
 
--->
+--> -->
 
 ---
 
