@@ -4,20 +4,13 @@ theme: default
 paginate: true
 size: 16:9
 html: true
-style: |
-    pre {
-      /**/
-
-
-      font-size: 50em !important;
-    }
 ---
 
-| Name        | Talk                       |     |     |     |
-| ----------- | -------------------------- | --- | --- | --- |
-| Pavol Hejný | AI Agents with Commitments |     |     |     |
-| Jiří Jahn   | AI Agents and Their Impact |     |     |     |
-|             |                            |     |     |     |
+| Name         | Talk                             |
+| ------------ | -------------------------------- |
+| Pavol Hejný  | AI agents with commitments       |
+| Jiří Jahn    | Randomness and Stochastics in AI |
+| Harry Potter | Generate spells with AI          |
 
 ---
 
