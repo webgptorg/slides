@@ -10,27 +10,30 @@ style: |
     }
 ---
 
-!!! transcript 
 
-table of customers 
-
----
-
-> Dear Ms Smith,
->
-> We would like to inform you that your call for papers "How to use large language models to generate (almost) everything" has been upvoted and selected for our Webcool conference in London on 4 May 2025.
->
-> Travel and accommodation will be provided.
-> Please confirm your participation as soon as possible.
->
-> Yours sincerely,
-> The Organisers
-
+| Name        | Talk                       |   |   |   |
+|-------------|----------------------------|---|---|---|
+| Pavol Hejný | AI Agents with Commitments |   |   |   |
+| Jiří Jahn   | AI Agents and Their Impact |   |   |   |
+|             |                            |   |   |   |
 
 ---
 
-simple way
-write it as rules into the prompt 
+Dear Mr. Hejný,
+
+We are writing to inform you that your call for papers, "AI Agents with Commitments," has been selected for presentation at our Supercool Conference in London on September 8, 2025.
+
+Travel and accommodation expenses will be covered.
+
+We look forward to your presentation!
+Yours sincerely,
+John Smith
+Supercool Conference Org Team
+
+
+---
+
+Write email to @Name
 
 ---
 
