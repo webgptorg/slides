@@ -57,6 +57,10 @@ const response = await openai.chat.completions.create({
 });
 ```
 
+
+
+
+
 ---
 
 <!--
@@ -114,7 +118,17 @@ Prompt with these commitments is called book and our engine Promptbook can execu
 
 ---
 
+# Promptbook Engine
+
+![Promptbook Engine](./slides/promptbook-utils.png)
+
+---
+
 # ✨ Let's Connect
+
+**Promptbook**
+ptbk.io
+github.com/webgptorg/promptbook
 
 **Jiří Jahn**
 jiri@ptbk.io
