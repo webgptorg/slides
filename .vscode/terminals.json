@@ -19,8 +19,8 @@
         {
             "name": "🏭 Convert presentations",
             "commands": [
-                "for f in *.md; do npx marp \"$f\" --pdf --image-scale 1; done",
-                "for f in *.md; do npx marp \"$f\" --pptx-editable; done"
+                "for f in *.md; do npx marp \"$f\" --allow-local-files --pdf --image-scale 1; done",
+                "for f in *.md; do npx marp \"$f\" --allow-local-files --pptx-editable; done"
             ],
             "onlySingle": true,
             "focus": true
