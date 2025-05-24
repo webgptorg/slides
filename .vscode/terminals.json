@@ -15,12 +15,12 @@
             "onlySingle": false,
             "focus": false
         },
-   
+
         {
             "name": "🏭 Convert presentations",
             "commands": [
-                "npx marp ./Deloitte.md --pdf  --image-scale 1",
-                "npx marp ./Deloitte.md --pptx-editable"
+                "for f in *.md; do npx marp \"$f\" --pdf --image-scale 1; done",
+                "for f in *.md; do npx marp \"$f\" --pptx-editable; done"
             ],
             "onlySingle": true,
             "focus": true
