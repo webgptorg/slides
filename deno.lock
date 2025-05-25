@@ -1,5 +1,5 @@
 {
-  "version": "4",
+  "version": "5",
   "redirects": {
     "https://deno.land/std/fs/mod.ts": "https://deno.land/std@0.224.0/fs/mod.ts"
   },
@@ -72,10 +72,10 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@marp-team/marp-cli@^4.1.2",
-        "npm:@types/node@^22.13.10",
-        "npm:colors@^1.4.0",
-        "npm:spacetrim@~0.11.60"
+        "npm:@marp-team/marp-cli@4.1.2",
+        "npm:@types/node@22.13.10",
+        "npm:colors@1.4.0",
+        "npm:spacetrim@0.11.60"
       ]
     }
   }
