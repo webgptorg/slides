@@ -1,0 +1,288 @@
+name: Convert Presentations and Deploy GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  convert-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Create output directories
+      run: |
+        mkdir -p dist/html
+        mkdir -p dist/pdf
+        mkdir -p dist/pptx
+
+    - name: Convert presentations to HTML
+      run: |
+        for file in *.md; do
+          if [[ -f "$file" && "$file" != "README.md" ]]; then
+            echo "Converting $file to HTML..."
+            npx @marp-team/marp-cli "$file" --html --allow-local-files --output "dist/html/${file%.md}.html"
+          fi
+        done
+
+    - name: Convert presentations to PDF
+      run: |
+        for file in *.md; do
+          if [[ -f "$file" && "$file" != "README.md" ]]; then
+            echo "Converting $file to PDF..."
+            npx @marp-team/marp-cli "$file" --pdf --allow-local-files --output "dist/pdf/${file%.md}.pdf"
+          fi
+        done
+
+    - name: Convert presentations to PPTX
+      run: |
+        for file in *.md; do
+          if [[ -f "$file" && "$file" != "README.md" ]]; then
+            echo "Converting $file to PPTX..."
+            npx @marp-team/marp-cli "$file" --pptx --allow-local-files --output "dist/pptx/${file%.md}.pptx"
+          fi
+        done
+
+    - name: Generate presentation index
+      run: |
+        cat > dist/index.html << 'EOF'
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Presentations</title>
+            <style>
+                body {
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 2rem;
+                    background: #f8fafc;
+                    color: #334155;
+                }
+
+                h1 {
+                    color: #1e293b;
+                    border-bottom: 3px solid #4a90e2;
+                    padding-bottom: 0.5rem;
+                    margin-bottom: 2rem;
+                }
+
+                .presentation-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+                    gap: 2rem;
+                    margin-top: 2rem;
+                }
+
+                .presentation-card {
+                    background: white;
+                    border-radius: 12px;
+                    padding: 1.5rem;
+                    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.2s, box-shadow 0.2s;
+                }
+
+                .presentation-card:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+                }
+
+                .presentation-title {
+                    font-size: 1.25rem;
+                    font-weight: 600;
+                    color: #1e293b;
+                    margin-bottom: 1rem;
+                    text-decoration: none;
+                }
+
+                .presentation-links {
+                    display: flex;
+                    gap: 0.75rem;
+                    flex-wrap: wrap;
+                }
+
+                .format-link {
+                    display: inline-flex;
+                    align-items: center;
+                    padding: 0.5rem 1rem;
+                    border-radius: 6px;
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 0.875rem;
+                    transition: all 0.2s;
+                }
+
+                .format-link.html {
+                    background: #dbeafe;
+                    color: #1d4ed8;
+                }
+
+                .format-link.html:hover {
+                    background: #bfdbfe;
+                }
+
+                .format-link.pdf {
+                    background: #fecaca;
+                    color: #dc2626;
+                }
+
+                .format-link.pdf:hover {
+                    background: #fca5a5;
+                }
+
+                .format-link.pptx {
+                    background: #d1fae5;
+                    color: #059669;
+                }
+
+                .format-link.pptx:hover {
+                    background: #a7f3d0;
+                }
+
+                .last-updated {
+                    text-align: center;
+                    color: #64748b;
+                    font-size: 0.875rem;
+                    margin-top: 3rem;
+                    padding-top: 2rem;
+                    border-top: 1px solid #e2e8f0;
+                }
+
+                .stats {
+                    display: flex;
+                    justify-content: center;
+                    gap: 2rem;
+                    margin-bottom: 2rem;
+                    padding: 1rem;
+                    background: white;
+                    border-radius: 8px;
+                    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+                }
+
+                .stat {
+                    text-align: center;
+                }
+
+                .stat-number {
+                    font-size: 2rem;
+                    font-weight: bold;
+                    color: #4a90e2;
+                }
+
+                .stat-label {
+                    font-size: 0.875rem;
+                    color: #64748b;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>🏭 Presentations</h1>
+
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number" id="presentation-count">0</div>
+                    <div class="stat-label">Presentations</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="total-files">0</div>
+                    <div class="stat-label">Total Files</div>
+                </div>
+            </div>
+
+            <div class="presentation-grid" id="presentations">
+                <!-- Presentations will be inserted here -->
+            </div>
+
+            <div class="last-updated">
+                Last updated: <span id="last-updated"></span>
+            </div>
+
+            <script>
+                // Set last updated time
+                document.getElementById('last-updated').textContent = new Date().toLocaleString();
+
+                // Get presentations from the file system
+                const presentations = [];
+        EOF
+
+        # Add presentations to the JavaScript array
+        for file in *.md; do
+          if [[ -f "$file" && "$file" != "README.md" ]]; then
+            name="${file%.md}"
+            title=$(echo "$name" | sed 's/-/ /g' | sed 's/\b\w/\U&/g')
+            echo "                presentations.push({" >> dist/index.html
+            echo "                    name: '$name'," >> dist/index.html
+            echo "                    title: '$title'," >> dist/index.html
+            echo "                    file: '$file'" >> dist/index.html
+            echo "                });" >> dist/index.html
+          fi
+        done
+
+        cat >> dist/index.html << 'EOF'
+
+                // Update stats
+                document.getElementById('presentation-count').textContent = presentations.length;
+                document.getElementById('total-files').textContent = presentations.length * 3;
+
+                // Generate presentation cards
+                const container = document.getElementById('presentations');
+                presentations.forEach(presentation => {
+                    const card = document.createElement('div');
+                    card.className = 'presentation-card';
+
+                    card.innerHTML = `
+                        <div class="presentation-title">${presentation.title}</div>
+                        <div class="presentation-links">
+                            <a href="html/${presentation.name}.html" class="format-link html" target="_blank">
+                                📄 View HTML
+                            </a>
+                            <a href="pdf/${presentation.name}.pdf" class="format-link pdf" target="_blank">
+                                📋 Download PDF
+                            </a>
+                            <a href="pptx/${presentation.name}.pptx" class="format-link pptx" target="_blank">
+                                📊 Download PPTX
+                            </a>
+                        </div>
+                    `;
+
+                    container.appendChild(card);
+                });
+            </script>
+        </body>
+        </html>
+        EOF
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: './dist'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
