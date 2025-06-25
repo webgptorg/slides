@@ -222,24 +222,51 @@ Abstraction of Programming AI agents
 
 ---
 
-What:
-Expectations
+<span class="commitment-slide-wwh">What</span>
 
-Book
+<div class="commitment-slide-layout">
+  <div class="commitment-slide-left">
+    <h1>Expectations</h1>
+  </div>
+  <div class="commitment-slide-right">
+    <img 
+      alt="Book - Expectations"
+      src="./image.png?book=expectations"
+    />
+  </div>
+</div>
 
 ---
 
-How:
-Knowledge and context
+<span class="commitment-slide-wwh">How</span>
 
-Book
+<div class="commitment-slide-layout">
+  <div class="commitment-slide-left">
+    <h1>Knowledge<!-- and context--></h1>
+  </div>
+  <div class="commitment-slide-right">
+    <img 
+      alt="Book - Knowledge and context"
+      src="./image.png?book=knowledge-context"
+    />
+  </div>
+</div>
 
 ---
 
-what, how:
-Action
+<span class="commitment-slide-wwh">What, How</span>
 
-Book
+<div class="commitment-slide-layout">
+  <div class="commitment-slide-left">
+    <h1>Action</h1>
+  </div>
+  <div class="commitment-slide-right">
+    <img 
+      alt="Book - Action"
+      src="./image.png?book=action"
+    />
+  </div>
+</div>
 
 ---
 
