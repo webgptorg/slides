@@ -147,10 +147,30 @@ Abstraction of Programming AI agents
 
 ---
 
-Who:
+<style>
+
+.wwh-footnote {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  border-bottom: 1px solid #292929;
+
+}
+
+
+</style>
+
+<span class="wwh-footnote">Who</span>
 Persona
 
-Book
+<img 
+  alt="Book source"
+  src="./image.png?book=
+    test
+    test
+    test
+  " 
+/>
 
 ---
 
