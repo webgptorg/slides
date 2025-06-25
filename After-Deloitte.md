@@ -113,13 +113,18 @@ style: |
 
 ![bg left:33% fit](https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png)
 
-# Build AI in plain English
+# Create portable AI agents in plain English 
 
 <!-- <- TODO: Kajetán: More business, less technical-->
 
 ### [Pavol Hejný](https://www.linkedin.com/in/hejny/) & [Jiří Jahn](https://www.linkedin.com/in/jirkajahn/)
 
 ### 2025
+
+
+---
+
+E-mail fuckup
 
 ---
 
@@ -139,11 +144,23 @@ Book vs Code
 
 ---
 
-Reliability and security guardrail for AI
+Book vs no-code
 
 ---
 
-Abstraction of Programming AI agents
+Book vs Big systems
+
+---
+
+
+- No need for developers
+- Create portable AI agents
+- guardrail for AI
+
+---
+
+What can book do?
+What who how
 
 ---
 
