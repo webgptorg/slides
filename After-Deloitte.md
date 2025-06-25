@@ -149,28 +149,76 @@ Abstraction of Programming AI agents
 
 <style>
 
-.wwh-footnote {
+.commitment-slide-wwh {
   position: fixed;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 50px;
   border-bottom: 1px solid #292929;
-
 }
 
 
+.commitment-slide-layout {
+  /*/
+  outline: 1px dotted #F50C0C;
+  /**/
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.commitment-slide-left {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+
+
+.commitment-slide-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.commitment-slide-right img {
+
+  /*/
+  outline: 1px dotted #F50C0C;
+  background-color: rgba(233 35 35 / 0.8);
+  /**/
+
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
 </style>
 
-<span class="wwh-footnote">Who</span>
-Persona
+<span class="commitment-slide-wwh">Who</span>
 
-<img 
-  alt="Book source"
-  src="./image.png?book=
-    test
-    test
-    test
-  " 
-/>
+<div class="commitment-slide-layout">
+  <div class="commitment-slide-left">
+    <h1>Persona<h1>
+  </div>
+  <div class="commitment-slide-right">
+    <img 
+      alt="Book source"
+      src="./image.png?book=
+        test
+        test
+      "
+    />
+  </div>
+</div>
 
 ---
 
