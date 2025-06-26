@@ -275,7 +275,7 @@ style: |
 
 ### Email:
 
-> I will write an email to Jiří Jahn.
+> I will write an email to Max Kozlov.
 > Should I use a professional tone or a friendly tone?
 
 ---
