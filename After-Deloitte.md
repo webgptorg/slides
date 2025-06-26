@@ -210,11 +210,13 @@ style: |
     <img
         src="https://promptbook.studio/embed/book-preview.png?book=
           Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
-        &width=960&height=1080&variant=SINGLE&nonce=3
+        &width=960&height=1081&variant=SINGLE&nonce=3
     "
     />
   </div>
 </div>
+
+<!-- <- TODO: !!! Do not render failed books, replace 1081 -> 1080 -->
 
 ---
 
@@ -288,7 +290,7 @@ style: |
           Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.\n
           *\n
           RULE Write just the email, no other text
-        &width=960&height=1080&variant=SINGLE&nonce=3
+        &width=960&height=1081&variant=SINGLE&nonce=3
     "
     />
   </div>
@@ -307,7 +309,7 @@ style: |
           *\n
           RULE Write just the email, no other text\n
           EXPECT The email should be 10 words long and not exceed 2 pages 
-        &width=960&height=1080&variant=SINGLE&nonce=3 
+        &width=960&height=1081&variant=SINGLE&nonce=3 
     "
     />
   </div>
@@ -327,7 +329,7 @@ style: |
           RULE Write just the email, no other text\n
           EXPECT The email should be 10 words long and not exceed 2 pages\n
           STYLE Use a professional tone
-        &width=960&height=1080&variant=SINGLE&nonce=3 
+        &width=960&height=1081&variant=SINGLE&nonce=3 
     "
     />
   </div>
@@ -348,11 +350,19 @@ style: |
           EXPECT The email should be 10 words long and not exceed 2 pages\n
           STYLE Use a professional tone\n
           KNOWLEDGE supercool.com/2025
-        &width=960&height=1080&variant=SINGLE&nonce=3 
+        &width=960&height=1081&variant=SINGLE&nonce=3 
     "
     />
   </div>
 </div>
+
+---
+
+# Apps
+
+1. App layer
+2. **Book layer**
+3. Model layer
 
 ---
 
@@ -361,7 +371,7 @@ style: |
     <img
         src="https://promptbook.studio/embed/book-preview.png?book=
           Email agent
-        &width=960&height=1080&variant=SINGLE&nonce=3 
+        &width=960&height=1081&variant=SINGLE&nonce=3 
     "
     />
   </div>
