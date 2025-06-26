@@ -208,7 +208,7 @@ style: |
   </div>
   <div class="split-slide-right">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
         &width=960&height=1080
     "
@@ -284,7 +284,7 @@ style: |
   </div>
   <div class="split-slide-right">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
           *
           RULE Write just the email, no other text
@@ -301,7 +301,7 @@ style: |
   </div>
   <div class="split-slide-right">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
           *
           RULE Write just the email, no other text
@@ -319,7 +319,7 @@ style: |
   </div>
   <div class="split-slide-right">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
           *
           RULE Write just the email, no other text
@@ -338,7 +338,7 @@ style: |
   </div>
   <div class="split-slide-right">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
           *
           RULE Write just the email, no other text
@@ -357,7 +357,7 @@ Book | Email
 <div class="split-slide-layout">
   <div class="split-slide-left">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           Email agent
         &width=960&height=1080 
     "
@@ -365,7 +365,7 @@ Book | Email
   </div>
   <div class="split-slide-right">
       <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           persona aaa
         &width=960&height=1080 
@@ -379,7 +379,7 @@ Book | Email
 <div class="split-slide-layout">
   <div class="split-slide-left">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           E-shop customer tags
         &width=960&height=1080 
     "
@@ -387,7 +387,7 @@ Book | Email
   </div>
   <div class="split-slide-right">
       <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           persona aaa
         &width=960&height=1080 
@@ -401,7 +401,7 @@ Book | Email
 <div class="split-slide-layout">
   <div class="split-slide-left">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           From Unstructured notes to Articles, Posts and Press release
         &width=960&height=1080 
     "
@@ -409,7 +409,7 @@ Book | Email
   </div>
   <div class="split-slide-right">
       <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           persona aaa
         &width=960&height=1080 
@@ -465,7 +465,7 @@ Book | Email
   </div>
   <div class="split-slide-right">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           persona aaa
         &width=960&height=1080 
@@ -484,7 +484,7 @@ Book | Email
   </div>
   <div class="split-slide-right">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           *
           persona aaa
@@ -504,7 +504,7 @@ Book | Email
   </div>
   <div class="split-slide-right">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           persona aaa
         &width=960&height=1080 
@@ -523,7 +523,7 @@ Book | Email
   </div>
   <div class="split-slide-right">
     <img
-        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+        src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           persona aaa
           &width=960&height=1080
