@@ -370,40 +370,64 @@ style: |
   <div class="split-slide-left">
     <img
         src="https://promptbook.studio/embed/book-preview.png?book=
-          Email agent
+          Copywriter\n
+            *\n
+          Reply to an email.\n
+          *\n
+          {Email content}\n
+          *\n
+          PERSONA @John, copywriter who can get advice from @George\n
+          KNOWLEDGE ./instructions.pdf\n
+          STYLE Professional tone of voice
+        &width=960&height=1080&variant=SINGLE&nonce=3 
+    "
+    />
+  </div>
+  <div class="split-slide-right">
+      <!-- TODO -->
+  </div>
+</div>
+
+---
+
+<div class="split-slide-layout">
+  <div class="split-slide-left">
+    <img
+        src="https://promptbook.studio/embed/book-preview.png?book=
+          Analytic\n
+          *\n
+          Tag the given CV\n
+          *\n
+          {CV}\n
+          *\n
+          PERSONA @John, HR specialist who can get advice from @George\n
+          KNOWLEDGE ./instructions.pdf\n
+          EXPECT 'pass', 'fail', 'maybe'\n
+        &width=960&height=1080&variant=SINGLE&nonce=3 
+    "
+    />
+  </div>
+  <div class="split-slide-right">
+      <!-- TODO -->
+  </div>
+</div>
+
+---
+
+<div class="split-slide-layout">
+  <div class="split-slide-left">
+    <img
+        src="https://promptbook.studio/embed/book-preview.png?book=
+          PR Specialist\n
+          *\n
+          Create press release from unstructured notes\n
+          *\n
+          {Notes}\n
+          *\n
+          PERSONA @John, PR Specialist who can get advice from @George\n
+          KNOWLEDGE ./instructions.pdf\n
+          STYLE Professional tone of voice
         &width=960&height=1081&variant=SINGLE&nonce=3 
-    "
-    />
-  </div>
-  <div class="split-slide-right">
-      <!-- TODO -->
-  </div>
-</div>
-
----
-
-<div class="split-slide-layout">
-  <div class="split-slide-left">
-    <img
-        src="https://promptbook.studio/embed/book-preview.png?book=
-          E-shop customer tags
-        &width=960&height=1080&variant=SINGLE&nonce=3 
-    "
-    />
-  </div>
-  <div class="split-slide-right">
-      <!-- TODO -->
-  </div>
-</div>
-
----
-
-<div class="split-slide-layout">
-  <div class="split-slide-left">
-    <img
-        src="https://promptbook.studio/embed/book-preview.png?book=
-          From Unstructured notes to Articles, Posts and Press release
-        &width=960&height=1080&variant=SINGLE&nonce=3 
     "
     />
   </div>
