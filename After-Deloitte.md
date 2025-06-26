@@ -356,8 +356,6 @@ style: |
 
 ---
 
-Book | Email
-
 <div class="split-slide-layout">
   <div class="split-slide-left">
     <img
