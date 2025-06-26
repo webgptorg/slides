@@ -106,6 +106,59 @@ style: |
       position: relative;
       z-index: 1;
     }
+
+    .commitment-slide-wwh {
+      position: fixed;
+      top: 20px;
+      left: 50px;
+      border-bottom: 1px solid #292929;
+    }
+
+
+    .commitment-slide-layout {
+      /*/
+      outline: 1px dotted #F50C0C;
+      /**/
+
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .commitment-slide-left {
+      display: flex;
+      justify-content: center;
+      align-items: center
+    }
+
+
+
+    .commitment-slide-right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 100%;
+    }
+
+    .commitment-slide-right img {
+
+      /*/
+      outline: 1px dotted #F50C0C;
+      background-color: rgba(233 35 35 / 0.8);
+      /**/
+
+
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 6px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
 ---
 
 <!-- _class: split -->
@@ -147,62 +200,6 @@ Abstraction of Programming AI agents
 
 ---
 
-<style>
-
-.commitment-slide-wwh {
-  position: fixed;
-  top: 20px;
-  left: 50px;
-  border-bottom: 1px solid #292929;
-}
-
-
-.commitment-slide-layout {
-  /*/
-  outline: 1px dotted #F50C0C;
-  /**/
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.commitment-slide-left {
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-
-
-
-.commitment-slide-right {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 100%;
-}
-
-.commitment-slide-right img {
-
-  /*/
-  outline: 1px dotted #F50C0C;
-  background-color: rgba(233 35 35 / 0.8);
-  /**/
-
-
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 6px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-}
-</style>
-
 <span class="commitment-slide-wwh">Who</span>
 
 <div class="commitment-slide-layout">
@@ -210,12 +207,12 @@ Abstraction of Programming AI agents
     <h1>Persona<h1>
   </div>
   <div class="commitment-slide-right">
-    <img 
-      alt="Book source"
-      src="./image.png?book=
-        test
-        test
-      "
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          designer
+          persona aaa
+          &width=960&height=1080 
+    "
     />
   </div>
 </div>
