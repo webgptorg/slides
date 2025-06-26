@@ -437,6 +437,8 @@ Book | Email
 
 -->
 
+<!--
+
 # What can book do?
 
 ## What who how
@@ -454,7 +456,7 @@ Book | Email
         src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           persona aaa
-        &width=960&height=1080&variant=SINGLE 
+        &width=960&height=1080&variant=SINGLE
     "
     />
   </div>
@@ -474,7 +476,7 @@ Book | Email
           designer
           *
           persona aaa
-        &width=960&height=1080&variant=SINGLE 
+        &width=960&height=1080&variant=SINGLE
     "
     />
   </div>
@@ -486,14 +488,14 @@ Book | Email
 
 <div class="split-slide-layout">
   <div class="split-slide-left">
-    <h1>Knowledge<!-- and context--></h1>
+    <h1>Knowledge<!-- and context-- ></h1>
   </div>
   <div class="split-slide-right">
     <img
         src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           persona aaa
-        &width=960&height=1080&variant=SINGLE 
+        &width=960&height=1080&variant=SINGLE
     "
     />
   </div>
@@ -519,6 +521,8 @@ Book | Email
 </div>
 
 ---
+
+-->
 
 <!-- Slide 3: Team (Only if it's a strength) -->
 <!-- backgroundColor: white -->
