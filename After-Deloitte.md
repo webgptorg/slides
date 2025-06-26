@@ -115,7 +115,7 @@ style: |
     }
 
 
-    .commitment-slide-layout {
+    .split-slide-layout {
       /*/
       outline: 1px dotted #F50C0C;
       /**/
@@ -130,7 +130,7 @@ style: |
       grid-template-columns: 1fr 1fr;
     }
 
-    .commitment-slide-left {
+    .split-slide-left {
       display: flex;
       justify-content: center;
       align-items: center
@@ -138,14 +138,14 @@ style: |
 
 
 
-    .commitment-slide-right {
+    .split-slide-right {
       display: flex;
       justify-content: flex-end;
       align-items: center;
       height: 100%;
     }
 
-    .commitment-slide-right img {
+    .split-slide-layout img {
 
       /*/
       outline: 1px dotted #F50C0C;
@@ -176,19 +176,240 @@ style: |
 
 ---
 
-E-mail fuckup
+| Name            | Talk                             |
+| --------------- | -------------------------------- |
+| Albert Einstein | Relativity of AI Agents          |
+| Pavol Hejný     | AI agents with commitments       |
+| George Orwell   | 2084 - Vision of the AI tyranny  |
+| Ada Lovelace    | The First AI Programmer          |
+| Jiří Jahn       | Randomness and Stochastics in AI |
+| Harry Potter    | Generate spells with AI          |
+
+---
+
+### Email:
+
+> Dear Mr. Hejný,
+>
+> We are writing to inform you that your call for papers, "AI Agents with Commitments," has been selected for presentation at our Supercool Conference in London on September 8, 2025.
+>
+> Travel and accommodation expenses will be covered.
+>
+> We look forward to your presentation!
+> Yours sincerely,
+> John Smith
+> Supercool Conference Org Team
+
+---
+
+<div class="split-slide-layout">
+  <div class="split-slide-left">
+    <h1>Prompt</h1>
+  </div>
+  <div class="split-slide-right">
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
+        &width=960&height=1080
+    "
+    />
+  </div>
+</div>
+
+---
+
+### Email:
+
+> Dear Mrs. Lovelace,
+>
+> We are pleased to inform you that your call for papers, "The First AI Programmer," has been selected for presentation at our Supercool Conference in London on September 8, 2025.
+>
+> Travel and accommodation expenses will be covered.
+>
+> We look forward to your poetical insights into the world of AI programming!
+> Yours sincerely,
+> John Smith
+> Supercool Conference Org Team
+
+---
+
+### Email:
+
+> Dear Mr. Orwell,
+>
+> We are pleased to inform you that your call for papers, "2084 - Vision of the AI Tyranny," has been selected for presentation at our Supercool Conference in London on September 8, 2025.
+>
+> Travel and accommodation expenses will be covered.
+>
+> Be prepared for a thought-provoking discussion on the future of AI and its implications on society.
+>
+> We look forward to your presentation!
+> Yours sincerely,
+> John Smith
+> Supercool Conference Org Team
+
+---
+
+### Email:
+
+> Dear Mr. Potter,
+>
+> We are pleased to inform you that your call for papers, "Generate Spells with AI," has been selected for presentation at our Supercool Conference in London on September 8, 2025.
+>
+> Be prepared for a magical experience as we cover your travel and accommodation expenses.
+> We look forward to your enchanting presentation!
+>
+> Yours sincerely,
+> John Smith
+> Supercool Conference Org Team
+
+---
+
+<style scoped>
+  h3 {
+    color: #ff0000;
+  }
+</style>
+
+### Email:
+
+> I will write an email to Jiří Jahn.
+> Should I use a professional tone or a friendly tone?
+
+---
+
+### Better prompt or system message:
+
+> Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
+>
+> \- Write just the email, no other text
+> \- Use a professional tone
+> \- Use Markdown format
+> \- The email should be 10 words long and not exceed 2 pages
+> \- do not include any other information or instructions
+> \- ...
+
+---
+
+<!--
+ChatGPT
+GitHub Copilot
+Cursor AI Editor
+Same problem on different level
+
+but there should be some way how to pass commitments to ai Agents
+
+commitments like what range and format shout the output have, which knowledgeto uses which company values to reflect and what should be the language and tone of voice
+-->
+
+### Better Integration:
+
+```javascript
+import { countWords, countPages } from '@promptbook/utils';
+
+const openai = new OpenAI( /* ... API Key ... */});
+
+for (let i = 0; i < RETRY_COUNT; i++) {
+    const response = await openai.chat.completions.create({
+        /* ... Prompt ... */
+    });
+    const email = response.choices[0].message.content;
+
+    if (/\*+/.match(name)) {
+        continue;
+    }
+
+    if (countWords(email) < 10 || countPages(email) > 2) {
+        continue;
+    }
+
+    return email;
+}
+```
+
+---
+
+# Disadvantages
+
+-   ☹ Portability (i.e. `gpt-4` vs `claude-3.7`)
+-   ☹ Need for Programmer or no-code tool
+-   ☹ Mixing code and prompt
+-   ☹ Security issues (i.e. prompt injection)
+-   ☹ Reliability issues (fails in edge cases)
+
+---
+
+# Is this some better way to write
+
+# AI Agents and AI Apps?
 
 ---
 
 Book | Email
 
+<div class="split-slide-layout">
+  <div class="split-slide-left">
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          Email agent
+        &width=960&height=1080 
+    "
+    />
+  </div>
+  <div class="split-slide-right">
+      <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          designer
+          persona aaa
+        &width=960&height=1080 
+    "
+    />
+  </div>
+</div>
+
 ---
 
-Book | E-shop customer tags
+<div class="split-slide-layout">
+  <div class="split-slide-left">
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          E-shop customer tags
+        &width=960&height=1080 
+    "
+    />
+  </div>
+  <div class="split-slide-right">
+      <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          designer
+          persona aaa
+        &width=960&height=1080 
+    "
+    />
+  </div>
+</div>
 
 ---
 
-Book | From Unstructured notes to Articles, Posts and Press release
+<div class="split-slide-layout">
+  <div class="split-slide-left">
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          From Unstructured notes to Articles, Posts and Press release
+        &width=960&height=1080 
+    "
+    />
+  </div>
+  <div class="split-slide-right">
+      <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          designer
+          persona aaa
+        &width=960&height=1080 
+    "
+    />
+  </div>
+</div>
 
 ---
 
@@ -217,16 +438,16 @@ What who how
 
 <span class="commitment-slide-wwh">Who</span>
 
-<div class="commitment-slide-layout">
-  <div class="commitment-slide-left">
+<div class="split-slide-layout">
+  <div class="split-slide-left">
     <h1>Persona<h1>
   </div>
-  <div class="commitment-slide-right">
+  <div class="split-slide-right">
     <img
         src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
           designer
           persona aaa
-          &width=960&height=1080 
+        &width=960&height=1080 
     "
     />
   </div>
@@ -236,17 +457,17 @@ What who how
 
 <span class="commitment-slide-wwh">What</span>
 
-<div class="commitment-slide-layout">
-  <div class="commitment-slide-left">
+<div class="split-slide-layout">
+  <div class="split-slide-left">
     <h1>Expectations</h1>
   </div>
-  <div class="commitment-slide-right">
+  <div class="split-slide-right">
     <img
         src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
           designer
           *
           persona aaa
-          &width=960&height=1080 
+        &width=960&height=1080 
     "
     />
   </div>
@@ -256,16 +477,16 @@ What who how
 
 <span class="commitment-slide-wwh">How</span>
 
-<div class="commitment-slide-layout">
-  <div class="commitment-slide-left">
+<div class="split-slide-layout">
+  <div class="split-slide-left">
     <h1>Knowledge<!-- and context--></h1>
   </div>
-  <div class="commitment-slide-right">
+  <div class="split-slide-right">
     <img
         src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
           designer
           persona aaa
-          &width=960&height=1080 
+        &width=960&height=1080 
     "
     />
   </div>
@@ -275,11 +496,11 @@ What who how
 
 <span class="commitment-slide-wwh">What, How</span>
 
-<div class="commitment-slide-layout">
-  <div class="commitment-slide-left">
+<div class="split-slide-layout">
+  <div class="split-slide-left">
     <h1>Action</h1>
   </div>
-  <div class="commitment-slide-right">
+  <div class="split-slide-right">
     <img
         src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
           designer
