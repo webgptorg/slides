@@ -210,7 +210,7 @@ style: |
     <img
         src="https://promptbook.studio/embed/book-preview.png?book=
           Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
-        &width=960&height=1080&variant=SINGLE
+        &width=960&height=1080&variant=SINGLE&nonce=1
     "
     />
   </div>
@@ -288,7 +288,7 @@ style: |
           Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
           *
           RULE Write just the email, no other text
-        &width=960&height=1080&variant=SINGLE
+        &width=960&height=1080&variant=SINGLE&nonce=1
     "
     />
   </div>
@@ -307,7 +307,7 @@ style: |
           *
           RULE Write just the email, no other text
           EXPECT The email should be 10 words long and not exceed 2 pages 
-        &width=960&height=1080&variant=SINGLE 
+        &width=960&height=1080&variant=SINGLE&nonce=1 
     "
     />
   </div>
@@ -327,7 +327,7 @@ style: |
           RULE Write just the email, no other text
           EXPECT The email should be 10 words long and not exceed 2 pages
           STYLE Use a professional tone
-        &width=960&height=1080&variant=SINGLE 
+        &width=960&height=1080&variant=SINGLE&nonce=1 
     "
     />
   </div>
@@ -348,7 +348,7 @@ style: |
           EXPECT The email should be 10 words long and not exceed 2 pages
           STYLE Use a professional tone
           KNOWLEDGE supercool.com/2025
-        &width=960&height=1080&variant=SINGLE 
+        &width=960&height=1080&variant=SINGLE&nonce=1 
     "
     />
   </div>
@@ -363,7 +363,7 @@ Book | Email
     <img
         src="https://promptbook.studio/embed/book-preview.png?book=
           Email agent
-        &width=960&height=1080&variant=SINGLE 
+        &width=960&height=1080&variant=SINGLE&nonce=1 
     "
     />
   </div>
@@ -379,7 +379,7 @@ Book | Email
     <img
         src="https://promptbook.studio/embed/book-preview.png?book=
           E-shop customer tags
-        &width=960&height=1080&variant=SINGLE 
+        &width=960&height=1080&variant=SINGLE&nonce=1 
     "
     />
   </div>
@@ -395,7 +395,7 @@ Book | Email
     <img
         src="https://promptbook.studio/embed/book-preview.png?book=
           From Unstructured notes to Articles, Posts and Press release
-        &width=960&height=1080&variant=SINGLE 
+        &width=960&height=1080&variant=SINGLE&nonce=1 
     "
     />
   </div>
@@ -456,7 +456,7 @@ Book | Email
         src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           persona aaa
-        &width=960&height=1080&variant=SINGLE
+        &width=960&height=1080&variant=SINGLE&nonce=1
     "
     />
   </div>
@@ -476,7 +476,7 @@ Book | Email
           designer
           *
           persona aaa
-        &width=960&height=1080&variant=SINGLE
+        &width=960&height=1080&variant=SINGLE&nonce=1
     "
     />
   </div>
@@ -495,7 +495,7 @@ Book | Email
         src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           persona aaa
-        &width=960&height=1080&variant=SINGLE
+        &width=960&height=1080&variant=SINGLE&nonce=1
     "
     />
   </div>
@@ -514,7 +514,7 @@ Book | Email
         src="https://promptbook.studio/embed/book-preview.png?book=
           designer
           persona aaa
-          &width=960&height=1080&variant=SINGLE
+          &width=960&height=1080&variant=SINGLE&nonce=1
     "
     />
   </div>
