@@ -288,7 +288,7 @@ style: |
           Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
           *
           RULE Write just the email, no other text
-        &width=960&height=1080&variant=SINGLE 
+        &width=960&height=1080&variant=SINGLE
     "
     />
   </div>
@@ -368,13 +368,7 @@ Book | Email
     />
   </div>
   <div class="split-slide-right">
-      <img
-        src="https://promptbook.studio/embed/book-preview.png?book=
-          designer
-          persona aaa
-        &width=960&height=1080&variant=SINGLE 
-    "
-    />
+      <!-- TODO -->
   </div>
 </div>
 
@@ -390,13 +384,7 @@ Book | Email
     />
   </div>
   <div class="split-slide-right">
-      <img
-        src="https://promptbook.studio/embed/book-preview.png?book=
-          designer
-          persona aaa
-        &width=960&height=1080&variant=SINGLE 
-    "
-    />
+      <!-- TODO -->
   </div>
 </div>
 
@@ -412,13 +400,7 @@ Book | Email
     />
   </div>
   <div class="split-slide-right">
-      <img
-        src="https://promptbook.studio/embed/book-preview.png?book=
-          designer
-          persona aaa
-        &width=960&height=1080&variant=SINGLE 
-    "
-    />
+      <!-- TODO -->
   </div>
 </div>
 
