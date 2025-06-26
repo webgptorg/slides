@@ -166,14 +166,13 @@ style: |
 
 ![bg left:33% fit](https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png)
 
-# Create portable AI agents in plain English 
+# Create portable AI agents in plain English
 
 <!-- <- TODO: Kajetán: More business, less technical-->
 
 ### [Pavol Hejný](https://www.linkedin.com/in/hejny/) & [Jiří Jahn](https://www.linkedin.com/in/jirkajahn/)
 
 ### 2025
-
 
 ---
 
@@ -205,10 +204,9 @@ Book vs Big systems
 
 ---
 
-
-- No need for developers
-- Create portable AI agents
-- guardrail for AI
+-   No need for developers
+-   Create portable AI agents
+-   guardrail for AI
 
 ---
 
@@ -243,9 +241,13 @@ What who how
     <h1>Expectations</h1>
   </div>
   <div class="commitment-slide-right">
-    <img 
-      alt="Book - Expectations"
-      src="./image.png?book=expectations"
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          designer
+          *
+          persona aaa
+          &width=960&height=1080 
+    "
     />
   </div>
 </div>
@@ -259,9 +261,12 @@ What who how
     <h1>Knowledge<!-- and context--></h1>
   </div>
   <div class="commitment-slide-right">
-    <img 
-      alt="Book - Knowledge and context"
-      src="./image.png?book=knowledge-context"
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          designer
+          persona aaa
+          &width=960&height=1080 
+    "
     />
   </div>
 </div>
@@ -275,9 +280,12 @@ What who how
     <h1>Action</h1>
   </div>
   <div class="commitment-slide-right">
-    <img 
-      alt="Book - Action"
-      src="./image.png?book=action"
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          designer
+          persona aaa
+          &width=960&height=1080
+    "
     />
   </div>
 </div>
