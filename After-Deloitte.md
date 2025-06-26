@@ -278,70 +278,77 @@ style: |
 
 ---
 
-### Better prompt or system message:
-
-> Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
->
-> \- Write just the email, no other text
-> \- Use a professional tone
-> \- Use Markdown format
-> \- The email should be 10 words long and not exceed 2 pages
-> \- do not include any other information or instructions
-> \- ...
-
----
-
-<!--
-ChatGPT
-GitHub Copilot
-Cursor AI Editor
-Same problem on different level
-
-but there should be some way how to pass commitments to ai Agents
-
-commitments like what range and format shout the output have, which knowledgeto uses which company values to reflect and what should be the language and tone of voice
--->
-
-### Better Integration:
-
-```javascript
-import { countWords, countPages } from '@promptbook/utils';
-
-const openai = new OpenAI( /* ... API Key ... */});
-
-for (let i = 0; i < RETRY_COUNT; i++) {
-    const response = await openai.chat.completions.create({
-        /* ... Prompt ... */
-    });
-    const email = response.choices[0].message.content;
-
-    if (/\*+/.match(name)) {
-        continue;
-    }
-
-    if (countWords(email) < 10 || countPages(email) > 2) {
-        continue;
-    }
-
-    return email;
-}
-```
+<div class="split-slide-layout">
+  <div class="split-slide-left">
+    <h1>Rules</h1>
+  </div>
+  <div class="split-slide-right">
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
+          *
+          RULE Write just the email, no other text
+    "
+    />
+  </div>
+</div>
 
 ---
 
-# Disadvantages
-
--   ☹ Portability (i.e. `gpt-4` vs `claude-3.7`)
--   ☹ Need for Programmer or no-code tool
--   ☹ Mixing code and prompt
--   ☹ Security issues (i.e. prompt injection)
--   ☹ Reliability issues (fails in edge cases)
+<div class="split-slide-layout">
+  <div class="split-slide-left">
+    <h1>Expectations</h1>
+  </div>
+  <div class="split-slide-right">
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
+          *
+          RULE Write just the email, no other text
+          EXPECT The email should be 10 words long and not exceed 2 pages 
+    "
+    />
+  </div>
+</div>
 
 ---
 
-# Is this some better way to write
+<div class="split-slide-layout">
+  <div class="split-slide-left">
+    <h1>Style</h1>
+  </div>
+  <div class="split-slide-right">
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
+          *
+          RULE Write just the email, no other text
+          EXPECT The email should be 10 words long and not exceed 2 pages
+          STYLE Use a professional tone
+    "
+    />
+  </div>
+</div>
 
-# AI Agents and AI Apps?
+---
+
+<div class="split-slide-layout">
+  <div class="split-slide-left">
+    <h1>Knowledge</h1>
+  </div>
+  <div class="split-slide-right">
+    <img
+        src="https://promptbook-studio-git-devel-pavol-hejns-projects.vercel.app/embed/book-preview.png?book=
+          Write email to {Name} as an organizer of the Supercool Conference in London on September 8, 2025, to inform them that their call for papers {Talk} has been selected for presentation. Travel and accommodation expenses will be covered.
+          *
+          RULE Write just the email, no other text
+          EXPECT The email should be 10 words long and not exceed 2 pages
+          STYLE Use a professional tone
+          KNOWLEDGE supercool.com/2025
+    "
+    />
+  </div>
+</div>
 
 ---
 
@@ -413,17 +420,28 @@ Book | Email
 
 ---
 
-Book vs Code
+# Book vs Code
+
+-   No need for developers
+-   Independent of the model
 
 ---
 
-Book vs no-code
+# Book vs no-code
+
+-   Much higher portability
+-   Reliability and consistency across different environments
 
 ---
 
-Book vs Big systems
+# Book vs Big systems
+
+-   Open-source
+-   Community-driven
 
 ---
+
+<!--
 
 -   No need for developers
 -   Create portable AI agents
@@ -431,8 +449,11 @@ Book vs Big systems
 
 ---
 
-What can book do?
-What who how
+-->
+
+# What can book do?
+
+## What who how
 
 ---
 
