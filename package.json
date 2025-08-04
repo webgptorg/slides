@@ -15,5 +15,9 @@
             "type": "github",
             "url": "https://github.com/webgptorg/slides/blob/main/README.md#%EF%B8%8F-contributing"
         }
-    ]
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webgptorg/slides"
+    }
 }
