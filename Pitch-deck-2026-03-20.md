@@ -133,11 +133,38 @@ Sources: ptbk.io team & GitHub contributors
 
 ---
 
+## Contact
+
+✨ Let's Connect
+
+**Jiří Jahn — CEO**
+
+jiri@ptbk.io
+
++420 777 090 067
+
+[https://www.linkedin.com/in/jirkajahn/](https://www.linkedin.com/in/jirkajahn/)
+
+
+**Pavol Hejný — CTO**
+
+pavol@ptbk.io
+
++420 777 759 767
+
+[https://www.linkedin.com/in/hejny/](https://www.linkedin.com/in/hejny/)
+
+Website: https://www.ptbk.io/
+
+(Source: contact details pulled from existing presentations in this repository)
+
+---
+
 ## Appendix — Sources
 
 • https://www.ptbk.io/
 • https://www.ptbk.io/pro-mesta
 • https://github.com/webgptorg/promptbook
+• https://github.com/webgptorg/slides/Investor.md
 
 ---
-
