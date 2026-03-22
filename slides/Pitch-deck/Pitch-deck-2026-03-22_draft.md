@@ -47,11 +47,63 @@ style: |
     section.compact .grid2 { gap: 22px; }
     section.compact .card, section.compact .card-blue { padding: 14px 16px; }
     section.compact .quote { margin: 0.45em 0; }
-    .team-person { display: grid; grid-template-columns: 120px 1fr; gap: 14px; align-items: end; }
-    .team-photo { width: 120px; height: 180px; object-fit: contain; object-position: center bottom; display: block; margin: 0 auto; }
-    .team-copy p { margin: 0.14em 0; }
-    section.compact .team-person { grid-template-columns: 105px 1fr; gap: 12px; }
-    section.compact .team-photo { width: 105px; height: 156px; }
+    section.team-slide { padding: 38px 54px 26px; }
+    section.team-slide h1 { text-align: center; margin-bottom: 0.18em; }
+    .team-lead {
+      max-width: 900px;
+      margin: 0 auto 0.8em;
+      text-align: center;
+      font-size: 0.78em;
+      line-height: 1.45;
+      color: #7c8aa0;
+    }
+    .team-layout {
+      display: grid;
+      grid-template-columns: 0.8fr 1fr 1fr 0.8fr;
+      gap: 18px;
+      align-items: end;
+      margin-top: 0.2em;
+      width: 100%;
+      flex: 1;
+    }
+    .team-figure {
+      align-self: end;
+      display: flex;
+      justify-content: center;
+    }
+    .team-portrait {
+      width: 100%;
+      max-width: 210px;
+      height: 320px;
+      object-fit: contain;
+      object-position: center bottom;
+      display: block;
+    }
+    .team-bio {
+      align-self: center;
+      padding-bottom: 0.4em;
+    }
+    .team-role {
+      font-size: 1em;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 0.42em;
+    }
+    .team-desc {
+      font-size: 0.72em;
+      line-height: 1.48;
+      color: #6b7280;
+    }
+    .team-contact {
+      margin-top: 0.65em;
+      font-size: 0.7em;
+      line-height: 1.5;
+      color: #667085;
+    }
+    .team-contact div { margin: 0.12em 0; }
+    section.compact.team-slide { font-size: 1.16rem; }
+    section.compact.team-slide .team-layout { gap: 14px; }
+    section.compact.team-slide .team-portrait { max-width: 190px; height: 290px; }
 ---
 
 <!-- _class: cover -->
@@ -351,51 +403,47 @@ _Praha 13 started with one agent. They now run three._
 
 ---
 
-<!-- _class: compact -->
+<!-- _class: compact team-slide -->
 
 # Team
 
-<div class="grid2">
-<div class="card">
-
-<div class="team-person">
-<img class="team-photo" src="https://www.ptbk.io/_next/static/media/pavol-hejny-transparent.e2e7c13c.png" alt="Pavol Hejný">
-<div class="team-copy">
-
-**Pavol Hejný — CTO**
-
-Built the entire Promptbook engine solo. 888 versions shipped.
-Open-source maintainer since day one.
-Deep TypeScript / LLM runtime / distributed systems expertise.
-
-_He built the product that runs our company.
-We don't write code — our agents do._
-
-</div>
+<div class="team-lead">
+We are a dedicated group of professionals committed to leveraging AI to transform businesses, with backgrounds in technology, research, and entrepreneurship.
 </div>
 
+<div class="team-layout">
+<div class="team-figure">
+<img class="team-portrait" src="../../images/jiri-jahn-transparent.png" alt="Jiří Jahn">
 </div>
-<div class="card">
 
-<div class="team-person">
-<img class="team-photo" src="https://www.ptbk.io/_next/static/media/jiri-jahn-transparent.5573b0dd.png" alt="Jiří Jahn">
-<div class="team-copy">
-
-**Jiří Jahn — CEO**
-
-Ph.D., HPC researcher — built systems processing millions of operations under strict performance constraints.
-Applied that to AI agent orchestration.
-
+<div class="team-bio">
+<div class="team-role">CEO | Jiří Jahn</div>
+<div class="team-desc">
+Ph.D. in Mathematics, former researcher at IT4I National Supercomputing Centre.<br>
 Shipped production AI to Praha 13 municipality with zero sales team.
-Jack of all trades in a world that requires exactly that at pre-seed.
-
+</div>
+<div class="team-contact">
+<div>jiri@ptbk.io</div>
+<div>+420 777 090 067</div>
 </div>
 </div>
 
+<div class="team-bio">
+<div class="team-role">Pavol Hejný | CTO</div>
+<div class="team-desc">
+Top open-source contributor in CZE. Developer with 15+ years of experience.<br>
+Built the Promptbook engine and the agent stack that runs the company.
+</div>
+<div class="team-contact">
+<div>pavol@ptbk.io</div>
+<div>+420 777 759 767</div>
 </div>
 </div>
 
-<span class="dim">We needed this tool. It didn't exist. So we built it — and sold it to the government.</span>
+<div class="team-figure">
+<img class="team-portrait" src="../../images/pavol-hejny-transparent.png" alt="Pavol Hejný">
+</div>
+</div>
 
 ---
 
