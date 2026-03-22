@@ -9,35 +9,44 @@ style: |
       font-family: 'Inter', 'Helvetica Neue', sans-serif;
       background: #fff;
       color: #111;
-      padding: 60px 80px;
-      font-size: 1.5rem;
+      padding: 52px 72px;
+      font-size: 1.34rem;
+      box-sizing: border-box;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
     }
-    h1 { font-size: 2.6em; font-weight: 800; color: #000; margin: 0 0 0.3em 0; line-height: 1.1; }
-    h2 { font-size: 1.6em; font-weight: 700; color: #111; margin: 0 0 0.5em 0; }
-    h3 { font-size: 1em; font-weight: 700; color: #555; margin: 0 0 0.3em 0; text-transform: uppercase; letter-spacing: 0.06em; }
-    p, li { font-size: 1em; line-height: 1.55; margin: 0.3em 0; color: #222; }
+    h1 { font-size: 2.35em; font-weight: 800; color: #000; margin: 0 0 0.22em 0; line-height: 1.05; }
+    h2 { font-size: 1.5em; font-weight: 700; color: #111; margin: 0 0 0.42em 0; }
+    h3 { font-size: 0.95em; font-weight: 700; color: #555; margin: 0 0 0.25em 0; text-transform: uppercase; letter-spacing: 0.06em; }
+    p, li { font-size: 1em; line-height: 1.38; margin: 0.22em 0; color: #222; }
     strong { color: #000; }
-    ul { padding-left: 1.2em; }
-    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; margin-top: 0.6em; }
-    .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; align-items: start; margin-top: 0.6em; }
-    .card { background: #f5f5f5; border-radius: 8px; padding: 20px 24px; }
-    .card-blue { background: #eef2ff; border-radius: 8px; padding: 20px 24px; }
+    ul { padding-left: 1.1em; margin: 0.25em 0; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: start; margin-top: 0.45em; }
+    .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; align-items: start; margin-top: 0.45em; }
+    .card { background: #f5f5f5; border-radius: 8px; padding: 16px 18px; }
+    .card-blue { background: #eef2ff; border-radius: 8px; padding: 16px 18px; }
     .big { font-size: 2em; font-weight: 800; line-height: 1.2; margin: 0.2em 0; }
-    .stat { font-size: 2.4em; font-weight: 900; color: #0055ff; line-height: 1; }
+    .stat { font-size: 2.1em; font-weight: 900; color: #0055ff; line-height: 1; }
     .stat-label { font-size: 0.82em; color: #666; margin-top: 4px; }
     .dim { color: #888; font-size: 0.82em; }
     .warn { color: #c00; font-size: 0.82em; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.88em; margin-top: 0.5em; }
-    th { background: #f0f0f0; padding: 8px 14px; text-align: left; font-weight: 700; }
-    td { padding: 8px 14px; border-bottom: 1px solid #eee; }
-    section.cover { background: #000; color: #fff; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.8em; margin-top: 0.35em; }
+    th { background: #f0f0f0; padding: 6px 10px; text-align: left; font-weight: 700; }
+    td { padding: 6px 10px; border-bottom: 1px solid #eee; }
+    pre { margin: 0.45em 0; font-size: 0.72em; }
+    section.cover { background: #000; color: #fff; justify-content: center; }
     section.cover h1 { color: #fff; font-size: 3em; }
     section.cover p { color: #aaa; font-size: 1.05em; }
     section.cover strong { color: #fff; }
     .quote { border-left: 3px solid #0055ff; padding-left: 20px; margin: 0.8em 0; font-style: italic; color: #333; }
+    section.compact { font-size: 1.22rem; }
+    section.compact h1 { font-size: 2.1em; margin-bottom: 0.18em; }
+    section.compact p, section.compact li { line-height: 1.28; margin: 0.16em 0; }
+    section.compact table { font-size: 0.74em; }
+    section.compact .grid2 { gap: 22px; }
+    section.compact .card, section.compact .card-blue { padding: 14px 16px; }
+    section.compact .quote { margin: 0.45em 0; }
 ---
 
 <!-- _class: cover -->
@@ -46,8 +55,7 @@ style: |
 
 **Your best employee. Cloned. Running 24/7. Knows everything about your company.**
 
-Pavol Hejný (CTO) · Jiří Jahn (CEO)
-22. March 2026
+Pavol Hejný (CTO) · Jiří Jahn (CEO) 22. March 2026
 
 ---
 
@@ -204,6 +212,8 @@ _That is the product demo._
 
 ---
 
+<!-- _class: compact -->
+
 # Traction
 
 <div class="grid2">
@@ -211,8 +221,6 @@ _That is the product demo._
 
 <div class="stat">~$60K</div>
 <div class="stat-label">ARR · early-stage, growing</div>
-
-<br>
 
 **Paying B2B clients in production:**
 
@@ -231,8 +239,6 @@ There are 6,258 municipalities in the Czech Republic alone.
 <div class="stat">840</div>
 <div class="stat-label">weekly downloads, @promptbook/core</div>
 
-<br>
-
 - 888 versions shipped
 - Integrations: OpenAI, Claude, Gemini, DeepSeek, Ollama, Azure
 - Open-source: 141 GitHub stars, active community
@@ -247,6 +253,8 @@ There are 6,258 municipalities in the Czech Republic alone.
 </div>
 
 ---
+
+<!-- _class: compact -->
 
 # Market
 
@@ -280,17 +288,23 @@ There are 6,258 municipalities in the Czech Republic alone.
 
 **Our angle:** We don't need the whole market.
 We need to own the "on-prem, auditable, privately-hosted AI agent" segment.
-Nobody is focusing there. The giants can't go there.
+The giants can't go there.
 
 <br>
 
-**Tailwind — EU policy is pushing money directly at us:**
-The EU's Digital Europe Programme 2025–2027 allocates **€1.3B** explicitly for AI adoption in public administration. The EU Coordinated AI Plan targets **€20B/year** in combined AI investment by 2030. Public sector digitalisation, healthcare, and defence are the three explicitly named strategic priority sectors. We are already selling into one of them.
+**Tailwind — EU policy is funding our wedge:**
+
+- **€1.3B** in Digital Europe 2025–2027 for AI in public administration
+- **€20B/year** EU AI investment target by 2030
+- Public sector, healthcare, and defence are named priority sectors
+- We already sell into one of them
 
 </div>
 </div>
 
 ---
+
+<!-- _class: compact -->
 
 # Business model
 
@@ -304,16 +318,14 @@ The EU's Digital Europe Programme 2025–2027 allocates **€1.3B** explicitly f
 | **Enterprise** | Custom       | Unlimited, on-prem, SLA           |
 | **Municipal**  | Volume-based | Cities, scaled by document volume |
 
-<br>
-
 Revenue is **per-organization**, not per-seat.
-
-<br>
 
 **Current revenue mix:**
 
 - SaaS subscriptions (target model)
-- Paid consulting: _"AI dev pipeline automation"_ — we sell our own methodology for shipping software 10× faster using agents. This is how we validated the product and built the early client base. It is a bridge, not the destination.
+- Paid consulting: _"AI dev pipeline automation"_
+- It validated the product and seeded the early client base
+- It is a bridge, not the destination
 
 </div>
 <div class="card">
@@ -333,6 +345,8 @@ _Praha 13 started with one agent. They now run three._
 </div>
 
 ---
+
+<!-- _class: compact -->
 
 # Team
 
@@ -362,10 +376,11 @@ Jack of all trades in a world that requires exactly that at pre-seed.
 </div>
 </div>
 
-<br>
-<span class="dim">We are the people who needed this tool and it didn't exist. So we built it. Then we sold it to the government. That's the founding story.</span>
+<span class="dim">We needed this tool. It didn't exist. So we built it — and sold it to the government.</span>
 
 ---
+
+<!-- _class: compact -->
 
 # Ask
 
@@ -396,10 +411,8 @@ Jack of all trades in a world that requires exactly that at pre-seed.
 </div>
 </div>
 
-<br>
-
-**The question is not whether AI agents will run most organizational knowledge work.**
-**The question is who owns the layer between the raw models and the actual work.**
+**AI agents will run organizational knowledge work.**
+**We are building the layer between raw models and real work.**
 
 The giants own the models. We own the layer they cannot enter.
 
