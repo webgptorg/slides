@@ -20,9 +20,9 @@ This repository automatically converts Markdown presentations to multiple format
 
 ### 2. Repository Structure
 
-Place your Marp presentations (`.md` files) in the root directory. The workflow will automatically:
+Place your Marp presentations (`.md` files) in the `slides/` directory. The workflow will automatically:
 
-- Convert all `.md` files (except `README.md`) to HTML, PDF, and PPTX
+- Convert all `.md` files in `slides/` to HTML, PDF, and PPTX
 - Generate a presentation gallery at your GitHub Pages URL
 - Update the gallery on every commit to main
 
@@ -92,7 +92,7 @@ The generated gallery includes:
 
 ## 📝 Adding New Presentations
 
-1. Create a new `.md` file in the root directory
+1. Create a new `.md` file in the `slides/` directory
 2. Add Marp frontmatter and your content
 3. Commit and push to the main branch
 4. The workflow will automatically convert and deploy your presentation
@@ -104,7 +104,7 @@ After setup, your presentations will be available at:
 
 ## 🤝 Contributing
 
-1. Add your presentation as a `.md` file
+1. Add your presentation as a `.md` file in `slides/`
 2. Follow the Marp format guidelines
 3. Commit to the main branch
 4. The automation handles the rest!

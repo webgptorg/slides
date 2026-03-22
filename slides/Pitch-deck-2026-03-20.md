@@ -97,10 +97,10 @@ Sources: GitHub repo, ptbk.io testimonials and pro-mesta pages
 
 ## Go-to-Market
 
-1) Product-led growth: open-source adoption, VSCode plugin, CLI & templates
-2) Developer enablement: SDKs, NPM packages, docs and Discord community
-3) Enterprise sales: vertical plays (cities, legal, HR), integration services, on-prem deployments
-4) Partnerships: cloud vendors, system integrators, vector DB & retrieval partners
+1. Product-led growth: open-source adoption, VSCode plugin, CLI & templates
+2. Developer enablement: SDKs, NPM packages, docs and Discord community
+3. Enterprise sales: vertical plays (cities, legal, HR), integration services, on-prem deployments
+4. Partnerships: cloud vendors, system integrators, vector DB & retrieval partners
 
 Sources: Promptbook project docs & ecosystem notes
 
@@ -145,7 +145,6 @@ jiri@ptbk.io
 
 [https://www.linkedin.com/in/jirkajahn/](https://www.linkedin.com/in/jirkajahn/)
 
-
 **Pavol Hejný — CTO**
 
 pavol@ptbk.io
@@ -165,6 +164,6 @@ Website: https://www.ptbk.io/
 • https://www.ptbk.io/
 • https://www.ptbk.io/pro-mesta
 • https://github.com/webgptorg/promptbook
-• https://github.com/webgptorg/slides/Investor.md
+• https://github.com/webgptorg/slides/blob/main/slides/Investor.md
 
 ---

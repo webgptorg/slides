@@ -1,7 +1,7 @@
 #!/usr/bin/env -S deno run --allow-env --allow-read --allow-write --allow-sys --unstable-sloppy-imports
 
 /**
- * This script itterates over all markdown files in cwd
+ * This script iterates over all markdown files in the `slides` directory
  * Searches for the `<!-- Import ./path/to/file.md -->`
  * and replaces it with the content of the imported file.
  */
@@ -13,8 +13,9 @@ import { dirname, join } from 'node:path';
 import { placeImports } from './placeImports';
 
 const cwd = process.cwd();
+const slidesDir = join(cwd, 'slides');
 
-const files = walk(cwd, {
+const files = walk(slidesDir, {
     includeDirs: false,
     exts: ['.md'],
     skip: ['node_modules'],
