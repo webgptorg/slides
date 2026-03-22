@@ -1,5 +1,8 @@
 {
     "name": "promptbook-slides",
+    "scripts": {
+        "convert:presentations": "node ./scripts/convert-presentations.mjs"
+    },
     "devDependencies": {
         "@marp-team/marp-cli": "4.1.2",
         "@types/node": "22.13.10",
