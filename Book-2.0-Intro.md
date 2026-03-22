@@ -222,11 +222,11 @@ Prompt with these commitments is called book and our engine Promptbook can execu
 
 # Promptbook Engine
 
-![Promptbook Engine](./slides/promptbook-utils.png)
+![Promptbook Engine](./_common/promptbook-utils.png)
 
 ---
 
-<!--Import ./slides/last-slide.md-->
+<!--Import ./_common/last-slide.md-->
 <!--⚠️ WARNING: This section was imported, make changes in source; any manual changes here will be overwritten-->
 
 # ✨ Let's Connect
@@ -243,4 +243,4 @@ jiri@ptbk.io
 pavol@ptbk.io
 [+420 777 759 767](tel:+420777759767)
 
-<!--/Import ./slides/last-slide.md-->
+<!--/Import ./_common/last-slide.md-->

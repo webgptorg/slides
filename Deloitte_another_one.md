@@ -133,15 +133,15 @@ style: |
 
 <!-- You do want to have your C3PO -->
 
--   **We make the Book, next-generation language for AI**
--   You no longer need ML Department to create your own personal AI apps
+- **We make the Book, next-generation language for AI**
+- You no longer need ML Department to create your own personal AI apps
 
 ```markdown
 # ✨ Email to customer
 
--   PERSONA George, experienced AI consultant
--   KNOWLEDGE https://deloitte.com/
--   KNOWLEDGE https://ptbk.io/
+- PERSONA George, experienced AI consultant
+- KNOWLEDGE https://deloitte.com/
+- KNOWLEDGE https://ptbk.io/
 
 ## Write the email
 
@@ -157,11 +157,11 @@ style: |
 
 # The Benefits for you
 
--   Faster, cost-effective solution ✅
--   Highly scalable and maintainable _(due to separation of concerns)_ ✅
--   Easy debugging (due to sophisticated logging and error monitoring capabilities) ✅
--   All team members develop against unambiguous specification ✅
--   Enables non-technical consultants to create LLM-powered applications ✅
+- Faster, cost-effective solution ✅
+- Highly scalable and maintainable _(due to separation of concerns)_ ✅
+- Easy debugging (due to sophisticated logging and error monitoring capabilities) ✅
+- All team members develop against unambiguous specification ✅
+- Enables non-technical consultants to create LLM-powered applications ✅
 
 <!--
 TODO: Be prepared to explain that we are not competition but cooperator and oportunity
@@ -185,22 +185,22 @@ TODO: Kajetán: Be prepared to answer:
 
 # Routine Task Automation
 
--   📄 Automation of document generation, reports, and data entry
--   ⚡ Streamlining approval workflows and notifications
+- 📄 Automation of document generation, reports, and data entry
+- ⚡ Streamlining approval workflows and notifications
 
 ---
 
-<!--Import ./slides/knowledge-and-insights.md-->
+<!--Import ./_common/knowledge-and-insights.md-->
 <!--⚠️ WARNING: This section was imported, make changes in source; any manual changes here will be overwritten-->
 
 # Knowledge & Insights
 
--   🧠 Creating dynamic knowledge bases for internal teams and clients
--   📊 Automating industry insights collection and distribution
--   🤖 Implementing AI-based decision support tools for clients
--   📈 Automating data analysis for trend identification and forecasting
+- 🧠 Creating dynamic knowledge bases for internal teams and clients
+- 📊 Automating industry insights collection and distribution
+- 🤖 Implementing AI-based decision support tools for clients
+- 📈 Automating data analysis for trend identification and forecasting
 
-<!--/Import ./slides/knowledge-and-insights.md-->
+<!--/Import ./_common/knowledge-and-insights.md-->
 
 <!--
 <- TODO: Kajetán:
@@ -212,30 +212,30 @@ TODO: Kajetán: Be prepared to answer:
 
 # Client Solutions
 
--   🚀 Rapid MVP creation to validate business ideas
--   ⚙️ Designing AI-powered solutions tailored to specific client requirements
--   💬 Building chatbots, virtual assistants, and other customer interaction tools
--   🎯 Personalizing customer journeys in marketing and support
+- 🚀 Rapid MVP creation to validate business ideas
+- ⚙️ Designing AI-powered solutions tailored to specific client requirements
+- 💬 Building chatbots, virtual assistants, and other customer interaction tools
+- 🎯 Personalizing customer journeys in marketing and support
 
 ---
 
 # Internal Operations
 
--   📋 Automating internal project management and resource allocation workflows
--   📝 Streamlining RFP creation and responses
+- 📋 Automating internal project management and resource allocation workflows
+- 📝 Streamlining RFP creation and responses
 
 ---
 
 # Risk & Compliance
 
--   ✅ Automated compliance monitoring and reporting
--   📜 Real-time regulatory update analysis and implementation
--   🔍 AI-driven risk analysis for client portfolios
--   📊 Automated due diligence processes
--   🎯 AI-assisted audit planning and execution
--   💰 Automated tax calculation and optimization
--   🌍 ESG compliance monitoring and reporting
--   🕵️‍♀️ Built-in encryption out of the box
+- ✅ Automated compliance monitoring and reporting
+- 📜 Real-time regulatory update analysis and implementation
+- 🔍 AI-driven risk analysis for client portfolios
+- 📊 Automated due diligence processes
+- 🎯 AI-assisted audit planning and execution
+- 💰 Automated tax calculation and optimization
+- 🌍 ESG compliance monitoring and reporting
+- 🕵️‍♀️ Built-in encryption out of the box
 
 ---
 
@@ -295,8 +295,8 @@ TODO: Kajetán: Be prepared to answer:
 
 **Pavol Hejný | CTO**
 
--   [Top](https://committers.top/czech_republic) [open-source contributor](https://github.com/hejny) in CZE
--   Developer with 15+ years of experience
+- [Top](https://committers.top/czech_republic) [open-source contributor](https://github.com/hejny) in CZE
+- Developer with 15+ years of experience
 
 </div>
 <div class="jiri-jahn">
@@ -304,8 +304,8 @@ TODO: Kajetán: Be prepared to answer:
 
 **Jiří Jahn | CEO**
 
--   Ph.D. in Mathematics, former researcher at [IT4I National Supercomputing Centre](https://www.it4i.cz/en)
--   Significant technical expertise mixed with strong soft skills
+- Ph.D. in Mathematics, former researcher at [IT4I National Supercomputing Centre](https://www.it4i.cz/en)
+- Significant technical expertise mixed with strong soft skills
 
 </div>
 </div>
@@ -317,12 +317,10 @@ TODO: Kajetán: Be prepared to answer:
 # Our Unique Insights
 
 1. **We are not NO CODE platform**
-
     - For **devs** these platforms lack control
     - For **non/devs** they are still programming with a crutch
 
 2. **Anticipating futute trends**
-
     - Mixing prompts with code will lead to technical debt
     - We are separating things that should be separated
 
