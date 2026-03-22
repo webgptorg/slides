@@ -6,3 +6,5 @@ node_modules
 # Note: `.pptx` and `.pdf` are auto-generated
 *.pptx
 *.pdf
+
+dist
