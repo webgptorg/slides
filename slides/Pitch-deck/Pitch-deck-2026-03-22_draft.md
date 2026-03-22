@@ -5,50 +5,39 @@ paginate: true
 size: 16:9
 html: true
 style: |
-  section {
-    font-family: 'Inter', 'Helvetica Neue', sans-serif;
-    background: #fff;
-    color: #111;
-    padding: 60px 80px;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  h1 { font-size: 2.6em; font-weight: 800; color: #000; margin: 0 0 0.3em 0; line-height: 1.1; }
-  h2 { font-size: 1.6em; font-weight: 700; color: #111; margin: 0 0 0.5em 0; }
-  h3 { font-size: 1em; font-weight: 700; color: #555; margin: 0 0 0.3em 0; text-transform: uppercase; letter-spacing: 0.06em; }
-  p, li { font-size: 1em; line-height: 1.55; margin: 0.3em 0; color: #222; }
-  strong { color: #000; }
-  ul { padding-left: 1.2em; }
-  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; margin-top: 0.6em; }
-  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; align-items: start; margin-top: 0.6em; }
-  .card { background: #f5f5f5; border-radius: 8px; padding: 20px 24px; }
-  .card-blue { background: #eef2ff; border-radius: 8px; padding: 20px 24px; }
-  .book-block {
-    background: #f0f4ff;
-    border-left: 4px solid #0055ff;
-    border-radius: 4px;
-    padding: 16px 20px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.82em;
-    line-height: 1.75;
-    white-space: pre;
-    margin-top: 0.5em;
-  }
-  .big { font-size: 2em; font-weight: 800; line-height: 1.2; margin: 0.2em 0; }
-  .stat { font-size: 2.4em; font-weight: 900; color: #0055ff; line-height: 1; }
-  .stat-label { font-size: 0.82em; color: #666; margin-top: 4px; }
-  .dim { color: #888; font-size: 0.82em; }
-  .warn { color: #c00; font-size: 0.82em; }
-  table { width: 100%; border-collapse: collapse; font-size: 0.88em; margin-top: 0.5em; }
-  th { background: #f0f0f0; padding: 8px 14px; text-align: left; font-weight: 700; }
-  td { padding: 8px 14px; border-bottom: 1px solid #eee; }
-  section.cover { background: #000; color: #fff; }
-  section.cover h1 { color: #fff; font-size: 3em; }
-  section.cover p { color: #aaa; font-size: 1.05em; }
-  section.cover strong { color: #fff; }
-  .quote { border-left: 3px solid #0055ff; padding-left: 20px; margin: 0.8em 0; font-style: italic; color: #333; }
+    section {
+      font-family: 'Inter', 'Helvetica Neue', sans-serif;
+      background: #fff;
+      color: #111;
+      padding: 60px 80px;
+      font-size: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h1 { font-size: 2.6em; font-weight: 800; color: #000; margin: 0 0 0.3em 0; line-height: 1.1; }
+    h2 { font-size: 1.6em; font-weight: 700; color: #111; margin: 0 0 0.5em 0; }
+    h3 { font-size: 1em; font-weight: 700; color: #555; margin: 0 0 0.3em 0; text-transform: uppercase; letter-spacing: 0.06em; }
+    p, li { font-size: 1em; line-height: 1.55; margin: 0.3em 0; color: #222; }
+    strong { color: #000; }
+    ul { padding-left: 1.2em; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; margin-top: 0.6em; }
+    .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; align-items: start; margin-top: 0.6em; }
+    .card { background: #f5f5f5; border-radius: 8px; padding: 20px 24px; }
+    .card-blue { background: #eef2ff; border-radius: 8px; padding: 20px 24px; }
+    .big { font-size: 2em; font-weight: 800; line-height: 1.2; margin: 0.2em 0; }
+    .stat { font-size: 2.4em; font-weight: 900; color: #0055ff; line-height: 1; }
+    .stat-label { font-size: 0.82em; color: #666; margin-top: 4px; }
+    .dim { color: #888; font-size: 0.82em; }
+    .warn { color: #c00; font-size: 0.82em; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88em; margin-top: 0.5em; }
+    th { background: #f0f0f0; padding: 8px 14px; text-align: left; font-weight: 700; }
+    td { padding: 8px 14px; border-bottom: 1px solid #eee; }
+    section.cover { background: #000; color: #fff; }
+    section.cover h1 { color: #fff; font-size: 3em; }
+    section.cover p { color: #aaa; font-size: 1.05em; }
+    section.cover strong { color: #fff; }
+    .quote { border-left: 3px solid #0055ff; padding-left: 20px; margin: 0.8em 0; font-style: italic; color: #333; }
 ---
 
 <!-- _class: cover -->
@@ -58,7 +47,7 @@ style: |
 **Your best employee. Cloned. Running 24/7. Knows everything about your company.**
 
 Pavol Hejný (CTO) · Jiří Jahn (CEO)
-March 2026
+22. March 2026
 
 ---
 
@@ -92,12 +81,12 @@ None of that is on the internet. None of it ever will be.
 
 **The real gap:**
 
-| What exists | What's missing |
-|-------------|----------------|
-| Incredibly capable models | Your company's rules |
-| Generic AI assistants | Your specific knowledge |
-| Chat interfaces | Agents that act autonomously |
-| Cloud AI | On-prem, auditable, controllable |
+| What exists               | What's missing                   |
+| ------------------------- | -------------------------------- |
+| Incredibly capable models | Your company's rules             |
+| Generic AI assistants     | Your specific knowledge          |
+| Chat interfaces           | Agents that act autonomously     |
+| Cloud AI                  | On-prem, auditable, controllable |
 
 </div>
 </div>
@@ -109,21 +98,24 @@ None of that is on the internet. None of it ever will be.
 You describe your company's knowledge, rules, and personas in plain language.
 Promptbook runs them as **persistent, autonomous agents** — no babysitting.
 
-<div class="book-block">PERSONA  You are the legal expert at Paul Smith & Associés.
-         Professional, detail-oriented. Czech law only.
+```book
+Legal expert at Paul Smith & Associés
 
-KNOWLEDGE  https://company.com/employee-handbook.pdf
-KNOWLEDGE  https://company.com/gdpr-policy.docx
+PERSONA Professional, detail-oriented. Czech law only.
 
-RULE  Never advise outside Czech jurisdiction.
-RULE  Flag anything requiring court involvement to {Head of Legal}.
+KNOWLEDGE https://company.com/employee-handbook.pdf
+KNOWLEDGE https://company.com/gdpr-policy.docx
 
-TEAM  Consult {Compliance Officer} on GDPR cases.
-      Consult {Corporate Law Expert} on M&A.
-</div>
+RULE Never advise outside Czech jurisdiction.
+RULE Flag anything requiring court involvement to {Head of Legal}.
 
-*This agent answers questions, checks documents, routes edge cases —
-every day, without you. The model is interchangeable. Your Book is yours.*
+TEAM
+Consult {Compliance Officer} on GDPR cases.
+Consult {Corporate Law Expert} on M&A.
+```
+
+_This agent answers questions, checks documents, routes edge cases —
+every day, without you. The model is interchangeable. Your Book is yours._
 
 ---
 
@@ -153,7 +145,7 @@ No enterprise legal team will sign off on sending confidential contracts to Open
 - ✅ Version-controlled, reproducible agents
 - ✅ No vendor lock-in on models
 
-*We are the only solution a government legal team or compliance department can actually sign off on.*
+_We are the only solution a government legal team or compliance department can actually sign off on._
 
 </div>
 </div>
@@ -207,8 +199,8 @@ We are not automating ourselves to produce more of the same.<br>
 We are offloading the drudgery so we can focus on what matters.
 </div>
 
-*We are a 2-person team shipping at the pace of a 10-person team.*
-*That is the product demo.*
+_We are a 2-person team shipping at the pace of a 10-person team._
+_That is the product demo._
 
 ---
 
@@ -223,7 +215,8 @@ We are offloading the drudgery so we can focus on what matters.
 <br>
 
 **Paying B2B clients in production:**
-- Praha 13 municipality *(reference available)*
+
+- Praha 13 municipality _(reference available)_
 - Praha 7 municipality
 - Slezská univerzita
 - Národní pedagogický institut
@@ -263,23 +256,25 @@ There are 6,258 municipalities in the Czech Republic alone.
 <div>
 
 **Beachhead: Central European public sector**
+
 - 6,258 Czech municipalities
 - Proven with Praha 13, Praha 7
 - Replicable template: citizen FAQ agents, document compliance, email routing
 - Local procurement = lower competition from US giants
 
 **Expansion: Enterprise B2B**
+
 - Legal, compliance, HR — any team with documented processes
-- On-prem requirement is a *qualifier*, not a blocker
+- On-prem requirement is a _qualifier_, not a blocker
 
 </div>
 <div>
 
-| Layer | Who | Size |
-|-------|-----|------|
-| AI agent platforms | Developers | $X B |
-| Knowledge mgmt software | Enterprises | $X B |
-| Gov. digital services | Public sector | $X B |
+| Layer                   | Who           | Size |
+| ----------------------- | ------------- | ---- |
+| AI agent platforms      | Developers    | $X B |
+| Knowledge mgmt software | Enterprises   | $X B |
+| Gov. digital services   | Public sector | $X B |
 
 <br>
 
@@ -302,12 +297,12 @@ The EU's Digital Europe Programme 2025–2027 allocates **€1.3B** explicitly f
 <div class="grid2">
 <div>
 
-| Tier | Price | Target |
-|------|-------|--------|
-| **Free** | $0 | Developers, pilots |
-| **Pro** | $499/yr | SMB, up to 10 agents |
-| **Enterprise** | Custom | Unlimited, on-prem, SLA |
-| **Municipal** | Volume-based | Cities, scaled by document volume |
+| Tier           | Price        | Target                            |
+| -------------- | ------------ | --------------------------------- |
+| **Free**       | $0           | Developers, pilots                |
+| **Pro**        | $499/yr      | SMB, up to 10 agents              |
+| **Enterprise** | Custom       | Unlimited, on-prem, SLA           |
+| **Municipal**  | Volume-based | Cities, scaled by document volume |
 
 <br>
 
@@ -316,8 +311,9 @@ Revenue is **per-organization**, not per-seat.
 <br>
 
 **Current revenue mix:**
+
 - SaaS subscriptions (target model)
-- Paid consulting: *"AI dev pipeline automation"* — we sell our own methodology for shipping software 10× faster using agents. This is how we validated the product and built the early client base. It is a bridge, not the destination.
+- Paid consulting: _"AI dev pipeline automation"_ — we sell our own methodology for shipping software 10× faster using agents. This is how we validated the product and built the early client base. It is a bridge, not the destination.
 
 </div>
 <div class="card">
@@ -331,7 +327,7 @@ Land with one department head. Expand across the institution.
 The Creator fights to get us approved.
 The Consumer just uses the result.
 
-*Praha 13 started with one agent. They now run three.*
+_Praha 13 started with one agent. They now run three._
 
 </div>
 </div>
@@ -349,8 +345,8 @@ Built the entire Promptbook engine solo. 888 versions shipped.
 Open-source maintainer since day one.
 Deep TypeScript / LLM runtime / distributed systems expertise.
 
-*He built the product that runs our company.
-We don't write code — our agents do.*
+_He built the product that runs our company.
+We don't write code — our agents do._
 
 </div>
 <div class="card">
@@ -380,12 +376,12 @@ Jack of all trades in a world that requires exactly that at pre-seed.
 
 **Use of funds — 18 months**
 
-| | |
-|-|-|
+|                             |      |
+| --------------------------- | ---- |
 | First enterprise sales hire | ~40% |
-| SOC2 / ISO certification | ~20% |
-| Core engineering | ~30% |
-| Municipal GTM (CZ/SK/EU) | ~10% |
+| SOC2 / ISO certification    | ~20% |
+| Core engineering            | ~30% |
+| Municipal GTM (CZ/SK/EU)    | ~10% |
 
 </div>
 <div>
@@ -423,4 +419,4 @@ pavol@ptbk.io · +420 777 759 767 · linkedin.com/in/hejny/
 
 <br>
 
-*Reference available: Jakub Svoboda, Quality Manager, Praha 13 municipality*
+_Reference available: Jakub Svoboda, Quality Manager, Praha 13 municipality_
