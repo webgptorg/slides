@@ -287,6 +287,11 @@ There are 6,258 municipalities in the Czech Republic alone.
 We need to own the "on-prem, auditable, privately-hosted AI agent" segment.
 Nobody is focusing there. The giants can't go there.
 
+<br>
+
+**Tailwind — EU policy is pushing money directly at us:**
+The EU's Digital Europe Programme 2025–2027 allocates **€1.3B** explicitly for AI adoption in public administration. The EU Coordinated AI Plan targets **€20B/year** in combined AI investment by 2030. Public sector digitalisation, healthcare, and defence are the three explicitly named strategic priority sectors. We are already selling into one of them.
+
 </div>
 </div>
 
@@ -307,6 +312,12 @@ Nobody is focusing there. The giants can't go there.
 <br>
 
 Revenue is **per-organization**, not per-seat.
+
+<br>
+
+**Current revenue mix:**
+- SaaS subscriptions (target model)
+- Paid consulting: *"AI dev pipeline automation"* — we sell our own methodology for shipping software 10× faster using agents. This is how we validated the product and built the early client base. It is a bridge, not the destination.
 
 </div>
 <div class="card">
