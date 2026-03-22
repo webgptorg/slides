@@ -190,18 +190,44 @@ function renderIndex(items) {
             margin-top: 2rem;
         }
 
+        .folder-toggle {
+            background: rgba(255, 255, 255, 0.55);
+            border-radius: 20px;
+            padding: 1rem 1.25rem 1.25rem;
+        }
+
+        .folder-toggle summary {
+            list-style: none;
+        }
+
+        .folder-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
         .folder-header {
             display: flex;
             flex-wrap: wrap;
             align-items: baseline;
             gap: 0.75rem;
             margin-bottom: 1rem;
+            cursor: pointer;
         }
 
         .folder-title {
             margin: 0;
             font-size: 1.25rem;
             color: #0f172a;
+        }
+
+        .folder-caret {
+            width: 1rem;
+            color: #64748b;
+            font-size: 0.95rem;
+            transition: transform 0.2s ease;
+        }
+
+        .folder-toggle[open] .folder-caret {
+            transform: rotate(90deg);
         }
 
         .folder-path {
@@ -324,23 +350,53 @@ function groupByFolder(items) {
         groups.get(folder).push(item);
     }
 
-    return [...groups.entries()].sort(([left], [right]) => left.localeCompare(right));
+    return [...groups.entries()].sort(([left], [right]) => compareFolders(left, right));
 }
 
 function renderFolderSection(folder, items) {
     const folderTitle = folder === 'Root' ? 'Root' : path.posix.basename(folder);
     const folderLabel = folder === 'Root' ? 'slides/' : `slides/${folder}/`;
     const cards = items.map((item) => renderCard(item)).join('\n');
+    const isCollapsedByDefault = folderTitle.toLowerCase() === 'old';
+    const openAttribute = isCollapsedByDefault ? '' : ' open';
 
     return `<section class="folder-section">
-        <div class="folder-header">
-            <h2 class="folder-title">${escapeHtml(folderTitle)}</h2>
-            <div class="folder-path">${escapeHtml(folderLabel)}</div>
-        </div>
-        <div class="presentation-grid">
-            ${cards}
-        </div>
+        <details class="folder-toggle"${openAttribute}>
+            <summary class="folder-header">
+                <div class="folder-caret" aria-hidden="true">▶</div>
+                <h2 class="folder-title">${escapeHtml(folderTitle)}</h2>
+                <div class="folder-path">${escapeHtml(folderLabel)}</div>
+            </summary>
+            <div class="presentation-grid">
+                ${cards}
+            </div>
+        </details>
     </section>`;
+}
+
+function compareFolders(left, right) {
+    const leftPriority = getFolderSortPriority(left);
+    const rightPriority = getFolderSortPriority(right);
+
+    if (leftPriority !== rightPriority) {
+        return leftPriority - rightPriority;
+    }
+
+    return left.localeCompare(right);
+}
+
+function getFolderSortPriority(folder) {
+    const folderName = folder === 'Root' ? 'root' : path.posix.basename(folder).toLowerCase();
+
+    if (folderName === 'root') {
+        return 0;
+    }
+
+    if (folderName === 'old') {
+        return 2;
+    }
+
+    return 1;
 }
 
 function renderCard(item) {
