@@ -283,7 +283,7 @@ You review diffs and send decks.
 
 **Option B - Self-host from GitHub**
 
-`github.com/webgptorg/promptbook` - fork, write your Book, run the agent.
+`github.com/webgptorg/promptbook` - write your Book, run your self-hosted agents server
 
 **ptbk.io**
 
