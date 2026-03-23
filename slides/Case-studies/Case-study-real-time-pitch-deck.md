@@ -97,9 +97,9 @@ No Google Slides. No PowerPoint binary. No "v7_final_FINAL.pptx".
 
 <!-- _class: compact -->
 
-# Step 1 — The Book (agent definition)
+# Step 1 - The Book (agent definition)
 
-We write a `.book` file — a persistent instruction set for a Promptbook agent:
+We write a `.book` file - a persistent instruction set for a Promptbook agent:
 
 ```book
 Pitch deck agent
@@ -124,24 +124,24 @@ This is not a one-shot prompt. It is a standing configuration that runs daily.
 
 <!-- _class: compact -->
 
-# Step 2 — Knowledge sources
+# Step 2 - Knowledge sources
 
 The agent does not hallucinate content. It reads concrete URLs.
 
 | Directive                                    | What it does                                                            |
 | -------------------------------------------- | ----------------------------------------------------------------------- |
-| `KNOWLEDGE https://www.ptbk.io/`             | Indexes the main product site — positioning, features, pricing          |
+| `KNOWLEDGE https://www.ptbk.io/`             | Indexes the main product site - positioning, features, pricing          |
 | `KNOWLEDGE https://www.ptbk.io/pro-mesta`    | Indexes the public-sector landing page                                  |
-| `KNOWLEDGE https://github.com/...promptbook` | Reads the repo — README, package versions, changelog                    |
+| `KNOWLEDGE https://github.com/...promptbook` | Reads the repo - README, package versions, changelog                    |
 | `USE BROWSER`                                | Opens pages and renders JS if needed                                    |
 | `USE SEARCH ENGINE`                          | Searches the web for recent mentions, ecosystem context                 |
-| `USE PROJECT ...slides`                      | Has write access to the slides repo — reads old decks, commits new ones |
+| `USE PROJECT ...slides`                      | Has write access to the slides repo - reads old decks, commits new ones |
 
 The agent output is bounded by what these sources actually say.
 
 ---
 
-# Step 3 — The agent runs
+# Step 3 - The agent runs
 
 <div class="grid2">
 <div>
@@ -173,9 +173,9 @@ _"Create me a pitch deck about Promptbook and keep it up to date!"_
 
 <!-- _class: compact -->
 
-# Step 4 — Output is code, not a file
+# Step 4 - Output is code, not a file
 
-The generated deck is Marp Markdown — it compiles to presentations:
+The generated deck is Marp Markdown - it compiles to presentations:
 
 ```bash
 npm run convert:presentations
@@ -186,15 +186,15 @@ npm run convert:presentations
 
 Because the deck is in Git:
 
-- Every version is a commit — you can `git diff` between Tuesday's and Thursday's deck
+- Every version is a commit - you can `git diff` between Tuesday's and Thursday's deck
 - You see exactly what changed: a metric, a slide title, a product feature
-- You can revert, branch, cherry-pick — the deck is just code
+- You can revert, branch, cherry-pick - the deck is just code
 
 No more "I think someone updated slide 7 last week but I'm not sure."
 
 ---
 
-# Step 5 — Human stays in the loop
+# Step 5 - Human stays in the loop
 
 The agent drafts. The human reviews.
 
@@ -219,7 +219,7 @@ The agent drafts. The human reviews.
 </div>
 </div>
 
-The agent cannot add sources it was not given. If a `KNOWLEDGE` URL returns garbage, the deck degrades visibly — and you fix the source, not the slides.
+The agent cannot add sources it was not given. If a `KNOWLEDGE` URL returns garbage, the deck degrades visibly - and you fix the source, not the slides.
 
 ---
 
@@ -276,19 +276,19 @@ Investor asks for the deck → you send the latest PDF from `dist/`. Done.
 
 # Set this up for your own company
 
-**Option A — We deploy a Promptbook Agent Server for you**
+**Option A - We deploy a Promptbook Agent Server for you**
 
 We configure the Book, connect your sources, set up the schedule.
 You review diffs and send decks.
 
-**Option B — Self-host from GitHub**
+**Option B - Self-host from GitHub**
 
-`github.com/webgptorg/promptbook` — fork, write your Book, run the agent.
+`github.com/webgptorg/promptbook` - fork, write your Book, run the agent.
 
 **ptbk.io**
 
-<div style="display:flex;justify-content:center;margin:0.7em 0;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code — ptbk.io" style="width:160px;height:160px;display:block;"></div></div>
+<div style="display:flex;justify-content:center;margin:0.7em 0;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code - ptbk.io" style="width:160px;height:160px;display:block;"></div></div>
 
-_Questions? Write us — we will walk you through the setup._
+_Questions? Write us - we will walk you through the setup._
 
 <!-- 11:11 -->

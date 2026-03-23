@@ -142,9 +142,9 @@ style: |
 
 # Why the Book?
 
--   **Promptbook eliminates AI complexity completely**—no choosing models, implementing RAG, or technical decisions and low level details. Simply write what you need in plain language, and we'll deliver enterprise-ready AI applications that scale with your business, reducing development time from months to minutes.
--   We turn your business expertise into working applications with **'Business as Code'** paradigm in mind – write in plain language, execute like software, and transform your enterprise from within.
--   People—whether they’re end‑users or even ML engineers—are **overwhelmed** by the flood of new technologies. We’ll spare them the stress and **decision paralysis** and deliver an AI application that simply works.
+- **Promptbook eliminates AI complexity completely**-no choosing models, implementing RAG, or technical decisions and low level details. Simply write what you need in plain language, and we'll deliver enterprise-ready AI applications that scale with your business, reducing development time from months to minutes.
+- We turn your business expertise into working applications with **'Business as Code'** paradigm in mind – write in plain language, execute like software, and transform your enterprise from within.
+- People-whether they’re end‑users or even ML engineers-are **overwhelmed** by the flood of new technologies. We’ll spare them the stress and **decision paralysis** and deliver an AI application that simply works.
 
 ---
 
@@ -165,14 +165,14 @@ The language directly addresses Deloitte as a potential beneficiary, making the 
 <!-- You do want to have your C3PO -->
 <!-- - **LLMs are the new computing paradigm, and we're building its first enterprise-ready programming language, Book, together with its runtime, Promptbook.** -->
 
--   **Book transforms your business expertise into executable instructions** - while other companies struggle to implement AI, Book lets anyone create powerful business automation without technical knowledge:
+- **Book transforms your business expertise into executable instructions** - while other companies struggle to implement AI, Book lets anyone create powerful business automation without technical knowledge:
 
 ```markdown
 # ✨ Email to customer
 
--   PERSONA George, experienced AI consultant
--   KNOWLEDGE https://yourcompany.com/
--   KNOWLEDGE https://ptbk.io/
+- PERSONA George, experienced AI consultant
+- KNOWLEDGE https://yourcompany.com/
+- KNOWLEDGE https://ptbk.io/
 
 ## Write the email
 
@@ -311,10 +311,10 @@ _A journey through AI transformation with Promptbook_
 
 Meet OneBrain, LLC - a forward-thinking professional services firm struggling with:
 
--   Partners spending 40% of time on repetitive client reports
--   Knowledge siloed in departments, recreating solutions already built elsewhere
--   AI experiments that never scale beyond pilots
--   Compliance risks increasing with each AI implementation
+- Partners spending 40% of time on repetitive client reports
+- Knowledge siloed in departments, recreating solutions already built elsewhere
+- AI experiments that never scale beyond pilots
+- Compliance risks increasing with each AI implementation
 
 <!-- This slide establishes the relatable pain points -->
 
@@ -328,17 +328,17 @@ Meet OneBrain, LLC - a forward-thinking professional services firm struggling wi
 
 # **Phase 1: Blueprint Creation**
 
--   Finance partners draft a `book` executable blueprint for automated audit report generation
--   Without coding, they define exactly what domain expertise needs capturing
--   Blueprint tested with select clients, refined based on feedback
--   Zero infrastructure, zero ML expertise required
+- Finance partners draft a `book` executable blueprint for automated audit report generation
+- Without coding, they define exactly what domain expertise needs capturing
+- Blueprint tested with select clients, refined based on feedback
+- Zero infrastructure, zero ML expertise required
 
 ```markdown
 # ✨ Audit Report Generator
 
--   PERSONA Experienced audit professional
--   KNOWLEDGE {client_regulatory_requirements.pdf}
--   KNOWLEDGE {deloitte_audit_methodology.pdf}
+- PERSONA Experienced audit professional
+- KNOWLEDGE {client_regulatory_requirements.pdf}
+- KNOWLEDGE {deloitte_audit_methodology.pdf}
 
 ## Generate Executive Summary
 
@@ -353,9 +353,9 @@ Meet OneBrain, LLC - a forward-thinking professional services firm struggling wi
 
 # **Phase 2: Scaling Across Functions**
 
--   Tax division adapts the audit blueprint for tax advisory reports
--   Consulting modifies it for industry research briefings
--   HR customizes it for talent assessment
+- Tax division adapts the audit blueprint for tax advisory reports
+- Consulting modifies it for industry research briefings
+- HR customizes it for talent assessment
 
 **The compounding effect**: Each adaptation is 80% faster than building from scratch
 
@@ -365,10 +365,10 @@ Meet OneBrain, LLC - a forward-thinking professional services firm struggling wi
 
 # **Phase 3: Enterprise Integration**
 
--   Specialized AI engineers turn successful blueprints into production systems
--   Blueprints become institutional knowledge, not individual expertise
--   Compliance and security baked in at the blueprint level
--   Firm becomes self-improving as teams use `book` to continuously automate their own workflows
+- Specialized AI engineers turn successful blueprints into production systems
+- Blueprints become institutional knowledge, not individual expertise
+- Compliance and security baked in at the blueprint level
+- Firm becomes self-improving as teams use `book` to continuously automate their own workflows
 
 ## <!-- This slide shows how the solution scales across the enterprise -->
 
@@ -376,11 +376,11 @@ Meet OneBrain, LLC - a forward-thinking professional services firm struggling wi
 
 A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would approach AI transformation:
 
--   **Business experts** create blueprints without coding
--   **Knowledge compounds** across departments without silos
--   **Compliance is standardized** at the blueprint level
--   **AI transformation accelerates** with each new implementation
--   **Results multiplier:** 5x more AI solutions with the same resources
+- **Business experts** create blueprints without coding
+- **Knowledge compounds** across departments without silos
+- **Compliance is standardized** at the blueprint level
+- **AI transformation accelerates** with each new implementation
+- **Results multiplier:** 5x more AI solutions with the same resources
 
 ## <!-- This final slide shows the transformative impact -->
 
@@ -440,8 +440,8 @@ A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would 
 
 **Pavol Hejný | CTO**
 
--   [Top](https://committers.top/czech_republic) [open-source contributor](https://github.com/hejny) in CZE
--   Developer with 15+ years of experience
+- [Top](https://committers.top/czech_republic) [open-source contributor](https://github.com/hejny) in CZE
+- Developer with 15+ years of experience
 
 </div>
 <div class="jiri-jahn">
@@ -449,8 +449,8 @@ A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would 
 
 **Jiří Jahn | CEO**
 
--   Ph.D. in Mathematics, former researcher at [IT4I National Supercomputing Centre](https://www.it4i.cz/en)
--   Significant technical expertise mixed with strong soft skills
+- Ph.D. in Mathematics, former researcher at [IT4I National Supercomputing Centre](https://www.it4i.cz/en)
+- Significant technical expertise mixed with strong soft skills
 
 </div>
 </div>
@@ -462,12 +462,10 @@ A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would 
 # Our Unique Insights
 
 1. **We are not NO CODE platform**
-
     - For **devs** these platforms lack control
     - For **non/devs** they are still programming with a crutch
 
 2. **Anticipating futute trends**
-
     - Mixing prompts with code will lead to technical debt
     - We are separating things that should be separated
 
@@ -481,17 +479,17 @@ A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would 
 
 **Is Promptbook secured against data leakage?**
 
--   End-to-end encryption for all data in transit and at rest
--   On-premises deployment option for sensitive environments
--   Granular access controls and audit logging of all system interactions
--   No data storage by default - process and forget architecture
+- End-to-end encryption for all data in transit and at rest
+- On-premises deployment option for sensitive environments
+- Granular access controls and audit logging of all system interactions
+- No data storage by default - process and forget architecture
 
 **How does Promptbook add controllability and reliability?**
 
--   Transparent AI decision paths through sophisticated logging
--   Built-in versioning of all blueprints for governance
--   Controlled testing environment with simulation capabilities
--   Clear separation between business logic and AI execution
+- Transparent AI decision paths through sophisticated logging
+- Built-in versioning of all blueprints for governance
+- Controlled testing environment with simulation capabilities
+- Clear separation between business logic and AI execution
 
 ---
 
@@ -499,17 +497,17 @@ A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would 
 
 **Why use Promptbook instead of established no-code tools?**
 
--   True flexibility beyond drag-and-drop constraints
--   Seamless transition path from prototype to production
--   No technical debt - solutions remain maintainable as they scale
--   Designed for enterprise complexity, not just simple automations
+- True flexibility beyond drag-and-drop constraints
+- Seamless transition path from prototype to production
+- No technical debt - solutions remain maintainable as they scale
+- Designed for enterprise complexity, not just simple automations
 
 **How quickly can we implement and see results?**
 
--   First blueprint creation: 1-2 days
--   Initial production implementation: 2-4 weeks
--   Full enterprise integration: Phased approach over 3-6 months
--   ROI typically visible within first month of deployment
+- First blueprint creation: 1-2 days
+- Initial production implementation: 2-4 weeks
+- Full enterprise integration: Phased approach over 3-6 months
+- ROI typically visible within first month of deployment
 
 ---
 
@@ -517,10 +515,10 @@ A firm that evolves from within - exactly how Henry Ford or Tomáš Baťa would 
 
 **How does Promptbook integrate with our existing systems?**
 
--   Platform-agnostic, API-first architecture connects to any modern system
--   Pre-built connectors for enterprise platforms
--   Custom connectors can be developed for legacy systems
--   Gradual integration approach - no "rip and replace"
+- Platform-agnostic, API-first architecture connects to any modern system
+- Pre-built connectors for enterprise platforms
+- Custom connectors can be developed for legacy systems
+- Gradual integration approach - no "rip and replace"
 
 <!--
 

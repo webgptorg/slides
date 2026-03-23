@@ -123,7 +123,7 @@ Pavol Hejný (CTO) · Jiří Jahn (CEO) 22. March 2026
 
 Real work doesn't happen in a chat window.
 
-It happens in the background — emails answered, documents checked, code shipped, decisions made — **while you're doing something else.**
+It happens in the background - emails answered, documents checked, code shipped, decisions made - **while you're doing something else.**
 
 ChatGPT, Copilot, Gemini: you type, you wait, you get a generic answer from a tool that knows nothing about your company, your rules, or your way of doing things.
 
@@ -164,7 +164,7 @@ None of that is on the internet. None of it ever will be.
 # Promptbook: write your company's brain once. It works forever.
 
 You describe your company's knowledge, rules, and personas in plain language.
-Promptbook runs them as **persistent, autonomous agents** — no babysitting.
+Promptbook runs them as **persistent, autonomous agents** - no babysitting.
 
 ```book
 Legal expert at Paul Smith & Associés
@@ -182,7 +182,7 @@ Consult {Compliance Officer} on GDPR cases.
 Consult {Corporate Law Expert} on M&A.
 ```
 
-_This agent answers questions, checks documents, routes edge cases —
+_This agent answers questions, checks documents, routes edge cases -
 every day, without you. The model is interchangeable. Your Book is yours._
 
 ---
@@ -220,11 +220,11 @@ _We are the only solution a government legal team or compliance department can a
 
 ---
 
-# This is not a chatbot. It's your best employee — cloned.
+# This is not a chatbot. It's your best employee - cloned.
 
 Your senior expert has 20 years of judgment. She's available 8 hours a day, 5 days a week.
 
-**With Promptbook, her knowledge runs 24/7 — after she goes home, after she retires.**
+**With Promptbook, her knowledge runs 24/7 - after she goes home, after she retires.**
 
 <div class="grid3">
 <div class="card">
@@ -242,7 +242,7 @@ Checks documents against your policies. Flags violations. Never forgets a regula
 <div class="card">
 
 **🛠 Coding agent**
-Watches your backlog. Writes code. Opens PRs. We ship 10× faster — without writing a line ourselves.
+Watches your backlog. Writes code. Opens PRs. We ship 10× faster - without writing a line ourselves.
 
 </div>
 </div>
@@ -258,7 +258,7 @@ You design. You decide. You rule. The agents execute.
 
 We run Promptbook on Promptbook. This is not a metaphor.
 
-- Our **coding agents** handle features from the backlog — we ship without writing code
+- Our **coding agents** handle features from the backlog - we ship without writing code
 - Our **documentation agent** watches every GitHub commit and updates our docs automatically
 - **This pitch deck** was built once. An agent has been updating it as we ship. The slide you are reading may have been written by an agent.
 
@@ -306,7 +306,7 @@ There are 6,258 municipalities in the Czech Republic alone.
 
 <div class="quote" style="font-size:0.85em;">
 "Senior experts who are not programmers can build, deploy and use virtual assistants created from their own documentation."
-<br>— Jakub Svoboda, Quality Manager, Praha 13
+<br>- Jakub Svoboda, Quality Manager, Praha 13
 </div>
 
 </div>
@@ -332,7 +332,7 @@ There are 6,258 municipalities in the Czech Republic alone.
 
 **Expansion: Enterprise B2B**
 
-- Legal, compliance, HR — any team with documented processes
+- Legal, compliance, HR - any team with documented processes
 - On-prem requirement is a _qualifier_, not a blocker
 
 </div>
@@ -352,7 +352,7 @@ The giants can't go there.
 
 <br>
 
-**Tailwind — EU policy is funding our wedge:**
+**Tailwind - EU policy is funding our wedge:**
 
 - **€1.3B** in Digital Europe 2025–2027 for AI in public administration
 - **€20B/year** EU AI investment target by 2030
@@ -459,7 +459,7 @@ Built the Promptbook engine and the agent stack that runs the company.
 <div class="grid2">
 <div>
 
-**Use of funds — 18 months**
+**Use of funds - 18 months**
 
 |                             |      |
 | --------------------------- | ---- |
@@ -492,14 +492,14 @@ The giants own the models. We own the layer they cannot enter.
 
 # Let's connect.
 
-**Jiří Jahn — CEO**
+**Jiří Jahn - CEO**
 jiri@ptbk.io · +420 777 090 067 · linkedin.com/in/jirkajahn/
 
-**Pavol Hejný — CTO**
+**Pavol Hejný - CTO**
 pavol@ptbk.io · +420 777 759 767 · linkedin.com/in/hejny/
 
 **ptbk.io · github.com/webgptorg/promptbook**
 
-<div style="display:flex;justify-content:center;margin:0.7em 0;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code — ptbk.io" style="width:160px;height:160px;display:block;"></div></div>
+<div style="display:flex;justify-content:center;margin:0.7em 0;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code - ptbk.io" style="width:160px;height:160px;display:block;"></div></div>
 
 _Reference available: Jakub Svoboda, Quality Manager, Praha 13 municipality_

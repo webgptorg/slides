@@ -1,6 +1,6 @@
 # ✨ Let's Connect
 
-<div style="display:flex;justify-content:center;margin:0.6em 0;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code — ptbk.io" style="width:160px;height:160px;display:block;"></div></div>
+<div style="display:flex;justify-content:center;margin:0.6em 0;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code - ptbk.io" style="width:160px;height:160px;display:block;"></div></div>
 
 **Promptbook**
 ptbk.io
