@@ -104,9 +104,12 @@ style: |
     section.compact.team-slide { font-size: 1.16rem; }
     section.compact.team-slide .team-layout { gap: 14px; }
     section.compact.team-slide .team-portrait { max-width: 190px; height: 290px; }
+    header { position: absolute; top: 20px; right: 36px; padding: 0; margin: 0; }
+    header img { height: 44px; width: auto; filter: brightness(0) invert(1); }
 ---
 
 <!-- _class: cover -->
+<!-- _header: '<img src="https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png" alt="Promptbook">' -->
 
 # Promptbook
 
@@ -497,6 +500,6 @@ pavol@ptbk.io · +420 777 759 767 · linkedin.com/in/hejny/
 
 **ptbk.io · github.com/webgptorg/promptbook**
 
-<br>
+<div style="display:flex;justify-content:center;margin:0.7em 0;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code — ptbk.io" style="width:160px;height:160px;display:block;"></div></div>
 
 _Reference available: Jakub Svoboda, Quality Manager, Praha 13 municipality_

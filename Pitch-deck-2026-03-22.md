@@ -1,7 +1,13 @@
 ---
 marp: true
 paginate: true
+html: true
+style: |
+    header { position: absolute; top: 20px; right: 36px; padding: 0; margin: 0; }
+    header img { height: 44px; width: auto; }
 ---
+
+<!-- _header: '<img src="https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png" alt="Promptbook">' -->
 
 # Promptbook — AI Agents as Company Knowledge
 
@@ -21,6 +27,7 @@ Investor Pitch Deck — 2026-03-22
 ## Solution
 
 Promptbook: a Book language + Engine for defining, testing and deploying AI agents that faithfully encode a company's knowledge, rules and personality.
+
 - Human-friendly "Book" language for Persona, Knowledge, Rules and Actions.
 - Engine that enforces commitments, manages RAG, and runs agents across channels.
 - Portable, auditable, and deployable (cloud or on-prem).
@@ -97,12 +104,16 @@ Sources: official pricing and municipal plans on ptbk.io and ptbk.io/pro-mesta.
 
 ## Contact
 
+<div style="display:flex;justify-content:flex-end;margin-bottom:0.8em;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code — ptbk.io" style="width:150px;height:150px;display:block;"></div></div>
+
 Jiří Jahn — CEO
+
 - jiri@ptbk.io
 - +420 777 090 067
 - https://www.linkedin.com/in/jirkajahn/
 
 Pavol Hejný — CTO
+
 - pavol@ptbk.io
 - +420 777 759 767
 - https://www.linkedin.com/in/hejny/
@@ -111,8 +122,8 @@ Pavol Hejný — CTO
 
 ## Appendix — Sources
 
-- Promptbook official site and product/pricing pages — ptbk.io 
-- Municipal offering & local pricing — ptbk.io/pro-mesta 
+- Promptbook official site and product/pricing pages — ptbk.io
+- Municipal offering & local pricing — ptbk.io/pro-mesta
 - Project, Book language, engine, packages and Gemini support — github.com/webgptorg/promptbook 【3†source}
 
 ---

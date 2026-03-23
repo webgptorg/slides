@@ -43,9 +43,12 @@ style: |
     section.compact h1 { font-size: 1.9em; margin-bottom: 0.15em; }
     section.compact p, section.compact li { line-height: 1.22; margin: 0.12em 0; }
     section.compact pre { font-size: 0.54em; }
+    header { position: absolute; top: 20px; right: 36px; padding: 0; margin: 0; }
+    header img { height: 44px; width: auto; filter: brightness(0) invert(1); }
 ---
 
 <!-- _class: cover -->
+<!-- _header: '<img src="https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png" alt="Promptbook">' -->
 
 # Case Study: How to Have an Investor Pitch Deck in Real Time, in Real Time, Updated
 
@@ -125,14 +128,14 @@ This is not a one-shot prompt. It is a standing configuration that runs daily.
 
 The agent does not hallucinate content. It reads concrete URLs.
 
-| Directive | What it does |
-|---|---|
-| `KNOWLEDGE https://www.ptbk.io/` | Indexes the main product site — positioning, features, pricing |
-| `KNOWLEDGE https://www.ptbk.io/pro-mesta` | Indexes the public-sector landing page |
-| `KNOWLEDGE https://github.com/...promptbook` | Reads the repo — README, package versions, changelog |
-| `USE BROWSER` | Opens pages and renders JS if needed |
-| `USE SEARCH ENGINE` | Searches the web for recent mentions, ecosystem context |
-| `USE PROJECT ...slides` | Has write access to the slides repo — reads old decks, commits new ones |
+| Directive                                    | What it does                                                            |
+| -------------------------------------------- | ----------------------------------------------------------------------- |
+| `KNOWLEDGE https://www.ptbk.io/`             | Indexes the main product site — positioning, features, pricing          |
+| `KNOWLEDGE https://www.ptbk.io/pro-mesta`    | Indexes the public-sector landing page                                  |
+| `KNOWLEDGE https://github.com/...promptbook` | Reads the repo — README, package versions, changelog                    |
+| `USE BROWSER`                                | Opens pages and renders JS if needed                                    |
+| `USE SEARCH ENGINE`                          | Searches the web for recent mentions, ecosystem context                 |
+| `USE PROJECT ...slides`                      | Has write access to the slides repo — reads old decks, commits new ones |
 
 The agent output is bounded by what these sources actually say.
 
@@ -283,6 +286,8 @@ You review diffs and send decks.
 `github.com/webgptorg/promptbook` — fork, write your Book, run the agent.
 
 **ptbk.io**
+
+<div style="display:flex;justify-content:center;margin:0.7em 0;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code — ptbk.io" style="width:160px;height:160px;display:block;"></div></div>
 
 _Questions? Write us — we will walk you through the setup._
 
