@@ -9,52 +9,151 @@ style: |
       font-family: 'Inter', 'Helvetica Neue', sans-serif;
       background: #fff;
       color: #111;
-      padding: 46px 64px;
+      padding: 50px 68px 46px;
       font-size: 1.22rem;
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      position: relative;
     }
-    h1 { font-size: 2.15em; font-weight: 800; color: #000; margin: 0 0 0.22em 0; line-height: 1.04; }
+    section::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #0055ff 0%, #4f8eff 100%);
+    }
+    h1 {
+      font-size: 2.1em; font-weight: 800; color: #000;
+      margin: 0 0 0.26em 0; line-height: 1.05;
+      padding-bottom: 0.2em;
+      border-bottom: 2px solid #f0f0f0;
+    }
     h2 { font-size: 1.3em; font-weight: 700; color: #111; margin: 0 0 0.32em 0; }
-    h3 { font-size: 0.9em; font-weight: 700; color: #555; margin: 0 0 0.2em 0; text-transform: uppercase; letter-spacing: 0.05em; }
-    p, li { font-size: 1em; line-height: 1.28; margin: 0.16em 0; color: #222; }
+    h3 {
+      font-size: 0.82em; font-weight: 700; color: #0055ff;
+      margin: 0 0 0.35em 0; text-transform: uppercase; letter-spacing: 0.08em;
+    }
+    p, li { font-size: 1em; line-height: 1.32; margin: 0.18em 0; color: #222; }
     strong { color: #000; }
-    ul { padding-left: 1.05em; margin: 0.18em 0; }
-    code { font-size: 0.88em; }
-    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; margin-top: 0.3em; }
-    .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; align-items: start; margin-top: 0.3em; }
-    .card { background: #f5f5f5; border-radius: 10px; padding: 14px 16px; }
-    .card-blue { background: #eef2ff; border-radius: 10px; padding: 14px 16px; }
-    .card-green { background: #ecfdf5; border-radius: 10px; padding: 14px 16px; }
-    .big { font-size: 1.55em; font-weight: 800; line-height: 1.1; margin: 0.16em 0; }
-    .quote { border-left: 3px solid #0055ff; padding-left: 16px; margin: 0.5em 0; font-style: italic; color: #333; }
-    .flow-step { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px 14px; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.76em; margin-top: 0.25em; }
-    th { background: #f0f0f0; padding: 6px 9px; text-align: left; font-weight: 700; }
-    td { padding: 6px 9px; border-bottom: 1px solid #eee; }
-    pre { margin: 0.3em 0; font-size: 0.58em; }
-    section.cover { background: #000; color: #fff; justify-content: center; }
-    section.cover h1 { color: #fff; font-size: 2.5em; }
-    section.cover p { color: #cbd5e1; font-size: 1em; }
+    ul { padding-left: 1.1em; margin: 0.2em 0; }
+    li::marker { color: #0055ff; }
+    code {
+      font-size: 0.84em;
+      background: #eef2ff;
+      border-radius: 4px;
+      padding: 0.05em 0.32em;
+      color: #0044cc;
+      font-weight: 500;
+    }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; margin-top: 0.4em; }
+    .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; align-items: start; margin-top: 0.35em; }
+    .card {
+      background: #f7f8fa;
+      border-radius: 12px;
+      padding: 16px 18px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+    }
+    .card-blue {
+      background: #eef2ff;
+      border-radius: 12px;
+      padding: 16px 18px;
+      border-top: 3px solid #0055ff;
+      box-shadow: 0 1px 6px rgba(0,85,255,0.08);
+    }
+    .card-red {
+      background: #fff5f5;
+      border-radius: 12px;
+      padding: 16px 18px;
+      border-top: 3px solid #e53e3e;
+      box-shadow: 0 1px 6px rgba(229,62,62,0.07);
+    }
+    .card-green {
+      background: #ecfdf5;
+      border-radius: 12px;
+      padding: 16px 18px;
+      border-top: 3px solid #10b981;
+      box-shadow: 0 1px 6px rgba(16,185,129,0.08);
+    }
+    .big {
+      font-size: 1.4em; font-weight: 800; line-height: 1.2;
+      margin: 0.55em 0 0.1em 0;
+      color: #0055ff;
+      background: #eef2ff;
+      border-left: 4px solid #0055ff;
+      border-radius: 8px;
+      padding: 0.35em 0.75em;
+    }
+    .quote { border-left: 3px solid #0055ff; padding-left: 16px; margin: 0.5em 0; font-style: italic; color: #444; }
+    .flow-step {
+      background: #fff;
+      border: 1px solid #e8edf2;
+      border-left: 4px solid #0055ff;
+      border-radius: 10px;
+      padding: 14px 16px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 0.76em; margin-top: 0.3em; border-radius: 10px; overflow: hidden; }
+    th { background: #0055ff; color: #fff; padding: 8px 11px; text-align: left; font-weight: 600; letter-spacing: 0.02em; }
+    td { padding: 7px 11px; border-bottom: 1px solid #f0f0f0; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: #fafbff; }
+    pre {
+      margin: 0.35em 0;
+      font-size: 0.56em;
+      background: #0f172a !important;
+      border-radius: 10px;
+      padding: 0.9em 1.1em !important;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+    }
+    pre code { background: transparent !important; color: #e2e8f0; padding: 0; font-weight: 400; }
+    section.cover {
+      background: #000;
+      color: #fff;
+      justify-content: center;
+    }
+    section.cover::before {
+      height: 5px;
+      background: linear-gradient(90deg, #0055ff 0%, #38bdf8 100%);
+    }
+    section.cover h1 {
+      color: #fff; font-size: 2.4em;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    section.cover p { color: #94a3b8; font-size: 1em; }
     section.cover strong { color: #fff; }
+    section.cover .tag {
+      display: inline-block;
+      background: #0055ff;
+      color: #fff;
+      font-size: 0.55em;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      border-radius: 4px;
+      padding: 0.25em 0.7em;
+      margin-bottom: 0.5em;
+    }
     section.compact { font-size: 1.1rem; }
     section.compact h1 { font-size: 1.9em; margin-bottom: 0.15em; }
     section.compact p, section.compact li { line-height: 1.22; margin: 0.12em 0; }
     section.compact pre { font-size: 0.54em; }
-    header { position: absolute; top: 20px; right: 36px; padding: 0; margin: 0; }
-    header img { height: 44px; width: auto; filter: brightness(0) invert(1); }
+    header { position: absolute; top: 16px; right: 36px; padding: 0; margin: 0; }
+    header img { height: 40px; width: auto; filter: brightness(0) invert(1); }
 ---
 
 <!-- _class: cover -->
 <!-- _header: '<img src="https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png" alt="Promptbook">' -->
 
+<div class="tag">Case Study</div>
+
 # Case Study: How to Have an Investor Pitch Deck in Real Time, in Real Time, Updated
 
 **The technical walkthrough you asked for**
 
-23 March 2026
+24 March 2026
 
 ---
 
@@ -71,11 +170,24 @@ slides/
     Investor-pitch-deck.html   <- Auto-generated by Marp
 ```
 
-The pitch deck is plain Markdown. It lives in Git. It is diffable, reviewable, and regenerable.
+<div class="grid2">
+<div>
+
+The pitch deck is plain Markdown. It lives in Git. It is **diffable**, **reviewable**, and **regenerable**.
 
 Both us and the agent can update it. We can see the history of changes. We can revert if something breaks.
 
-For now no Google Slides. No PowerPoint binary. No "v7_final_FINAL.pptx".
+</div>
+<div class="card-blue">
+
+### No more
+
+- No Google Slides drift
+- No PowerPoint binary blobs
+- No `v7_final_FINAL.pptx`
+
+</div>
+</div>
 
 ---
 
@@ -138,7 +250,7 @@ The agent output is bounded by what these sources actually say.
 6. The conversion script exports HTML, PDF, PPTX
 
 </div>
-<div class="card">
+<div class="card-blue">
 
 ### What triggers a run
 
@@ -185,7 +297,7 @@ The agent drafts. The human reviews.
 # Why this is not "just prompting"
 
 <div class="grid2">
-<div>
+<div class="card-red">
 
 ### One-shot prompting
 
