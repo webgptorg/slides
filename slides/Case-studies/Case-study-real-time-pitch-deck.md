@@ -146,23 +146,23 @@ style: |
       border: 1px solid rgba(255,255,255,0.12);
       border-top: 3px solid #0055ff;
       border-radius: 14px;
-      padding: 28px 28px;
+      padding: 18px 22px;
       background: rgba(255,255,255,0.05);
-      backdrop-filter: blur(4px);
     }
-    .option-card h3 { color: #4f8eff; font-size: 0.85em; margin-bottom: 0.6em; }
-    .option-card p { color: #cbd5e1; font-size: 0.92em; margin: 0; line-height: 1.5; }
+    .option-card h3 { color: #4f8eff; font-size: 0.85em; margin-bottom: 0.4em; }
+    .option-card p { color: #cbd5e1; font-size: 0.88em; margin: 0; line-height: 1.45; }
     .option-card strong { color: #fff; }
     .cta-bar {
-      display: flex; align-items: center; justify-content: center; gap: 32px;
-      margin-top: 1.4em;
-      padding: 20px 36px;
+      display: flex; align-items: center; justify-content: center; gap: 28px;
+      margin-top: 1em;
+      padding: 16px 32px;
       background: rgba(0,85,255,0.18);
       border: 1px solid rgba(0,85,255,0.45);
       border-radius: 14px;
     }
     .cta-bar .url { font-size: 2em; font-weight: 800; color: #fff; letter-spacing: -0.02em; line-height: 1; }
     .cta-bar .sub { font-size: 0.8em; color: #94a3b8; margin-top: 0.3em; }
+    section.cover.last { justify-content: flex-start; }
     section.compact { font-size: 1.1rem; }
     section.compact h1 { font-size: 1.9em; margin-bottom: 0.15em; }
     section.compact p, section.compact li { line-height: 1.22; margin: 0.12em 0; }
@@ -372,11 +372,11 @@ The agent drafts. The human reviews.
 
 ---
 
-<!-- _class: cover -->
+<!-- _class: cover last -->
 
-# 🚀 Set this up for your own company
+# Set this up for your own company
 
-<div class="grid2" style="margin-top:0.8em;align-items:stretch">
+<div class="grid2" style="margin-top:0.6em;align-items:stretch">
 <div class="option-card">
 
 ### Option A — Managed
