@@ -9,7 +9,7 @@ style: |
       font-family: 'Inter', 'Helvetica Neue', sans-serif;
       background: #fff;
       color: #111;
-      padding: 50px 68px 46px;
+      padding: 38px 58px 32px;
       font-size: 1.22rem;
       box-sizing: border-box;
       display: flex;
@@ -108,6 +108,12 @@ style: |
       box-shadow: 0 2px 12px rgba(0,0,0,0.18);
     }
     pre code { background: transparent !important; color: #e2e8f0; padding: 0; font-weight: 400; }
+    .code-light pre {
+      background: #fff !important;
+      box-shadow: 0 0 0 1.5px #e0e4ef, 0 2px 10px rgba(0,0,0,0.07);
+      margin: 0;
+    }
+    .code-light pre code { color: #111; font-weight: 500; }
     section.cover {
       background: #000;
       color: #fff;
@@ -193,26 +199,45 @@ Both us and the agent can update it. We can see the history of changes. We can r
 
 # Step 1 - The Agent
 
-We write a `.book` file - a persistent instruction set for a [Promptbook agent](github.com/webgptorg/promptbook):
+<div class="grid2">
+<div>
+
+We write a `.book` file — a persistent instruction set for a [Promptbook agent](github.com/webgptorg/promptbook).
+
+This is **not a one-shot prompt**. It is a standing agent definition that runs on a schedule.
+
+<div class="card-blue" style="margin-top:0.6em">
+
+### Why a .book file?
+
+- Behavior is defined **once**, runs **forever**
+- Sources are explicit and auditable
+- Agent output is bounded — no hallucination
+- Human reviews diffs, not entire decks
+
+</div>
+</div>
+<div class="code-light">
 
 ```book
 Pitch deck agent
 
-PERSONA You are a professional, analytical, technically knowledgeable assistant
-GOAL You are keeping the pitch decks up-to-date
-RULE Pitch decks are under slides/Pitch-decks/*
-RULE Make it in Marp format and commit it directly to main branch
+PERSONA You are a professional assistant
+GOAL Keep pitch decks up-to-date
+RULE Slides are under slides/Pitch-decks/*
+RULE Use Marp and commit to main
 KNOWLEDGE https://www.ptbk.io/
 KNOWLEDGE https://www.ptbk.io/pro-mesta
 KNOWLEDGE https://github.com/webgptorg/promptbook
 
 USE BROWSER To find recent information
-USE SEARCH ENGINE To find recent information relevant for the pitch decks
+USE SEARCH ENGINE For recent context
 USE PROJECT https://github.com/webgptorg/slides
-USE TIMEOUT To regenerate the decks once a day
+USE TIMEOUT Regenerate once a day
 ```
 
-This is not a one-shot prompt. It is a standing agent definition that runs daily.
+</div>
+</div>
 
 ---
 
@@ -231,7 +256,7 @@ The agent does not hallucinate content. It reads concrete URLs.
 | `USE SEARCH ENGINE`                          | Searches the web for recent mentions, ecosystem context                 |
 | `USE PROJECT ...slides`                      | Has write access to the slides repo - reads old decks, commits new ones |
 
-The agent output is bounded by what these sources actually say.
+<div class="big">The agent output is bounded by what these sources actually say — no hallucination, no drift.</div>
 
 ---
 
@@ -263,8 +288,9 @@ _"Create me a pitch deck about Promptbook and keep it up to date!"_
 </div>
 </div>
 
----
+<div class="big">Every run is a fresh, sourced, versioned deck — no manual drafting required.</div>
 
+---
 
 # Step 4 - Human stays in the loop
 
@@ -285,12 +311,13 @@ The agent drafts. The human reviews.
 ### Human responsibility
 
 - Define and approve `KNOWLEDGE` sources
-- Review the changes regularly *(diffs in Git)*
+- Review the changes regularly _(diffs in Git)_
 - Decide which version to send to the investor
 
 </div>
 </div>
 
+<div class="big">Git is the audit trail. The agent is the author. You are the editor.</div>
 
 ---
 
@@ -332,7 +359,6 @@ The agent drafts. The human reviews.
 
 We configure the Book, connect your sources, set up the schedule.
 
-
 **Option B - Self-host from GitHub**
 
 `github.com/webgptorg/promptbook` - write your Book, run your self-hosted agents server
@@ -340,6 +366,5 @@ We configure the Book, connect your sources, set up the schedule.
 **ptbk.io**
 
 <div style="display:flex;justify-content:center;margin:0.7em 0;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code - ptbk.io" style="width:160px;height:160px;display:block;"></div></div>
-
 
 <!-- 11:11 -->
