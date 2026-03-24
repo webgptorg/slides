@@ -374,7 +374,7 @@ The agent drafts. The human reviews.
 
 <!-- _class: cover -->
 
-# Set this up for your own company
+# 🚀 Set this up for your own company
 
 <div class="grid2" style="margin-top:0.8em;align-items:stretch">
 <div class="option-card">
