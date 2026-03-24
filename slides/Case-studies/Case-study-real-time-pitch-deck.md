@@ -142,6 +142,27 @@ style: |
       padding: 0.25em 0.7em;
       margin-bottom: 0.5em;
     }
+    .option-card {
+      border: 1px solid rgba(255,255,255,0.12);
+      border-top: 3px solid #0055ff;
+      border-radius: 14px;
+      padding: 28px 28px;
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(4px);
+    }
+    .option-card h3 { color: #4f8eff; font-size: 0.85em; margin-bottom: 0.6em; }
+    .option-card p { color: #cbd5e1; font-size: 0.92em; margin: 0; line-height: 1.5; }
+    .option-card strong { color: #fff; }
+    .cta-bar {
+      display: flex; align-items: center; justify-content: center; gap: 32px;
+      margin-top: 1.4em;
+      padding: 20px 36px;
+      background: rgba(0,85,255,0.18);
+      border: 1px solid rgba(0,85,255,0.45);
+      border-radius: 14px;
+    }
+    .cta-bar .url { font-size: 2em; font-weight: 800; color: #fff; letter-spacing: -0.02em; line-height: 1; }
+    .cta-bar .sub { font-size: 0.8em; color: #94a3b8; margin-top: 0.3em; }
     section.compact { font-size: 1.1rem; }
     section.compact h1 { font-size: 1.9em; margin-bottom: 0.15em; }
     section.compact p, section.compact li { line-height: 1.22; margin: 0.12em 0; }
@@ -355,16 +376,29 @@ The agent drafts. The human reviews.
 
 # Set this up for your own company
 
-**Option A - We deploy a Promptbook Agent Server for you**
+<div class="grid2" style="margin-top:0.8em;align-items:stretch">
+<div class="option-card">
 
-We configure the Book, connect your sources, set up the schedule.
+### Option A — Managed
 
-**Option B - Self-host from GitHub**
+<p><strong>We deploy a Promptbook Agent Server for you.</strong><br><br>We configure the Book, connect your knowledge sources, and set up the daily schedule. You focus on reviewing the diffs before the meeting.</p>
 
-`github.com/webgptorg/promptbook` - write your Book, run your self-hosted agents server
+</div>
+<div class="option-card">
 
-**ptbk.io**
+### Option B — Self-hosted
 
-<div style="display:flex;justify-content:center;margin:0.7em 0;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code - ptbk.io" style="width:160px;height:160px;display:block;"></div></div>
+<p><strong>Run it yourself from GitHub.</strong><br><br><code style="background:rgba(255,255,255,0.1);color:#93c5fd;font-size:0.9em">github.com/webgptorg/promptbook</code><br><br>Write your Book, deploy to your own infrastructure, own your data.</p>
+
+</div>
+</div>
+
+<div class="cta-bar">
+<div style="background:white;padding:7px;border-radius:8px;flex-shrink:0"><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://ptbk.io" alt="QR Code" style="width:100px;height:100px;display:block"></div>
+<div>
+<div class="url">ptbk.io</div>
+<div class="sub">Scan to open &nbsp;·&nbsp; Start for free &nbsp;·&nbsp; 24 March 2026</div>
+</div>
+</div>
 
 <!-- 11:11 -->
