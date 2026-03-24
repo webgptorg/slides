@@ -115,7 +115,7 @@ style: |
 
 **Your best employee. Cloned. Running 24/7. Knows everything about your company.**
 
-Pavol Hejný (CTO) · Jiří Jahn (CEO) 22. March 2026
+Pavol Hejný (CTO) · Jiří Jahn (CEO) 24. March 2026
 
 ---
 
