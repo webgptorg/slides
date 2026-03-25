@@ -23,10 +23,12 @@ html: true
 
 ---
 
-<!--Import ./_common/last-slide.md-->
+<!--Import ../_common/last-slide.md-->
 <!--⚠️ WARNING: This section was imported, make changes in source; any manual changes here will be overwritten-->
 
 # ✨ Let's Connect
+
+<div style="display:flex;justify-content:center;margin:0.6em 0;"><div style="background:white;padding:10px;border-radius:10px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://ptbk.io" alt="QR Code - ptbk.io" style="width:160px;height:160px;display:block;"></div></div>
 
 **Promptbook**
 ptbk.io
@@ -40,4 +42,4 @@ jiri@ptbk.io
 pavol@ptbk.io
 [+420 777 759 767](tel:+420777759767)
 
-<!--/Import ./_common/last-slide.md-->
+<!--/Import ../_common/last-slide.md-->

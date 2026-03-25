@@ -151,15 +151,16 @@ for (let i = 0; i < RETRY_COUNT; i++) {
 
 # Disadvantages
 
--   ☹ Portability (i.e. `gpt-4` vs `claude-3.7`)
--   ☹ Need for Programmer or no-code tool
--   ☹ Mixing code and prompt
--   ☹ Security issues (i.e. prompt injection)
--   ☹ Reliability issues (fails in edge cases)
+- ☹ Portability (i.e. `gpt-4` vs `claude-3.7`)
+- ☹ Need for Programmer or no-code tool
+- ☹ Mixing code and prompt
+- ☹ Security issues (i.e. prompt injection)
+- ☹ Reliability issues (fails in edge cases)
 
 ---
 
 # Is this some better way to write
+
 # AI Agents and AI Apps?
 
 ---
@@ -189,15 +190,12 @@ Prompt with these commitments is called book and our engine Promptbook can execu
 
 # Advantages
 
--   😊 Writing one native code to define AI Agent
--   😊 Portability (i.e. `gpt-4` vs `claude-3.7`, temperature, top_t, system messages)
--   😊 Guideline to write excellent prompts
--   😊 Separation of code and prompt
-    -   You don't need to call developer each time you want to do the change
--   😊 Clear separation of data and instructions
-
-
-
+- 😊 Writing one native code to define AI Agent
+- 😊 Portability (i.e. `gpt-4` vs `claude-3.7`, temperature, top_t, system messages)
+- 😊 Guideline to write excellent prompts
+- 😊 Separation of code and prompt
+    - You don't need to call developer each time you want to do the change
+- 😊 Clear separation of data and instructions
 
 ---
 
@@ -226,7 +224,7 @@ Prompt with these commitments is called book and our engine Promptbook can execu
 
 ---
 
-<!--Import ./_common/last-slide.md-->
+<!--Import ../_common/last-slide.md-->
 <!--⚠️ WARNING: This section was imported, make changes in source; any manual changes here will be overwritten-->
 
 # ✨ Let's Connect
@@ -243,4 +241,4 @@ jiri@ptbk.io
 pavol@ptbk.io
 [+420 777 759 767](tel:+420777759767)
 
-<!--/Import ./_common/last-slide.md-->
+<!--/Import ../_common/last-slide.md-->

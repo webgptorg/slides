@@ -190,7 +190,7 @@ TODO: Kajetán: Be prepared to answer:
 
 ---
 
-<!--Import ./_common/knowledge-and-insights.md-->
+<!--Import ../_common/knowledge-and-insights.md-->
 <!--⚠️ WARNING: This section was imported, make changes in source; any manual changes here will be overwritten-->
 
 # Knowledge & Insights
@@ -200,7 +200,7 @@ TODO: Kajetán: Be prepared to answer:
 -   🤖 Implementing AI-based decision support tools for clients
 -   📈 Automating data analysis for trend identification and forecasting
 
-<!--/Import ./_common/knowledge-and-insights.md-->
+<!--/Import ../_common/knowledge-and-insights.md-->
 
 <!--
 <- TODO: Kajetán:
