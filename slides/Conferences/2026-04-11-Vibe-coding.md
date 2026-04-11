@@ -141,11 +141,13 @@ style: |
 
 <div class="tag">Barcamp · 11. dubna 2026</div>
 
-# Vibe-coding / Hype-coding
+# Vibe-coding? Hype-coding! AI Coding.
 
 **Za 2 měsíce víc features než za 2 roky. Bez psaní kódu.**
 
 Pavol Hejný · Promptbook
+
+![alt text](image.png)
 
 ---
 
@@ -626,6 +628,9 @@ Ale jen pokud máte process, který to udrží pod kontrolou.
 
 <!-- _class: cover -->
 
-<!-- _header: '<img src="https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png" alt="Promptbook">' -->
 
-<!-- Import ./_common/last-slide.md --><!-- /Import ./_common/last-slide.md -->
+
+# Díky za pozornost!
+
+
+![alt text](image.png)

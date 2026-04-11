@@ -147,6 +147,9 @@ style: |
 
 Pavol Hejný · Promptbook
 
+
+![alt text](image.png)
+
 ---
 
 # Dva extrémy, se kterými se potkávám
@@ -181,6 +184,28 @@ _„Vyhodili jsme polovinu programátorů a účetní oddělení."_
 <br>
 
 **Realita je složitější. A paradoxně často není o samotných AI modelech.**
+
+---
+
+
+# Model vs. Harness
+
+**Realita je složitější. A paradoxně často není o samotných AI modelech.**
+
+
+---
+
+
+# Přeceňujeme hype, podceňujeme dlouhodobý efekt
+
+
+---
+
+
+# Zbytečný tlak na rychlost v aplikacích
+
+## Nové formy softwaru
+
 
 ---
 
@@ -533,41 +558,22 @@ Pravidla jsou **explicitní, verzovaná a auditovatelná**.
 AI není kouzlo. Je to nástroj. A nástroj potřebuje proces.
 </div>
 
+
 ---
 
-# Pro koho je to určené?
 
-<div class="grid3">
-<div class="card">
+# Nová forma softwaru?
 
-**Majitelé firem**
-Jak nasadit AI, aniž byste riskovali data a reputaci.
+## AI Agent jako zaměstnanec s vlastní "Subjektivitou"?
 
-</div>
-<div class="card">
-
-**Starostové a ředitelé**
-Jak zavést AI v úřadu nebo škole bezpečně a efektivně.
-
-</div>
-<div class="card">
-
-**Stakeholdeři a vedení**
-Jak se rozhodovat o AI investicích na základě faktů, ne hype.
-
-</div>
-</div>
-
-<br>
-
-<div class="quote">
-Nemusíte být techničtí. Musíte vědět, na co se ptát.
-</div>
 
 ---
 
 <!-- _class: cover -->
 
-<!-- _header: '<img src="https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png" alt="Promptbook">' -->
 
-<!-- Import ./_common/last-slide.md --><!-- /Import ./_common/last-slide.md -->
+
+# Díky za pozornost!
+
+
+![alt text](image.png)
