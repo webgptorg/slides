@@ -6,6 +6,10 @@
 - Look at https://www.ptbk.io/ai-supervize-mini/participant
 - Look at `slides` folder and other presentations for reference
 - It shouldnt be pitch about the Supervize but the content of the first and second block and the content of the workshop itself
+- Separate it into the first and second block. Each of these blocks should have its initial slide, and each block should have at least 15 slides, the workshop is a full day, so the content should be rich
+- Do not show the code or a lot of bullet points on each slide, just the main points, because the workshop will be very interactive. I will be talking about each point, but the presentation should be the main contents from which I am talking. 
+- It is in the Czech language. 
+
 
 ---
 
