@@ -8,3 +8,7 @@ node_modules
 *.pdf
 
 dist
+
+# Promptbook Coder
+/.promptbook
+.env
