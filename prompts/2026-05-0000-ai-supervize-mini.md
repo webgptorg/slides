@@ -5,6 +5,7 @@
 - Look at https://www.ptbk.io/ai-supervize-mini
 - Look at https://www.ptbk.io/ai-supervize-mini/participant
 - Look at `slides` folder and other presentations for reference
+- It shouldnt be pitch about the Supervize but the content of the first and second block and the content of the workshop itself
 
 ---
 
