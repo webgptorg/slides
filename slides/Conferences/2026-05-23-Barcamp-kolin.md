@@ -128,6 +128,16 @@ style: |
       padding: 0.25em 0.7em;
       margin-bottom: 0.5em;
     }
+    section.cover li { color: #e2e8f0; line-height: 1.5; margin: 0.35em 0; }
+    section.cover li::marker { color: #60a5fa; }
+    section.cover ul { padding-left: 1.5em; margin-top: 0.6em; }
+    .cover-split { display: flex; align-items: center; gap: 40px; margin-top: 0.9em; }
+    .cover-split-main { flex: 1; }
+    .cover-split-aside { flex: 0 0 auto; display: flex; align-items: center; }
+    .cover-split-aside img { width: 152px; height: 152px; border-radius: 10px; border: 2px solid #1e3a8a; display: block; }
+    .cover-desc { color: #60a5fa !important; font-size: 0.9em; margin: 0.45em 0 0.8em 0; line-height: 1.45; font-style: italic; }
+    .cover-author { color: #475569; font-size: 0.82em; padding-top: 0.65em; border-top: 1px solid #1e293b; margin-top: 0.9em; }
+    .cover-author strong { color: #94a3b8; }
     section.compact { font-size: 1.1rem; }
     section.compact h1 { font-size: 1.9em; margin-bottom: 0.15em; }
     section.compact p, section.compact li { line-height: 1.22; margin: 0.12em 0; }
@@ -154,9 +164,20 @@ Tahle přednáška bude trochu naruby, nebudeme ukazovat, jak to "podle nás" d�
 
 -->
 
-Pavol Hejný · Promptbook
+<div class="cover-split">
+<div class="cover-split-main">
 
-![alt text](image.png)
+<p class="cover-desc">Pohled z praxe – kde AI firmám pomáhá a kde (zatím) škodí</p>
+
+<div class="cover-author"><strong>Pavol Hejný</strong> · Promptbook</div>
+
+</div>
+<div class="cover-split-aside">
+
+![QR kód](image.png)
+
+</div>
+</div>
 
 ---
 
@@ -165,7 +186,7 @@ Pavol Hejný · Promptbook
 Za poslední rok se z toho stalo buzzword. Všude.
 
 <div class="grid2">
-<div>
+<div class="card-red">
 
 **Jedni jsou iritovaní**
 
@@ -175,7 +196,7 @@ Za poslední rok se z toho stalo buzzword. Všude.
 - „Ale vždyť to napsal Cursor"
 
 </div>
-<div>
+<div class="card-green">
 
 **Druzí jsou fascinovaní**
 
@@ -187,9 +208,7 @@ Za poslední rok se z toho stalo buzzword. Všude.
 </div>
 </div>
 
-<br>
-
-**Kdo má pravdu? Oba. A v tom je problém.**
+<div class="big">Kdo má pravdu? Oba. A v tom je problém.</div>
 
 ---
 
@@ -320,4 +339,17 @@ Za poslední rok se z toho stalo buzzword. Všude.
 
 # Díky za pozornost!
 
-![alt text](image.png)
+<div class="cover-split">
+<div class="cover-split-main">
+
+<p class="cover-desc">Otázky? Najdete mě na LinkedIn nebo na promptbook.io</p>
+
+<div class="cover-author"><strong>Pavol Hejný</strong> · Promptbook · webgptorg/promptbook</div>
+
+</div>
+<div class="cover-split-aside">
+
+![QR kód](image.png)
+
+</div>
+</div>
