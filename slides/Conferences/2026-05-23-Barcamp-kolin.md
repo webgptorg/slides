@@ -307,6 +307,12 @@ Za poslední rok se z toho stalo buzzword. Všude.
 
 <!-- _class: cover -->
 
+# Nepoužíváme AI jako páku 
+
+---
+
+<!-- _class: cover -->
+
 # AI Psychóza
 
 ---
