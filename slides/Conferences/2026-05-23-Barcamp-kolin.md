@@ -267,25 +267,25 @@ Za poslední rok se z toho stalo buzzword. Všude.
 
 <!-- _class: cover -->
 
-# 「 My máme nějakou databázi? Co to je? 」
+# 「 Co to je ta databáze? 」
 
 ---
 
 <!-- _class: cover -->
 
-# 「 Co to je git? 」
+# 「 Co to je ten git? 」
 
 ---
 
 <!-- _class: cover -->
 
-# 「 My máme nějaké testy? 」
+# 「 My testy nepotřebujeme, nám to AI prokliká 」
 
 ---
 
 <!-- _class: cover -->
 
-# 「 Super! Konečně můžeme dodat `10 568`. feature klientům. 」
+# 「 Super! Konečně uděláme všech `10 568.` features z backlogu 」
 
 ---
 
@@ -297,7 +297,7 @@ Za poslední rok se z toho stalo buzzword. Všude.
 
 <!-- _class: cover -->
 
-# Just do it! Just fix it! Just ship it!
+# Just do it! Just fix it! Just ship it! Pls 🙏
 
 ---
 
@@ -305,20 +305,10 @@ Za poslední rok se z toho stalo buzzword. Všude.
 
 # 「 Ty ještě nepálíš $10k měsíčně na AI? Tak to jsi asi úplný noob! 」
 
-- Já jedu 20 agentů parallně, to je 20× produktivita!
+- Já jedu 20 agentů paralelně, to je 20× produktivita!
+- Čím víc agentů, tím víc Adidas
 - Tak na to hodíme víc agenů a ono se to samo udělá!
-
----
-
-<!-- _class: cover -->
-
-# Nepoužíváme AI jako páku 
-
----
-
-<!-- _class: cover -->
-
-# AI Psychóza
+- AI Psychóza
 
 ---
 
@@ -353,9 +343,9 @@ Za poslední rok se z toho stalo buzzword. Všude.
 <div class="cover-split">
 <div class="cover-split-main">
 
-<p class="cover-desc">Otázky? Najdete mě na LinkedIn nebo na promptbook.io</p>
 
-<div class="cover-author"><strong>Pavol Hejný</strong> · Promptbook · webgptorg/promptbook</div>
+
+<div class="cover-author"><strong>Pavol Hejný</strong> · Promptbook</div>
 
 </div>
 <div class="cover-split-aside">
