@@ -174,11 +174,12 @@ Tahle přednáška bude trochu naruby, nebudeme ukazovat, jak to "podle nás" d�
 </div>
 <div class="cover-split-aside">
 
-![QR kód](image.png)
+![QR kód](https://uhxrtukoehjtukzd.public.blob.vercel-storage.com/ptbk-agents/user/files/qr-MSYN7P1NdAbQfuk6dC0OCwwwUQiVTk.png)
 
 </div>
 </div>
 
+<!--
 ---
 
 # AI, Agenti, Vibe-coding? Hype-coding! AI Slop,... 🤯
@@ -209,6 +210,8 @@ Za poslední rok se z toho stalo buzzword. Všude.
 </div>
 
 <div class="big">Kdo má pravdu? Oba. A v tom je problém.</div>
+
+-->
 
 ---
 
@@ -355,7 +358,7 @@ Za poslední rok se z toho stalo buzzword. Všude.
 </div>
 <div class="cover-split-aside">
 
-![QR kód](image.png)
+![QR kód](https://uhxrtukoehjtukzd.public.blob.vercel-storage.com/ptbk-agents/user/files/qr-MSYN7P1NdAbQfuk6dC0OCwwwUQiVTk.png)
 
 </div>
 </div>
