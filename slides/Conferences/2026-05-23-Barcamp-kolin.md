@@ -151,7 +151,7 @@ style: |
 
 <div class="tag">Barcamp Kolín · 23.5.2026</div>
 
-# NEpoužívejte AI
+# (Ne)používejte AI
 
 <!--
 
@@ -167,7 +167,7 @@ Tahle přednáška bude trochu naruby, nebudeme ukazovat, jak to "podle nás" d�
 <div class="cover-split">
 <div class="cover-split-main">
 
-<p class="cover-desc">Pohled z praxe – kde AI firmám pomáhá a kde (zatím) škodí</p>
+<p class="cover-desc">Pohled z praxe - kde AI firmám pomáhá a kde (zatím) škodí</p>
 
 <div class="cover-author"><strong>Pavol Hejný</strong> · Promptbook</div>
 
@@ -223,12 +223,6 @@ Za poslední rok se z toho stalo buzzword. Všude.
 
 <!-- _class: cover -->
 
-# AI změní svět jak ho známe
-
----
-
-<!-- _class: cover -->
-
 # Asistenti na webu _(na úplně všechno)_
 
 ---
@@ -259,7 +253,15 @@ Za poslední rok se z toho stalo buzzword. Všude.
 
 <!-- _class: cover -->
 
-# Vibecoding
+# 「 My tomu sice nerozumíme, ale AI nám tu smlouvu napsala... 」
+
+- AI je dobrý junior, ale špatný expert
+
+---
+
+<!-- _class: cover -->
+
+# Vibecoding, Hypecoding, Slopcoding
 
 ---
 
