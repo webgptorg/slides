@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">From Vibe to Spec — two repository towers</title>
+<desc id="desc">A hand-drawn style comparison: a crooked improvised repository tower on the left and a clean planned repository tower on the right.</desc>
+<rect width="1200" height="800" fill="#fff"/>
+<g fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M40 30 H1160 V770 H40 Z"/>
+  <path d="M170 715 H1030"/>
+  <path d="M130 745 H1070"/>
+  <!-- left improvised tower -->
+  <g transform="translate(315 0)">
+    <path d="M-135 715 H155"/>
+    <rect x="-95" y="625" width="205" height="85" rx="4" fill="#eee"/>
+    <rect x="-110" y="590" width="55" height="34" rx="3" fill="#f4f4f4"/>
+    <rect x="85" y="570" width="52" height="55" rx="3" fill="#f4f4f4" transform="rotate(-12 111 597)"/>
+    <rect x="-75" y="510" width="180" height="78" rx="3" fill="#ededed" transform="rotate(3 15 549)"/>
+    <path d="M-52 512 l105 58"/>
+    <path d="M-45 500 l112 66"/>
+    <rect x="-98" y="430" width="88" height="76" rx="3" fill="#f1f1f1" transform="rotate(7 -54 468)"/>
+    <rect x="-2" y="405" width="72" height="110" rx="3" fill="#ececec" transform="rotate(12 34 460)"/>
+    <rect x="-74" y="350" width="157" height="52" rx="3" fill="#eee" transform="rotate(-7 4 376)"/>
+    <rect x="-42" y="280" width="92" height="73" rx="3" fill="#f4f4f4" transform="rotate(-9 4 316)"/>
+    <path d="M0 289 l25 18 l-25 20 l-28 -17 z" fill="#fff"/>
+    <rect x="-55" y="210" width="94" height="62" rx="3" fill="#ededed" transform="rotate(10 -8 241)"/>
+    <rect x="-10" y="153" width="55" height="54" rx="3" fill="#f5f5f5" transform="rotate(2 17 180)"/>
+    <rect x="-45" y="105" width="64" height="48" rx="3" fill="#eee" transform="rotate(7 -13 129)"/>
+    <circle cx="-70" cy="118" r="15" fill="#fff"/>
+    <path d="M-60 129 l28 14"/>
+    <path d="M-83 139 q13 28 4 55"/>
+    <path d="M62 190 q20 10 5 28"/>
+    <path d="M-122 392 q-24 16 -4 34"/>
+    <path d="M112 515 q26 12 8 33"/>
+  </g>
+  <!-- right planned tower -->
+  <g transform="translate(815 0)">
+    <path d="M-155 715 H155"/>
+    <rect x="-130" y="650" width="260" height="60" rx="3" fill="#eee"/>
+    <rect x="-110" y="560" width="220" height="82" rx="3" fill="#f2f2f2"/>
+    <path d="M-78 560 V480 M78 560 V480"/>
+    <rect x="-105" y="430" width="210" height="48" rx="3" fill="#eee"/>
+    <path d="M-72 430 V337 M72 430 V337"/>
+    <rect x="-98" y="288" width="196" height="47" rx="3" fill="#eee"/>
+    <path d="M-62 288 V205 M62 288 V205"/>
+    <rect x="-82" y="164" width="164" height="40" rx="3" fill="#eee"/>
+    <path d="M-38 164 V112 M38 164 V112"/>
+    <rect x="-44" y="82" width="88" height="30" rx="3" fill="#f2f2f2"/>
+    <rect x="-18" y="48" width="36" height="34" rx="3" fill="#f5f5f5"/>
+    <path d="M-68 228 h-28 v-34 h28 M68 228 h28 v-34 H68"/>
+  </g>
+  <!-- annotation arrows -->
+  <path d="M155 330 C120 360 118 405 170 430"/>
+  <path d="M170 430 l-24 -5 M170 430 l-15 20"/>
+  <path d="M1035 330 C1080 365 1072 405 1024 432"/>
+  <path d="M1024 432 l22 -8 M1024 432 l14 20"/>
+</g>
+<g fill="#111" font-family="Comic Sans MS, Bradley Hand, cursive" font-weight="700">
+  <text x="600" y="72" text-anchor="middle" font-size="52">FROM VIBE TO SPEC</text>
+  <text x="72" y="225" font-size="27">REPO BUILT BY VIBES,</text>
+  <text x="72" y="258" font-size="27">QUICK FIXES,</text>
+  <text x="72" y="291" font-size="27">AND “ONE MORE PROMPT”</text>
+  <text x="940" y="225" font-size="27">REPO BUILT</text>
+  <text x="940" y="258" font-size="27">AROUND A</text>
+  <text x="940" y="291" font-size="27">CLEAR SPEC</text>
+</g>
+</svg>
