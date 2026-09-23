@@ -149,32 +149,69 @@ style: |
 <!-- _class: cover -->
 <!-- _header: '<img src="https://raw.githubusercontent.com/webgptorg/promptbook/refs/heads/main/design/logo-blue-transparent-1024.png" alt="Promptbook">' -->
 
-<div class="tag">Barcamp Kolín · 23.5.2026</div>
+<div class="tag">AI Horizons · 23.9.2026</div>
 
-# (Ne)používejte AI
+# From [HV]ibe to Spec
 
 <!--
 
-https://www.barcampkolin.cz/2026/prednaska/71
+https://aihorizonsprague.cz/schedule#aih-w1
 
-NEpoužívejte AI - to radíme mnoha našim klientům. Sami ji však používáme pořád a všude. Vibe nebo Hype?
-Požíváme AI na co se dá od jeho prvopočátku. Prošlapali jsme snad všechny slepé cesty, které si dovedeme představit a neradi vidíme, když jiní dělají stejné chyby.
+Workshop #1 · CZ / SK
+From Vibe to Spec: Systematic AI Development
+Aneb proč má dobré zadání cenu zlata, zatímco cena samotného kódu míří k nule.
+Rezervovat místo 
++
+Více informací
+Vibecoding funguje. Ale jen do určité velikosti.
+Pak fixnete jeden bug a objeví se tři další. Jeden agent něco opraví, druhý začne opravovat jeho opravy a nikdo už pořádně neví, jak se má systém vlastně chovat.
 
-Tahle přednáška bude trochu naruby, nebudeme ukazovat, jak to "podle nás" dělat dobře. Ukážeme si, kde nezkušené firmy (malé i velké) dělají z AI otravný buzzword, který nepomáhá a pak vám napovím, kde může skutečně pomáhat, ale málokdo ji tam zapřáhne.
+A někdy je nejrychlejší cesta vpřed zahodit repo a začít znovu. Tentokrát se specem.
+
+AI totiž zásadně mění ekonomiku vývoje: napsat další kód je stále levnější. Přesně popsat, co má vzniknout, proč a podle jakých pravidel, je naopak stále cennější.
+
+Kód zlevňuje. Specifikace zdražuje.
+
+Kdo tenhle posun pochopí, vyhraje.
+
+Poznáte se tady?
+Vývojáři — vibe-codovali jste projekt, který se po čase rozpadl pod rukama.
+
+Tech leadi a architekti — řídíte tým budující s AI a spec debt roste rychleji, než stíháte reviewovat.
+
+Founders / zakladatelé — sami buildujete s AI a chcete, aby to přežilo kontakt s produkcí.
+
+Spec framework od nápadu po acceptance.md a plan.md
+
+Rule sety pro všechny fáze: ideace, design, build, review, audit
+
+Na konci dne: git init, worktrees, první commit — ne plán, rozběhnuté repo
+
+Přineste:
+notebook + projekt
+~50 míst
+9:00 – 17:00
+▾
+Jak den vypadá
+PH
+Pavol Hejný
+Founder & CTO Promptbooku · člen Ainautes
+15 let vývoje v praxi. Mluví o vibe-codingu a produkční realitě — ne ze slidů, ale z vlastních projektů.
 
 -->
 
 <div class="cover-split">
 <div class="cover-split-main">
 
-<p class="cover-desc">Pohled z praxe - kde AI firmám pomáhá a kde (zatím) škodí</p>
+<p class="cover-desc">Aneb proč má dobré zadání cenu zlata, zatímco cena samotného kódu míří k nule.</p>
 
 <div class="cover-author"><strong>Pavol Hejný</strong> · Promptbook</div>
 
 </div>
 <div class="cover-split-aside">
 
-![QR kód](https://uhxrtukoehjtukzd.public.blob.vercel-storage.com/ptbk-agents/user/files/qr-MSYN7P1NdAbQfuk6dC0OCwwwUQiVTk.png)
+Network name: AIHorizons
+Password: Prague2026
 
 </div>
 </div>
